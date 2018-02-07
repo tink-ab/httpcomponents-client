@@ -37,14 +37,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 import java.util.Locale;
-import java.util.NoSuchElementException;
 
-import javax.naming.InvalidNameException;
-import javax.naming.NamingException;
-import javax.naming.directory.Attribute;
-import javax.naming.directory.Attributes;
-import javax.naming.ldap.LdapName;
-import javax.naming.ldap.Rdn;
 import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.SSLException;
 import javax.net.ssl.SSLPeerUnverifiedException;
@@ -61,6 +54,10 @@ import org.apache.http.conn.util.PublicSuffixMatcher;
 
 /**
  * Default {@link javax.net.ssl.HostnameVerifier} implementation.
+ * <p>
+ * As of version 4.5.6, this class no longer contains hard references to the
+ * {@code javax.naming} package. This allows this class to be used on Android.
+ * </p>
  *
  * @since 4.4
  */
@@ -252,33 +249,7 @@ public final class DefaultHostnameVerifier implements HostnameVerifier {
     }
 
     static String extractCN(final String subjectPrincipal) throws SSLException {
-        if (subjectPrincipal == null) {
-            return null;
-        }
-        try {
-            final LdapName subjectDN = new LdapName(subjectPrincipal);
-            final List<Rdn> rdns = subjectDN.getRdns();
-            for (int i = rdns.size() - 1; i >= 0; i--) {
-                final Rdn rds = rdns.get(i);
-                final Attributes attributes = rds.toAttributes();
-                final Attribute cn = attributes.get("cn");
-                if (cn != null) {
-                    try {
-                        final Object value = cn.get();
-                        if (value != null) {
-                            return value.toString();
-                        }
-                    } catch (final NoSuchElementException ignore) {
-                        // ignore exception
-                    } catch (final NamingException ignore) {
-                        // ignore exception
-                    }
-                }
-            }
-            return null;
-        } catch (final InvalidNameException e) {
-            throw new SSLException(subjectPrincipal + " is not a valid X500 distinguished name");
-        }
+        return CNExtractorFactory.PLATFORM_DEFAULT.extractCN(subjectPrincipal);
     }
 
     static HostNameType determineHostFormat(final String host) {
