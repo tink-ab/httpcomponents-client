@@ -33,13 +33,13 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.RejectedExecutionException;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
-import org.apache.http.client.cache.HttpCacheEntry;
-import org.apache.http.client.methods.HttpExecutionAware;
-import org.apache.http.client.methods.HttpRequestWrapper;
-import org.apache.http.client.protocol.HttpClientContext;
-import org.apache.http.conn.routing.HttpRoute;
+import se.tink.org.apache.commons.logging.Log;
+import se.tink.org.apache.commons.logging.LogFactory;
+import se.tink.org.apache.http.client.cache.HttpCacheEntry;
+import se.tink.org.apache.http.client.methods.HttpExecutionAware;
+import se.tink.org.apache.http.client.methods.HttpRequestWrapper;
+import se.tink.org.apache.http.client.protocol.HttpClientContext;
+import se.tink.org.apache.http.conn.routing.HttpRoute;
 
 /**
  * Class used for asynchronous revalidations to be used when the "stale-

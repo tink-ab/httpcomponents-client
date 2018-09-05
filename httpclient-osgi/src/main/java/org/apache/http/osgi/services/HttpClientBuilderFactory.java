@@ -26,7 +26,7 @@
  */
 package org.apache.http.osgi.services;
 
-import org.apache.http.impl.client.HttpClientBuilder;
+import se.tink.org.apache.http.impl.client.HttpClientBuilder;
 
 /**
  * @since 4.3

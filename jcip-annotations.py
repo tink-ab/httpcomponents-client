@@ -56,7 +56,7 @@ def process_source(filename):
                 for line in src:
                     if annot_pattern.match(line):
                         changed = True
-                        line = line.replace('import org.apache.http.annotation.', 'import net.jcip.annotations.')
+                        line = line.replace('import se.tink.org.apache.http.annotation.', 'import net.jcip.annotations.')
                     dst.write(line)
             finally:
                src.close()

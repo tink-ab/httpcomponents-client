@@ -32,12 +32,12 @@ import static org.junit.Assert.assertTrue;
 import java.net.ConnectException;
 import java.net.SocketTimeoutException;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.HttpVersion;
-import org.apache.http.client.ConnectionBackoffStrategy;
-import org.apache.http.conn.ConnectionPoolTimeoutException;
-import org.apache.http.message.BasicHttpResponse;
+import se.tink.org.apache.http.HttpResponse;
+import se.tink.org.apache.http.HttpStatus;
+import se.tink.org.apache.http.HttpVersion;
+import se.tink.org.apache.http.client.ConnectionBackoffStrategy;
+import se.tink.org.apache.http.conn.ConnectionPoolTimeoutException;
+import se.tink.org.apache.http.message.BasicHttpResponse;
 import org.junit.Before;
 import org.junit.Test;
 

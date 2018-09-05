@@ -29,9 +29,9 @@ package org.apache.http.impl.execchain;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.commons.logging.Log;
-import org.apache.http.HttpClientConnection;
-import org.apache.http.conn.HttpClientConnectionManager;
+import se.tink.org.apache.commons.logging.Log;
+import se.tink.org.apache.http.HttpClientConnection;
+import se.tink.org.apache.http.conn.HttpClientConnectionManager;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

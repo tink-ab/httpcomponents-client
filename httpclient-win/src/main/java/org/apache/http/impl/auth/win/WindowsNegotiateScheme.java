@@ -28,20 +28,20 @@ package org.apache.http.impl.auth.win;
 
 import java.util.Locale;
 
-import org.apache.commons.codec.binary.Base64;
-import org.apache.http.Header;
-import org.apache.http.HttpRequest;
-import org.apache.http.annotation.NotThreadSafe;
-import org.apache.http.auth.AUTH;
-import org.apache.http.auth.AuthenticationException;
-import org.apache.http.auth.Credentials;
-import org.apache.http.auth.InvalidCredentialsException;
-import org.apache.http.auth.MalformedChallengeException;
-import org.apache.http.client.config.AuthSchemes;
-import org.apache.http.impl.auth.AuthSchemeBase;
-import org.apache.http.message.BufferedHeader;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.util.CharArrayBuffer;
+import se.tink.org.apache.commons.codec.binary.Base64;
+import se.tink.org.apache.http.Header;
+import se.tink.org.apache.http.HttpRequest;
+import se.tink.org.apache.http.annotation.NotThreadSafe;
+import se.tink.org.apache.http.auth.AUTH;
+import se.tink.org.apache.http.auth.AuthenticationException;
+import se.tink.org.apache.http.auth.Credentials;
+import se.tink.org.apache.http.auth.InvalidCredentialsException;
+import se.tink.org.apache.http.auth.MalformedChallengeException;
+import se.tink.org.apache.http.client.config.AuthSchemes;
+import se.tink.org.apache.http.impl.auth.AuthSchemeBase;
+import se.tink.org.apache.http.message.BufferedHeader;
+import se.tink.org.apache.http.protocol.HttpContext;
+import se.tink.org.apache.http.util.CharArrayBuffer;
 
 import com.sun.jna.platform.win32.Secur32;
 import com.sun.jna.platform.win32.Sspi;

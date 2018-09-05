@@ -31,7 +31,7 @@ import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.util.List;
 
-import org.apache.http.Consts;
+import se.tink.org.apache.http.Consts;
 import org.junit.Assert;
 import org.junit.Test;
 

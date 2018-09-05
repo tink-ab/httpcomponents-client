@@ -28,18 +28,18 @@ package org.apache.http.impl.client.cache;
 
 import java.io.IOException;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
-import org.apache.http.Header;
-import org.apache.http.HttpException;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.cache.HeaderConstants;
-import org.apache.http.client.cache.HttpCacheEntry;
-import org.apache.http.client.methods.HttpExecutionAware;
-import org.apache.http.client.methods.HttpRequestWrapper;
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.protocol.HttpClientContext;
-import org.apache.http.conn.routing.HttpRoute;
+import se.tink.org.apache.commons.logging.Log;
+import se.tink.org.apache.commons.logging.LogFactory;
+import se.tink.org.apache.http.Header;
+import se.tink.org.apache.http.HttpException;
+import se.tink.org.apache.http.HttpResponse;
+import se.tink.org.apache.http.client.cache.HeaderConstants;
+import se.tink.org.apache.http.client.cache.HttpCacheEntry;
+import se.tink.org.apache.http.client.methods.HttpExecutionAware;
+import se.tink.org.apache.http.client.methods.HttpRequestWrapper;
+import se.tink.org.apache.http.client.methods.CloseableHttpResponse;
+import se.tink.org.apache.http.client.protocol.HttpClientContext;
+import se.tink.org.apache.http.conn.routing.HttpRoute;
 
 /**
  * Class used to represent an asynchronous revalidation event, such as with

@@ -31,19 +31,19 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Date;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
-import org.apache.http.Header;
-import org.apache.http.HttpHost;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.annotation.Immutable;
-import org.apache.http.client.cache.HeaderConstants;
-import org.apache.http.client.cache.HttpCacheEntry;
-import org.apache.http.client.cache.HttpCacheInvalidator;
-import org.apache.http.client.cache.HttpCacheStorage;
-import org.apache.http.client.utils.DateUtils;
-import org.apache.http.protocol.HTTP;
+import se.tink.org.apache.commons.logging.Log;
+import se.tink.org.apache.commons.logging.LogFactory;
+import se.tink.org.apache.http.Header;
+import se.tink.org.apache.http.HttpHost;
+import se.tink.org.apache.http.HttpRequest;
+import se.tink.org.apache.http.HttpResponse;
+import se.tink.org.apache.http.annotation.Immutable;
+import se.tink.org.apache.http.client.cache.HeaderConstants;
+import se.tink.org.apache.http.client.cache.HttpCacheEntry;
+import se.tink.org.apache.http.client.cache.HttpCacheInvalidator;
+import se.tink.org.apache.http.client.cache.HttpCacheStorage;
+import se.tink.org.apache.http.client.utils.DateUtils;
+import se.tink.org.apache.http.protocol.HTTP;
 
 /**
  * Given a particular HttpRequest, flush any cache entries that this request

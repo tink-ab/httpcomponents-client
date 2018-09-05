@@ -35,15 +35,15 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import org.apache.http.Consts;
-import org.apache.http.Header;
-import org.apache.http.HeaderElement;
-import org.apache.http.HttpHost;
-import org.apache.http.HttpRequest;
-import org.apache.http.annotation.Immutable;
-import org.apache.http.client.cache.HeaderConstants;
-import org.apache.http.client.cache.HttpCacheEntry;
-import org.apache.http.client.utils.URIUtils;
+import se.tink.org.apache.http.Consts;
+import se.tink.org.apache.http.Header;
+import se.tink.org.apache.http.HeaderElement;
+import se.tink.org.apache.http.HttpHost;
+import se.tink.org.apache.http.HttpRequest;
+import se.tink.org.apache.http.annotation.Immutable;
+import se.tink.org.apache.http.client.cache.HeaderConstants;
+import se.tink.org.apache.http.client.cache.HttpCacheEntry;
+import se.tink.org.apache.http.client.utils.URIUtils;
 
 /**
  * @since 4.1

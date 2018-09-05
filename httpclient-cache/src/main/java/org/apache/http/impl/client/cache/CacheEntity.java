@@ -31,12 +31,12 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.Serializable;
 
-import org.apache.http.Header;
-import org.apache.http.HttpEntity;
-import org.apache.http.annotation.Immutable;
-import org.apache.http.client.cache.HttpCacheEntry;
-import org.apache.http.protocol.HTTP;
-import org.apache.http.util.Args;
+import se.tink.org.apache.http.Header;
+import se.tink.org.apache.http.HttpEntity;
+import se.tink.org.apache.http.annotation.Immutable;
+import se.tink.org.apache.http.client.cache.HttpCacheEntry;
+import se.tink.org.apache.http.protocol.HTTP;
+import se.tink.org.apache.http.util.Args;
 
 @Immutable
 class CacheEntity implements HttpEntity, Serializable {

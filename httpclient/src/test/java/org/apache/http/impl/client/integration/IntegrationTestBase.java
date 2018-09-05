@@ -26,8 +26,8 @@
  */
 package org.apache.http.impl.client.integration;
 
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.localserver.LocalServerTestBase;
+import se.tink.org.apache.http.impl.client.CloseableHttpClient;
+import se.tink.org.apache.http.localserver.LocalServerTestBase;
 import org.junit.After;
 
 public class IntegrationTestBase extends LocalServerTestBase {

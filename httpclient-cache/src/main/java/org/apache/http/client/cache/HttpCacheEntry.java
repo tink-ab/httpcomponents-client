@@ -32,14 +32,14 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.apache.http.Header;
-import org.apache.http.ProtocolVersion;
-import org.apache.http.StatusLine;
-import org.apache.http.annotation.Immutable;
-import org.apache.http.client.utils.DateUtils;
-import org.apache.http.message.HeaderGroup;
-import org.apache.http.protocol.HTTP;
-import org.apache.http.util.Args;
+import se.tink.org.apache.http.Header;
+import se.tink.org.apache.http.ProtocolVersion;
+import se.tink.org.apache.http.StatusLine;
+import se.tink.org.apache.http.annotation.Immutable;
+import se.tink.org.apache.http.client.utils.DateUtils;
+import se.tink.org.apache.http.message.HeaderGroup;
+import se.tink.org.apache.http.protocol.HTTP;
+import se.tink.org.apache.http.util.Args;
 
 /**
  * Structure used to store an {@link org.apache.http.HttpResponse} in a cache.

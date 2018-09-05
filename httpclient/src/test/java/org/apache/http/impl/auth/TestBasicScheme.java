@@ -26,19 +26,19 @@
  */
 package org.apache.http.impl.auth;
 
-import org.apache.commons.codec.binary.Base64;
-import org.apache.http.Consts;
-import org.apache.http.Header;
-import org.apache.http.HttpRequest;
-import org.apache.http.auth.AUTH;
-import org.apache.http.auth.AuthScheme;
-import org.apache.http.auth.MalformedChallengeException;
-import org.apache.http.auth.UsernamePasswordCredentials;
-import org.apache.http.message.BasicHeader;
-import org.apache.http.message.BasicHttpRequest;
-import org.apache.http.protocol.BasicHttpContext;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.util.EncodingUtils;
+import se.tink.org.apache.commons.codec.binary.Base64;
+import se.tink.org.apache.http.Consts;
+import se.tink.org.apache.http.Header;
+import se.tink.org.apache.http.HttpRequest;
+import se.tink.org.apache.http.auth.AUTH;
+import se.tink.org.apache.http.auth.AuthScheme;
+import se.tink.org.apache.http.auth.MalformedChallengeException;
+import se.tink.org.apache.http.auth.UsernamePasswordCredentials;
+import se.tink.org.apache.http.message.BasicHeader;
+import se.tink.org.apache.http.message.BasicHttpRequest;
+import se.tink.org.apache.http.protocol.BasicHttpContext;
+import se.tink.org.apache.http.protocol.HttpContext;
+import se.tink.org.apache.http.util.EncodingUtils;
 import org.junit.Assert;
 import org.junit.Test;
 

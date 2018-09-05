@@ -26,7 +26,7 @@
  */
 package org.apache.http.impl.client.cache;
 
-import org.apache.http.annotation.ThreadSafe;
+import se.tink.org.apache.http.annotation.ThreadSafe;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ExecutorService;

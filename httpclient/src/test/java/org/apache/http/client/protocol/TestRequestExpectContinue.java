@@ -27,15 +27,15 @@
 
 package org.apache.http.client.protocol;
 
-import org.apache.http.Header;
-import org.apache.http.HttpVersion;
-import org.apache.http.client.config.RequestConfig;
-import org.apache.http.entity.StringEntity;
-import org.apache.http.message.BasicHttpEntityEnclosingRequest;
-import org.apache.http.message.BasicHttpRequest;
-import org.apache.http.protocol.BasicHttpContext;
-import org.apache.http.protocol.HTTP;
-import org.apache.http.protocol.HttpContext;
+import se.tink.org.apache.http.Header;
+import se.tink.org.apache.http.HttpVersion;
+import se.tink.org.apache.http.client.config.RequestConfig;
+import se.tink.org.apache.http.entity.StringEntity;
+import se.tink.org.apache.http.message.BasicHttpEntityEnclosingRequest;
+import se.tink.org.apache.http.message.BasicHttpRequest;
+import se.tink.org.apache.http.protocol.BasicHttpContext;
+import se.tink.org.apache.http.protocol.HTTP;
+import se.tink.org.apache.http.protocol.HttpContext;
 import org.junit.Assert;
 import org.junit.Test;
 

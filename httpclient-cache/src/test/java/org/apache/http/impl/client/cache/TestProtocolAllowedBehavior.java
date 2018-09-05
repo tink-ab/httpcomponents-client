@@ -29,12 +29,12 @@ package org.apache.http.impl.client.cache;
 import java.net.SocketTimeoutException;
 import java.util.Date;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.HttpVersion;
-import org.apache.http.client.methods.HttpRequestWrapper;
-import org.apache.http.client.utils.DateUtils;
-import org.apache.http.message.BasicHttpRequest;
+import se.tink.org.apache.http.HttpResponse;
+import se.tink.org.apache.http.HttpStatus;
+import se.tink.org.apache.http.HttpVersion;
+import se.tink.org.apache.http.client.methods.HttpRequestWrapper;
+import se.tink.org.apache.http.client.utils.DateUtils;
+import se.tink.org.apache.http.message.BasicHttpRequest;
 import org.junit.Assert;
 import org.junit.Test;
 

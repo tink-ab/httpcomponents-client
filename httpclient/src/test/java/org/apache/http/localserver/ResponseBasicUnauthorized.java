@@ -29,12 +29,12 @@ package org.apache.http.localserver;
 
 import java.io.IOException;
 
-import org.apache.http.HttpException;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpResponseInterceptor;
-import org.apache.http.HttpStatus;
-import org.apache.http.auth.AUTH;
-import org.apache.http.protocol.HttpContext;
+import se.tink.org.apache.http.HttpException;
+import se.tink.org.apache.http.HttpResponse;
+import se.tink.org.apache.http.HttpResponseInterceptor;
+import se.tink.org.apache.http.HttpStatus;
+import se.tink.org.apache.http.auth.AUTH;
+import se.tink.org.apache.http.protocol.HttpContext;
 
 public class ResponseBasicUnauthorized implements HttpResponseInterceptor {
 

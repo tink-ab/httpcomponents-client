@@ -35,11 +35,11 @@ import net.spy.memcached.CASValue;
 import net.spy.memcached.MemcachedClientIF;
 import net.spy.memcached.OperationTimeoutException;
 
-import org.apache.http.client.cache.HttpCacheEntry;
-import org.apache.http.client.cache.HttpCacheUpdateCallback;
-import org.apache.http.client.cache.HttpCacheUpdateException;
-import org.apache.http.impl.client.cache.CacheConfig;
-import org.apache.http.impl.client.cache.HttpTestUtils;
+import se.tink.org.apache.http.client.cache.HttpCacheEntry;
+import se.tink.org.apache.http.client.cache.HttpCacheUpdateCallback;
+import se.tink.org.apache.http.client.cache.HttpCacheUpdateException;
+import se.tink.org.apache.http.impl.client.cache.CacheConfig;
+import se.tink.org.apache.http.impl.client.cache.HttpTestUtils;
 import org.easymock.EasyMock;
 import org.junit.Before;
 import org.junit.Test;

@@ -40,25 +40,25 @@ import java.util.List;
 import java.util.Locale;
 import java.util.TimeZone;
 
-import org.apache.http.Consts;
-import org.apache.http.Header;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpEntityEnclosingRequest;
-import org.apache.http.HttpHost;
-import org.apache.http.HttpVersion;
-import org.apache.http.NameValuePair;
-import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.config.RequestConfig;
-import org.apache.http.client.methods.HttpDelete;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.methods.HttpHead;
-import org.apache.http.client.methods.HttpOptions;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.client.methods.HttpPut;
-import org.apache.http.client.methods.HttpTrace;
-import org.apache.http.client.utils.URLEncodedUtils;
-import org.apache.http.entity.ContentType;
-import org.apache.http.protocol.HTTP;
+import se.tink.org.apache.http.Consts;
+import se.tink.org.apache.http.Header;
+import se.tink.org.apache.http.HttpEntity;
+import se.tink.org.apache.http.HttpEntityEnclosingRequest;
+import se.tink.org.apache.http.HttpHost;
+import se.tink.org.apache.http.HttpVersion;
+import se.tink.org.apache.http.NameValuePair;
+import se.tink.org.apache.http.client.ClientProtocolException;
+import se.tink.org.apache.http.client.config.RequestConfig;
+import se.tink.org.apache.http.client.methods.HttpDelete;
+import se.tink.org.apache.http.client.methods.HttpGet;
+import se.tink.org.apache.http.client.methods.HttpHead;
+import se.tink.org.apache.http.client.methods.HttpOptions;
+import se.tink.org.apache.http.client.methods.HttpPost;
+import se.tink.org.apache.http.client.methods.HttpPut;
+import se.tink.org.apache.http.client.methods.HttpTrace;
+import se.tink.org.apache.http.client.utils.URLEncodedUtils;
+import se.tink.org.apache.http.entity.ContentType;
+import se.tink.org.apache.http.protocol.HTTP;
 
 public class Request {
 

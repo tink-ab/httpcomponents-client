@@ -28,10 +28,10 @@ package org.apache.http.impl.client.cache;
 
 import java.io.IOException;
 
-import org.apache.http.annotation.ThreadSafe;
-import org.apache.http.client.cache.HttpCacheEntry;
-import org.apache.http.client.cache.HttpCacheStorage;
-import org.apache.http.client.cache.HttpCacheUpdateCallback;
+import se.tink.org.apache.http.annotation.ThreadSafe;
+import se.tink.org.apache.http.client.cache.HttpCacheEntry;
+import se.tink.org.apache.http.client.cache.HttpCacheStorage;
+import se.tink.org.apache.http.client.cache.HttpCacheUpdateCallback;
 
 /**
  * Basic {@link HttpCacheStorage} implementation backed by an instance of

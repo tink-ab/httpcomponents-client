@@ -31,21 +31,21 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import org.apache.http.Header;
-import org.apache.http.HeaderElement;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpEntityEnclosingRequest;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.HttpVersion;
-import org.apache.http.annotation.Immutable;
-import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.cache.HeaderConstants;
-import org.apache.http.client.methods.HttpRequestWrapper;
-import org.apache.http.client.utils.DateUtils;
-import org.apache.http.message.BasicHeader;
-import org.apache.http.protocol.HTTP;
+import se.tink.org.apache.http.Header;
+import se.tink.org.apache.http.HeaderElement;
+import se.tink.org.apache.http.HttpEntity;
+import se.tink.org.apache.http.HttpEntityEnclosingRequest;
+import se.tink.org.apache.http.HttpRequest;
+import se.tink.org.apache.http.HttpResponse;
+import se.tink.org.apache.http.HttpStatus;
+import se.tink.org.apache.http.HttpVersion;
+import se.tink.org.apache.http.annotation.Immutable;
+import se.tink.org.apache.http.client.ClientProtocolException;
+import se.tink.org.apache.http.client.cache.HeaderConstants;
+import se.tink.org.apache.http.client.methods.HttpRequestWrapper;
+import se.tink.org.apache.http.client.utils.DateUtils;
+import se.tink.org.apache.http.message.BasicHeader;
+import se.tink.org.apache.http.protocol.HTTP;
 
 /**
  * @since 4.1

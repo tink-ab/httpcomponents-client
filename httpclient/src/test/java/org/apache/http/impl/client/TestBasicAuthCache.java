@@ -27,9 +27,9 @@
 
 package org.apache.http.impl.client;
 
-import org.apache.http.HttpHost;
-import org.apache.http.auth.AuthScheme;
-import org.apache.http.conn.SchemePortResolver;
+import se.tink.org.apache.http.HttpHost;
+import se.tink.org.apache.http.auth.AuthScheme;
+import se.tink.org.apache.http.conn.SchemePortResolver;
 import org.junit.Assert;
 import org.junit.Test;
 import org.mockito.Mockito;

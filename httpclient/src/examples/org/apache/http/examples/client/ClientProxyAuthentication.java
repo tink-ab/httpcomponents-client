@@ -26,17 +26,17 @@
  */
 package org.apache.http.examples.client;
 
-import org.apache.http.HttpHost;
-import org.apache.http.auth.AuthScope;
-import org.apache.http.auth.UsernamePasswordCredentials;
-import org.apache.http.client.CredentialsProvider;
-import org.apache.http.client.config.RequestConfig;
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.BasicCredentialsProvider;
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.HttpClients;
-import org.apache.http.util.EntityUtils;
+import se.tink.org.apache.http.HttpHost;
+import se.tink.org.apache.http.auth.AuthScope;
+import se.tink.org.apache.http.auth.UsernamePasswordCredentials;
+import se.tink.org.apache.http.client.CredentialsProvider;
+import se.tink.org.apache.http.client.config.RequestConfig;
+import se.tink.org.apache.http.client.methods.CloseableHttpResponse;
+import se.tink.org.apache.http.client.methods.HttpGet;
+import se.tink.org.apache.http.impl.client.BasicCredentialsProvider;
+import se.tink.org.apache.http.impl.client.CloseableHttpClient;
+import se.tink.org.apache.http.impl.client.HttpClients;
+import se.tink.org.apache.http.util.EntityUtils;
 
 /**
  * A simple example that uses HttpClient to execute an HTTP request

@@ -31,8 +31,8 @@ import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;
 
-import org.apache.http.Consts;
-import org.apache.http.entity.ContentType;
+import se.tink.org.apache.http.Consts;
+import se.tink.org.apache.http.entity.ContentType;
 
 public class Content {
 

@@ -29,9 +29,9 @@ package org.apache.http.impl.client;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import org.apache.http.conn.routing.HttpRoute;
-import org.apache.http.pool.ConnPoolControl;
-import org.apache.http.pool.PoolStats;
+import se.tink.org.apache.http.conn.routing.HttpRoute;
+import se.tink.org.apache.http.pool.ConnPoolControl;
+import se.tink.org.apache.http.pool.PoolStats;
 
 public final class MockConnPoolControl implements ConnPoolControl<HttpRoute> {
 

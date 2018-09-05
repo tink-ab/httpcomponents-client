@@ -28,18 +28,18 @@ package org.apache.http.impl.client.cache;
 
 import java.io.IOException;
 
-import org.apache.http.HttpException;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.ProtocolVersion;
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.methods.HttpExecutionAware;
-import org.apache.http.client.methods.HttpRequestWrapper;
-import org.apache.http.client.protocol.HttpClientContext;
-import org.apache.http.conn.routing.HttpRoute;
-import org.apache.http.impl.execchain.ClientExecChain;
-import org.apache.http.message.BasicHttpResponse;
+import se.tink.org.apache.http.HttpException;
+import se.tink.org.apache.http.HttpRequest;
+import se.tink.org.apache.http.HttpResponse;
+import se.tink.org.apache.http.HttpStatus;
+import se.tink.org.apache.http.ProtocolVersion;
+import se.tink.org.apache.http.client.methods.CloseableHttpResponse;
+import se.tink.org.apache.http.client.methods.HttpExecutionAware;
+import se.tink.org.apache.http.client.methods.HttpRequestWrapper;
+import se.tink.org.apache.http.client.protocol.HttpClientContext;
+import se.tink.org.apache.http.conn.routing.HttpRoute;
+import se.tink.org.apache.http.impl.execchain.ClientExecChain;
+import se.tink.org.apache.http.message.BasicHttpResponse;
 
 public class DummyBackend implements ClientExecChain {
 

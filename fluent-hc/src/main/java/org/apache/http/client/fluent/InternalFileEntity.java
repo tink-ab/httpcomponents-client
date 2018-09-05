@@ -33,9 +33,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-import org.apache.http.entity.AbstractHttpEntity;
-import org.apache.http.entity.ContentType;
-import org.apache.http.util.Args;
+import se.tink.org.apache.http.entity.AbstractHttpEntity;
+import se.tink.org.apache.http.entity.ContentType;
+import se.tink.org.apache.http.util.Args;
 
 class InternalFileEntity extends AbstractHttpEntity implements Cloneable {
 

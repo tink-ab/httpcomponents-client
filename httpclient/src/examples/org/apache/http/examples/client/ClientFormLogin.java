@@ -29,16 +29,16 @@ package org.apache.http.examples.client;
 import java.net.URI;
 import java.util.List;
 
-import org.apache.http.HttpEntity;
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.methods.HttpUriRequest;
-import org.apache.http.client.methods.RequestBuilder;
-import org.apache.http.cookie.Cookie;
-import org.apache.http.impl.client.BasicCookieStore;
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.HttpClients;
-import org.apache.http.util.EntityUtils;
+import se.tink.org.apache.http.HttpEntity;
+import se.tink.org.apache.http.client.methods.CloseableHttpResponse;
+import se.tink.org.apache.http.client.methods.HttpGet;
+import se.tink.org.apache.http.client.methods.HttpUriRequest;
+import se.tink.org.apache.http.client.methods.RequestBuilder;
+import se.tink.org.apache.http.cookie.Cookie;
+import se.tink.org.apache.http.impl.client.BasicCookieStore;
+import se.tink.org.apache.http.impl.client.CloseableHttpClient;
+import se.tink.org.apache.http.impl.client.HttpClients;
+import se.tink.org.apache.http.util.EntityUtils;
 
 /**
  * A example that demonstrates how HttpClient APIs can be used to perform

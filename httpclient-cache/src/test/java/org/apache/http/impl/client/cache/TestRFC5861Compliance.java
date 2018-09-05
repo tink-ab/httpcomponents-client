@@ -33,15 +33,15 @@ import static org.junit.Assert.assertTrue;
 import java.io.ByteArrayInputStream;
 import java.util.Date;
 
-import org.apache.http.Header;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.HttpVersion;
-import org.apache.http.client.methods.HttpRequestWrapper;
-import org.apache.http.client.utils.DateUtils;
-import org.apache.http.entity.InputStreamEntity;
-import org.apache.http.message.BasicHttpRequest;
+import se.tink.org.apache.http.Header;
+import se.tink.org.apache.http.HttpEntity;
+import se.tink.org.apache.http.HttpResponse;
+import se.tink.org.apache.http.HttpStatus;
+import se.tink.org.apache.http.HttpVersion;
+import se.tink.org.apache.http.client.methods.HttpRequestWrapper;
+import se.tink.org.apache.http.client.utils.DateUtils;
+import se.tink.org.apache.http.entity.InputStreamEntity;
+import se.tink.org.apache.http.message.BasicHttpRequest;
 import org.junit.Test;
 
 /**

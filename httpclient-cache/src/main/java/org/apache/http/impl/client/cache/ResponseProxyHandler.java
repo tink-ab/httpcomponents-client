@@ -33,8 +33,8 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.annotation.NotThreadSafe;
+import se.tink.org.apache.http.HttpResponse;
+import se.tink.org.apache.http.annotation.NotThreadSafe;
 
 /**
  * A proxy class that can enhance an arbitrary {@link HttpResponse} with

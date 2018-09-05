@@ -31,7 +31,7 @@ import static org.apache.http.osgi.impl.PropertiesUtils.to;
 
 import java.util.Dictionary;
 
-import org.apache.http.osgi.services.ProxyConfiguration;
+import se.tink.org.apache.http.osgi.services.ProxyConfiguration;
 
 /**
  * @since 4.3

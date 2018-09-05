@@ -26,20 +26,20 @@
  */
 package org.apache.http.impl.execchain;
 
-import org.apache.http.HttpException;
-import org.apache.http.HttpHost;
-import org.apache.http.auth.AuthScope;
-import org.apache.http.auth.Credentials;
-import org.apache.http.client.CredentialsProvider;
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.methods.HttpExecutionAware;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.methods.HttpRequestWrapper;
-import org.apache.http.client.protocol.HttpClientContext;
-import org.apache.http.conn.routing.HttpRoute;
-import org.apache.http.message.BasicHttpRequest;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.protocol.HttpProcessor;
+import se.tink.org.apache.http.HttpException;
+import se.tink.org.apache.http.HttpHost;
+import se.tink.org.apache.http.auth.AuthScope;
+import se.tink.org.apache.http.auth.Credentials;
+import se.tink.org.apache.http.client.CredentialsProvider;
+import se.tink.org.apache.http.client.methods.CloseableHttpResponse;
+import se.tink.org.apache.http.client.methods.HttpExecutionAware;
+import se.tink.org.apache.http.client.methods.HttpGet;
+import se.tink.org.apache.http.client.methods.HttpRequestWrapper;
+import se.tink.org.apache.http.client.protocol.HttpClientContext;
+import se.tink.org.apache.http.conn.routing.HttpRoute;
+import se.tink.org.apache.http.message.BasicHttpRequest;
+import se.tink.org.apache.http.protocol.HttpContext;
+import se.tink.org.apache.http.protocol.HttpProcessor;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

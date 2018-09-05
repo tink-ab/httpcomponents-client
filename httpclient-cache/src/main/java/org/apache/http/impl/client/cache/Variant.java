@@ -26,7 +26,7 @@
  */
 package org.apache.http.impl.client.cache;
 
-import org.apache.http.client.cache.HttpCacheEntry;
+import se.tink.org.apache.http.client.cache.HttpCacheEntry;
 
 /** Records a set of information describing a cached variant. */
 class Variant {

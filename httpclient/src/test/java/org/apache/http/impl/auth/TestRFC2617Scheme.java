@@ -27,15 +27,15 @@
 
 package org.apache.http.impl.auth;
 
-import org.apache.http.Header;
-import org.apache.http.HttpRequest;
-import org.apache.http.auth.AUTH;
-import org.apache.http.auth.AuthenticationException;
-import org.apache.http.auth.Credentials;
-import org.apache.http.auth.MalformedChallengeException;
-import org.apache.http.message.BasicHeader;
-import org.apache.http.message.BufferedHeader;
-import org.apache.http.util.CharArrayBuffer;
+import se.tink.org.apache.http.Header;
+import se.tink.org.apache.http.HttpRequest;
+import se.tink.org.apache.http.auth.AUTH;
+import se.tink.org.apache.http.auth.AuthenticationException;
+import se.tink.org.apache.http.auth.Credentials;
+import se.tink.org.apache.http.auth.MalformedChallengeException;
+import se.tink.org.apache.http.message.BasicHeader;
+import se.tink.org.apache.http.message.BufferedHeader;
+import se.tink.org.apache.http.util.CharArrayBuffer;
 import org.junit.Assert;
 import org.junit.Test;
 

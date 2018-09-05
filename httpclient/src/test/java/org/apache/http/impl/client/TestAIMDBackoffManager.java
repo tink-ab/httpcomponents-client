@@ -31,9 +31,9 @@ import static org.junit.Assert.assertTrue;
 
 import java.util.Random;
 
-import org.apache.http.HttpHost;
-import org.apache.http.client.BackoffManager;
-import org.apache.http.conn.routing.HttpRoute;
+import se.tink.org.apache.http.HttpHost;
+import se.tink.org.apache.http.client.BackoffManager;
+import se.tink.org.apache.http.conn.routing.HttpRoute;
 import org.junit.Before;
 import org.junit.Test;
 

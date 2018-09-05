@@ -33,19 +33,19 @@ import java.net.Proxy;
 import java.net.Socket;
 import java.net.SocketTimeoutException;
 
-import org.apache.http.HttpHost;
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.protocol.HttpClientContext;
-import org.apache.http.config.Registry;
-import org.apache.http.config.RegistryBuilder;
-import org.apache.http.conn.ConnectTimeoutException;
-import org.apache.http.conn.socket.ConnectionSocketFactory;
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.HttpClients;
-import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.util.EntityUtils;
+import se.tink.org.apache.http.HttpHost;
+import se.tink.org.apache.http.client.methods.CloseableHttpResponse;
+import se.tink.org.apache.http.client.methods.HttpGet;
+import se.tink.org.apache.http.client.protocol.HttpClientContext;
+import se.tink.org.apache.http.config.Registry;
+import se.tink.org.apache.http.config.RegistryBuilder;
+import se.tink.org.apache.http.conn.ConnectTimeoutException;
+import se.tink.org.apache.http.conn.socket.ConnectionSocketFactory;
+import se.tink.org.apache.http.impl.client.CloseableHttpClient;
+import se.tink.org.apache.http.impl.client.HttpClients;
+import se.tink.org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
+import se.tink.org.apache.http.protocol.HttpContext;
+import se.tink.org.apache.http.util.EntityUtils;
 
 /**
  * How to send a request via SOCKS proxy.

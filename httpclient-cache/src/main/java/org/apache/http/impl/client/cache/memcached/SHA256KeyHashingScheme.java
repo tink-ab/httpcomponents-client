@@ -29,9 +29,9 @@ package org.apache.http.impl.client.cache.memcached;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-import org.apache.commons.codec.binary.Hex;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import se.tink.org.apache.commons.codec.binary.Hex;
+import se.tink.org.apache.commons.logging.Log;
+import se.tink.org.apache.commons.logging.LogFactory;
 
 /**
  * This is a {@link KeyHashingScheme} based on the

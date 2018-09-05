@@ -28,11 +28,11 @@ package org.apache.http.impl.client.cache;
 
 import java.io.File;
 
-import org.apache.http.client.cache.HttpCacheInvalidator;
-import org.apache.http.client.cache.HttpCacheStorage;
-import org.apache.http.client.cache.ResourceFactory;
-import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.http.impl.execchain.ClientExecChain;
+import se.tink.org.apache.http.client.cache.HttpCacheInvalidator;
+import se.tink.org.apache.http.client.cache.HttpCacheStorage;
+import se.tink.org.apache.http.client.cache.ResourceFactory;
+import se.tink.org.apache.http.impl.client.HttpClientBuilder;
+import se.tink.org.apache.http.impl.execchain.ClientExecChain;
 
 /**
  * Builder for {@link org.apache.http.impl.client.CloseableHttpClient}

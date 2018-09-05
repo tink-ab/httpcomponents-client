@@ -29,7 +29,7 @@ package org.apache.http.impl.client.cache;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import org.apache.http.client.cache.HttpCacheEntry;
+import se.tink.org.apache.http.client.cache.HttpCacheEntry;
 
 final class CacheMap extends LinkedHashMap<String, HttpCacheEntry> {
 

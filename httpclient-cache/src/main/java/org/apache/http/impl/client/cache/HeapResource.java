@@ -29,8 +29,8 @@ package org.apache.http.impl.client.cache;
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 
-import org.apache.http.annotation.Immutable;
-import org.apache.http.client.cache.Resource;
+import se.tink.org.apache.http.annotation.Immutable;
+import se.tink.org.apache.http.client.cache.Resource;
 
 /**
  * Cache resource backed by a byte array on the heap.

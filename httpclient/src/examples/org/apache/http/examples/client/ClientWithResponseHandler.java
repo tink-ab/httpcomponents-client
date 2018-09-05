@@ -29,14 +29,14 @@ package org.apache.http.examples.client;
 
 import java.io.IOException;
 
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.ResponseHandler;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.HttpClients;
-import org.apache.http.util.EntityUtils;
+import se.tink.org.apache.http.HttpEntity;
+import se.tink.org.apache.http.HttpResponse;
+import se.tink.org.apache.http.client.ClientProtocolException;
+import se.tink.org.apache.http.client.ResponseHandler;
+import se.tink.org.apache.http.client.methods.HttpGet;
+import se.tink.org.apache.http.impl.client.CloseableHttpClient;
+import se.tink.org.apache.http.impl.client.HttpClients;
+import se.tink.org.apache.http.util.EntityUtils;
 
 /**
  * This example demonstrates the use of the {@link ResponseHandler} to simplify

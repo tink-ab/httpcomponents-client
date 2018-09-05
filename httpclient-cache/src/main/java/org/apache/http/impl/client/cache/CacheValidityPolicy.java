@@ -28,14 +28,14 @@ package org.apache.http.impl.client.cache;
 
 import java.util.Date;
 
-import org.apache.http.Header;
-import org.apache.http.HeaderElement;
-import org.apache.http.HttpRequest;
-import org.apache.http.annotation.Immutable;
-import org.apache.http.client.cache.HeaderConstants;
-import org.apache.http.client.cache.HttpCacheEntry;
-import org.apache.http.client.utils.DateUtils;
-import org.apache.http.protocol.HTTP;
+import se.tink.org.apache.http.Header;
+import se.tink.org.apache.http.HeaderElement;
+import se.tink.org.apache.http.HttpRequest;
+import se.tink.org.apache.http.annotation.Immutable;
+import se.tink.org.apache.http.client.cache.HeaderConstants;
+import se.tink.org.apache.http.client.cache.HttpCacheEntry;
+import se.tink.org.apache.http.client.utils.DateUtils;
+import se.tink.org.apache.http.protocol.HTTP;
 
 /**
  * @since 4.1

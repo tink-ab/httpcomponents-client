@@ -29,9 +29,9 @@ package org.apache.http.entity.mime.content;
 import java.io.IOException;
 import java.io.OutputStream;
 
-import org.apache.http.entity.ContentType;
-import org.apache.http.entity.mime.MIME;
-import org.apache.http.util.Args;
+import se.tink.org.apache.http.entity.ContentType;
+import se.tink.org.apache.http.entity.mime.MIME;
+import se.tink.org.apache.http.util.Args;
 
 /**
  * Binary body part backed by a byte array.

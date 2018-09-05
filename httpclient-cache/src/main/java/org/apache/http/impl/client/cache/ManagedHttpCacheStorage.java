@@ -33,12 +33,12 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import org.apache.http.annotation.ThreadSafe;
-import org.apache.http.client.cache.HttpCacheEntry;
-import org.apache.http.client.cache.HttpCacheStorage;
-import org.apache.http.client.cache.HttpCacheUpdateCallback;
-import org.apache.http.client.cache.Resource;
-import org.apache.http.util.Args;
+import se.tink.org.apache.http.annotation.ThreadSafe;
+import se.tink.org.apache.http.client.cache.HttpCacheEntry;
+import se.tink.org.apache.http.client.cache.HttpCacheStorage;
+import se.tink.org.apache.http.client.cache.HttpCacheUpdateCallback;
+import se.tink.org.apache.http.client.cache.Resource;
+import se.tink.org.apache.http.util.Args;
 
 /**
  * {@link HttpCacheStorage} implementation capable of deallocating resources associated with

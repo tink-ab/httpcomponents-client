@@ -29,16 +29,16 @@ package org.apache.http.client.methods;
 
 import java.net.URI;
 
-import org.apache.http.Header;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpEntityEnclosingRequest;
-import org.apache.http.HttpVersion;
-import org.apache.http.client.config.RequestConfig;
-import org.apache.http.entity.BasicHttpEntity;
-import org.apache.http.entity.StringEntity;
-import org.apache.http.message.BasicHeader;
-import org.apache.http.message.BasicNameValuePair;
-import org.apache.http.util.EntityUtils;
+import se.tink.org.apache.http.Header;
+import se.tink.org.apache.http.HttpEntity;
+import se.tink.org.apache.http.HttpEntityEnclosingRequest;
+import se.tink.org.apache.http.HttpVersion;
+import se.tink.org.apache.http.client.config.RequestConfig;
+import se.tink.org.apache.http.entity.BasicHttpEntity;
+import se.tink.org.apache.http.entity.StringEntity;
+import se.tink.org.apache.http.message.BasicHeader;
+import se.tink.org.apache.http.message.BasicNameValuePair;
+import se.tink.org.apache.http.util.EntityUtils;
 import org.junit.Assert;
 import org.junit.Test;
 

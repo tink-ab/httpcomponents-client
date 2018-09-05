@@ -35,10 +35,10 @@ import java.util.zip.CRC32;
 import java.util.zip.CheckedInputStream;
 import java.util.zip.Checksum;
 
-import org.apache.http.HttpEntity;
-import org.apache.http.entity.InputStreamEntity;
-import org.apache.http.entity.StringEntity;
-import org.apache.http.util.EntityUtils;
+import se.tink.org.apache.http.HttpEntity;
+import se.tink.org.apache.http.entity.InputStreamEntity;
+import se.tink.org.apache.http.entity.StringEntity;
+import se.tink.org.apache.http.util.EntityUtils;
 import org.junit.Assert;
 import org.junit.Test;
 

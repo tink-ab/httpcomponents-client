@@ -29,7 +29,7 @@ package org.apache.http.localserver;
 
 import java.net.InetSocketAddress;
 
-import org.apache.http.HttpHost;
+import se.tink.org.apache.http.HttpHost;
 import org.junit.After;
 
 /**

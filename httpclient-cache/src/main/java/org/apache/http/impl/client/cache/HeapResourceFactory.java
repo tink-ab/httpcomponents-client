@@ -30,10 +30,10 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-import org.apache.http.annotation.Immutable;
-import org.apache.http.client.cache.InputLimit;
-import org.apache.http.client.cache.Resource;
-import org.apache.http.client.cache.ResourceFactory;
+import se.tink.org.apache.http.annotation.Immutable;
+import se.tink.org.apache.http.client.cache.InputLimit;
+import se.tink.org.apache.http.client.cache.Resource;
+import se.tink.org.apache.http.client.cache.ResourceFactory;
 
 /**
  * Generates {@link Resource} instances stored entirely in heap.

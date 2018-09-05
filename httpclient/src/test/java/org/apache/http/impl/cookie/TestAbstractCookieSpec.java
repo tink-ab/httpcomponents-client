@@ -30,12 +30,12 @@ package org.apache.http.impl.cookie;
 import java.util.Iterator;
 import java.util.List;
 
-import org.apache.http.Header;
-import org.apache.http.cookie.Cookie;
-import org.apache.http.cookie.CookieAttributeHandler;
-import org.apache.http.cookie.CookieOrigin;
-import org.apache.http.cookie.MalformedCookieException;
-import org.apache.http.cookie.SetCookie;
+import se.tink.org.apache.http.Header;
+import se.tink.org.apache.http.cookie.Cookie;
+import se.tink.org.apache.http.cookie.CookieAttributeHandler;
+import se.tink.org.apache.http.cookie.CookieOrigin;
+import se.tink.org.apache.http.cookie.MalformedCookieException;
+import se.tink.org.apache.http.cookie.SetCookie;
 import org.junit.Assert;
 import org.junit.Test;
 

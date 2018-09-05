@@ -26,7 +26,7 @@
  */
 package org.apache.http.impl.client.cache;
 
-import org.apache.http.HttpResponse;
+import se.tink.org.apache.http.HttpResponse;
 import org.easymock.IArgumentMatcher;
 
 public class ResponseEquivalent implements IArgumentMatcher {

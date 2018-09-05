@@ -30,13 +30,13 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import org.apache.http.Header;
-import org.apache.http.cookie.ClientCookie;
-import org.apache.http.cookie.Cookie;
-import org.apache.http.cookie.CookieOrigin;
-import org.apache.http.cookie.CookieSpec;
-import org.apache.http.cookie.MalformedCookieException;
-import org.apache.http.message.BasicHeader;
+import se.tink.org.apache.http.Header;
+import se.tink.org.apache.http.cookie.ClientCookie;
+import se.tink.org.apache.http.cookie.Cookie;
+import se.tink.org.apache.http.cookie.CookieOrigin;
+import se.tink.org.apache.http.cookie.CookieSpec;
+import se.tink.org.apache.http.cookie.MalformedCookieException;
+import se.tink.org.apache.http.message.BasicHeader;
 import org.junit.Assert;
 import org.junit.Test;
 

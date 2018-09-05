@@ -29,10 +29,10 @@ package org.apache.http.localserver;
 
 import java.io.IOException;
 
-import org.apache.http.HttpException;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpRequestInterceptor;
-import org.apache.http.protocol.HttpContext;
+import se.tink.org.apache.http.HttpException;
+import se.tink.org.apache.http.HttpRequest;
+import se.tink.org.apache.http.HttpRequestInterceptor;
+import se.tink.org.apache.http.protocol.HttpContext;
 
 public class RequestBasicAuth implements HttpRequestInterceptor {
 

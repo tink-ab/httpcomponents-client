@@ -31,12 +31,12 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.apache.http.HttpException;
-import org.apache.http.HttpHost;
-import org.apache.http.HttpRequest;
-import org.apache.http.impl.conn.DefaultRoutePlanner;
-import org.apache.http.osgi.services.ProxyConfiguration;
-import org.apache.http.protocol.HttpContext;
+import se.tink.org.apache.http.HttpException;
+import se.tink.org.apache.http.HttpHost;
+import se.tink.org.apache.http.HttpRequest;
+import se.tink.org.apache.http.impl.conn.DefaultRoutePlanner;
+import se.tink.org.apache.http.osgi.services.ProxyConfiguration;
+import se.tink.org.apache.http.protocol.HttpContext;
 import org.osgi.framework.BundleContext;
 import org.osgi.framework.ServiceRegistration;
 

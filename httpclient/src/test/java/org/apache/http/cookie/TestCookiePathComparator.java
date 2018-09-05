@@ -29,7 +29,7 @@ package org.apache.http.cookie;
 
 import java.util.Comparator;
 
-import org.apache.http.impl.cookie.BasicClientCookie;
+import se.tink.org.apache.http.impl.cookie.BasicClientCookie;
 import org.junit.Assert;
 import org.junit.Test;
 

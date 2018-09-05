@@ -40,26 +40,26 @@ import javax.net.ssl.SSLContext;
 import javax.net.ssl.SSLServerSocket;
 import javax.net.ssl.SSLServerSocketFactory;
 
-import org.apache.http.ConnectionReuseStrategy;
-import org.apache.http.HttpResponseFactory;
-import org.apache.http.HttpResponseInterceptor;
-import org.apache.http.HttpServerConnection;
-import org.apache.http.impl.DefaultBHttpServerConnection;
-import org.apache.http.impl.DefaultConnectionReuseStrategy;
-import org.apache.http.impl.DefaultHttpResponseFactory;
-import org.apache.http.protocol.BasicHttpContext;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.protocol.HttpExpectationVerifier;
-import org.apache.http.protocol.HttpProcessor;
-import org.apache.http.protocol.HttpRequestHandler;
-import org.apache.http.protocol.HttpService;
-import org.apache.http.protocol.ImmutableHttpProcessor;
-import org.apache.http.protocol.ResponseConnControl;
-import org.apache.http.protocol.ResponseContent;
-import org.apache.http.protocol.ResponseDate;
-import org.apache.http.protocol.ResponseServer;
-import org.apache.http.protocol.UriHttpRequestHandlerMapper;
-import org.apache.http.util.Asserts;
+import se.tink.org.apache.http.ConnectionReuseStrategy;
+import se.tink.org.apache.http.HttpResponseFactory;
+import se.tink.org.apache.http.HttpResponseInterceptor;
+import se.tink.org.apache.http.HttpServerConnection;
+import se.tink.org.apache.http.impl.DefaultBHttpServerConnection;
+import se.tink.org.apache.http.impl.DefaultConnectionReuseStrategy;
+import se.tink.org.apache.http.impl.DefaultHttpResponseFactory;
+import se.tink.org.apache.http.protocol.BasicHttpContext;
+import se.tink.org.apache.http.protocol.HttpContext;
+import se.tink.org.apache.http.protocol.HttpExpectationVerifier;
+import se.tink.org.apache.http.protocol.HttpProcessor;
+import se.tink.org.apache.http.protocol.HttpRequestHandler;
+import se.tink.org.apache.http.protocol.HttpService;
+import se.tink.org.apache.http.protocol.ImmutableHttpProcessor;
+import se.tink.org.apache.http.protocol.ResponseConnControl;
+import se.tink.org.apache.http.protocol.ResponseContent;
+import se.tink.org.apache.http.protocol.ResponseDate;
+import se.tink.org.apache.http.protocol.ResponseServer;
+import se.tink.org.apache.http.protocol.UriHttpRequestHandlerMapper;
+import se.tink.org.apache.http.util.Asserts;
 
 /**
  * Local HTTP server for tests that require one.

@@ -43,11 +43,11 @@ import javax.net.ssl.SSLHandshakeException;
 import javax.net.ssl.SSLSession;
 import javax.net.ssl.SSLSocket;
 
-import org.apache.http.HttpHost;
-import org.apache.http.localserver.LocalServerTestBase;
-import org.apache.http.localserver.LocalTestServer;
-import org.apache.http.protocol.BasicHttpContext;
-import org.apache.http.protocol.HttpContext;
+import se.tink.org.apache.http.HttpHost;
+import se.tink.org.apache.http.localserver.LocalServerTestBase;
+import se.tink.org.apache.http.localserver.LocalTestServer;
+import se.tink.org.apache.http.protocol.BasicHttpContext;
+import se.tink.org.apache.http.protocol.HttpContext;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

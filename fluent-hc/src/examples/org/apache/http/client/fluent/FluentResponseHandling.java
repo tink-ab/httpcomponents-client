@@ -33,14 +33,14 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
-import org.apache.http.Consts;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.StatusLine;
-import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.HttpResponseException;
-import org.apache.http.client.ResponseHandler;
-import org.apache.http.entity.ContentType;
+import se.tink.org.apache.http.Consts;
+import se.tink.org.apache.http.HttpEntity;
+import se.tink.org.apache.http.HttpResponse;
+import se.tink.org.apache.http.StatusLine;
+import se.tink.org.apache.http.client.ClientProtocolException;
+import se.tink.org.apache.http.client.HttpResponseException;
+import se.tink.org.apache.http.client.ResponseHandler;
+import se.tink.org.apache.http.entity.ContentType;
 import org.w3c.dom.Document;
 import org.xml.sax.SAXException;
 

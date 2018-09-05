@@ -28,7 +28,7 @@
 package org.apache.http.client.config;
 
 import junit.framework.Assert;
-import org.apache.http.HttpHost;
+import se.tink.org.apache.http.HttpHost;
 import org.junit.Test;
 
 import java.net.InetAddress;

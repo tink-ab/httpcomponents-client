@@ -33,13 +33,13 @@ import java.io.IOException;
 import net.sf.ehcache.Ehcache;
 import net.sf.ehcache.Element;
 
-import org.apache.http.client.cache.HttpCacheEntry;
-import org.apache.http.client.cache.HttpCacheEntrySerializer;
-import org.apache.http.client.cache.HttpCacheStorage;
-import org.apache.http.client.cache.HttpCacheUpdateCallback;
-import org.apache.http.client.cache.HttpCacheUpdateException;
-import org.apache.http.impl.client.cache.CacheConfig;
-import org.apache.http.impl.client.cache.DefaultHttpCacheEntrySerializer;
+import se.tink.org.apache.http.client.cache.HttpCacheEntry;
+import se.tink.org.apache.http.client.cache.HttpCacheEntrySerializer;
+import se.tink.org.apache.http.client.cache.HttpCacheStorage;
+import se.tink.org.apache.http.client.cache.HttpCacheUpdateCallback;
+import se.tink.org.apache.http.client.cache.HttpCacheUpdateException;
+import se.tink.org.apache.http.impl.client.cache.CacheConfig;
+import se.tink.org.apache.http.impl.client.cache.DefaultHttpCacheEntrySerializer;
 
 /**
  * <p>This class is a storage backend for cache entries that uses the

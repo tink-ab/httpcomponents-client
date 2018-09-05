@@ -28,11 +28,11 @@ package org.apache.http.osgi.impl;
 
 import java.util.Map;
 
-import org.apache.http.auth.AuthScope;
-import org.apache.http.auth.Credentials;
-import org.apache.http.auth.UsernamePasswordCredentials;
-import org.apache.http.client.CredentialsProvider;
-import org.apache.http.osgi.services.ProxyConfiguration;
+import se.tink.org.apache.http.auth.AuthScope;
+import se.tink.org.apache.http.auth.Credentials;
+import se.tink.org.apache.http.auth.UsernamePasswordCredentials;
+import se.tink.org.apache.http.client.CredentialsProvider;
+import se.tink.org.apache.http.osgi.services.ProxyConfiguration;
 import org.osgi.framework.BundleContext;
 import org.osgi.framework.ServiceRegistration;
 

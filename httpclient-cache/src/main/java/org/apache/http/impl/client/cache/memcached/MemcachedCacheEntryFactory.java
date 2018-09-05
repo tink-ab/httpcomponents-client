@@ -26,7 +26,7 @@
  */
 package org.apache.http.impl.client.cache.memcached;
 
-import org.apache.http.client.cache.HttpCacheEntry;
+import se.tink.org.apache.http.client.cache.HttpCacheEntry;
 
 /**
  * Creates {@link MemcachedCacheEntry} instances that can be used for

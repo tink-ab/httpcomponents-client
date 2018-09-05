@@ -34,8 +34,8 @@ import java.io.OutputStream;
 import java.io.RandomAccessFile;
 import java.nio.channels.FileChannel;
 
-import org.apache.http.HttpEntity;
-import org.apache.http.annotation.Immutable;
+import se.tink.org.apache.http.HttpEntity;
+import se.tink.org.apache.http.annotation.Immutable;
 
 @Immutable
 class IOUtils {

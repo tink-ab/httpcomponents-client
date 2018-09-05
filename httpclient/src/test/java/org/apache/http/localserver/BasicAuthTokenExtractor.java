@@ -27,15 +27,15 @@
 
 package org.apache.http.localserver;
 
-import org.apache.commons.codec.BinaryDecoder;
-import org.apache.commons.codec.DecoderException;
-import org.apache.commons.codec.binary.Base64;
-import org.apache.http.Header;
-import org.apache.http.HttpException;
-import org.apache.http.HttpRequest;
-import org.apache.http.ProtocolException;
-import org.apache.http.auth.AUTH;
-import org.apache.http.util.EncodingUtils;
+import se.tink.org.apache.commons.codec.BinaryDecoder;
+import se.tink.org.apache.commons.codec.DecoderException;
+import se.tink.org.apache.commons.codec.binary.Base64;
+import se.tink.org.apache.http.Header;
+import se.tink.org.apache.http.HttpException;
+import se.tink.org.apache.http.HttpRequest;
+import se.tink.org.apache.http.ProtocolException;
+import se.tink.org.apache.http.auth.AUTH;
+import se.tink.org.apache.http.util.EncodingUtils;
 
 public class BasicAuthTokenExtractor {
 

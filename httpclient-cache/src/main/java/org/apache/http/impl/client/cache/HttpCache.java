@@ -30,11 +30,11 @@ import java.io.IOException;
 import java.util.Date;
 import java.util.Map;
 
-import org.apache.http.HttpHost;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.cache.HttpCacheEntry;
-import org.apache.http.client.methods.CloseableHttpResponse;
+import se.tink.org.apache.http.HttpHost;
+import se.tink.org.apache.http.HttpRequest;
+import se.tink.org.apache.http.HttpResponse;
+import se.tink.org.apache.http.client.cache.HttpCacheEntry;
+import se.tink.org.apache.http.client.methods.CloseableHttpResponse;
 
 /**
  * @since 4.1

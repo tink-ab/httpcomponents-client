@@ -26,9 +26,9 @@
  */
 package org.apache.http.impl.client;
 
-import org.apache.http.auth.AuthScope;
-import org.apache.http.auth.Credentials;
-import org.apache.http.auth.UsernamePasswordCredentials;
+import se.tink.org.apache.http.auth.AuthScope;
+import se.tink.org.apache.http.auth.Credentials;
+import se.tink.org.apache.http.auth.UsernamePasswordCredentials;
 import org.junit.Assert;
 import org.junit.Test;
 
