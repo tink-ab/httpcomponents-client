@@ -29,9 +29,9 @@ package se.tink.org.apache.http.client;
 
 import java.net.URI;
 
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.ProtocolException;
-import se.tink.org.apache.http.protocol.HttpContext;
+import org.apache.http.HttpResponse;
+import org.apache.http.ProtocolException;
+import org.apache.http.protocol.HttpContext;
 
 /**
  * A handler for determining if an HTTP request should be redirected to

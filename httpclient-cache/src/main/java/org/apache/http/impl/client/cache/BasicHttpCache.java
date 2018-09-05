@@ -34,8 +34,8 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-import se.tink.org.apache.commons.logging.Log;
-import se.tink.org.apache.commons.logging.LogFactory;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import se.tink.org.apache.http.Header;
 import se.tink.org.apache.http.HttpHost;
 import se.tink.org.apache.http.HttpRequest;

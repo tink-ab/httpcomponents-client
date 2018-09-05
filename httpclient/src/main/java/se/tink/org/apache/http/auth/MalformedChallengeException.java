@@ -26,8 +26,8 @@
  */
 package se.tink.org.apache.http.auth;
 
-import se.tink.org.apache.http.ProtocolException;
-import se.tink.org.apache.http.annotation.Immutable;
+import org.apache.http.ProtocolException;
+import org.apache.http.annotation.Immutable;
 
 /**
  * Signals that authentication challenge is in some way invalid or

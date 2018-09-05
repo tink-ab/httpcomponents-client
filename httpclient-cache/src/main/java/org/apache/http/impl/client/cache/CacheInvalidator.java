@@ -31,8 +31,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Date;
 
-import se.tink.org.apache.commons.logging.Log;
-import se.tink.org.apache.commons.logging.LogFactory;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import se.tink.org.apache.http.Header;
 import se.tink.org.apache.http.HttpHost;
 import se.tink.org.apache.http.HttpRequest;

@@ -27,9 +27,9 @@
 
 package se.tink.org.apache.http.impl.execchain;
 
-import se.tink.org.apache.http.HttpException;
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.annotation.Immutable;
+import org.apache.http.HttpException;
+import org.apache.http.HttpResponse;
+import org.apache.http.annotation.Immutable;
 
 /**
  * Signals that the tunnel request was rejected by the proxy host.

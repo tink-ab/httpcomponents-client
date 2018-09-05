@@ -28,7 +28,7 @@ package org.apache.http.impl.auth.win;
 
 import java.util.Locale;
 
-import se.tink.org.apache.commons.codec.binary.Base64;
+import org.apache.commons.codec.binary.Base64;
 import se.tink.org.apache.http.Header;
 import se.tink.org.apache.http.HttpRequest;
 import se.tink.org.apache.http.annotation.NotThreadSafe;

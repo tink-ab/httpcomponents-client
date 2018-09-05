@@ -32,8 +32,8 @@ import java.net.InetAddress;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
-import se.tink.org.apache.http.conn.ConnectTimeoutException;
-import se.tink.org.apache.http.params.HttpParams;
+import org.apache.http.conn.ConnectTimeoutException;
+import org.apache.http.params.HttpParams;
 import se.tink.org.apache.http.conn.ConnectTimeoutException;
 
 /**

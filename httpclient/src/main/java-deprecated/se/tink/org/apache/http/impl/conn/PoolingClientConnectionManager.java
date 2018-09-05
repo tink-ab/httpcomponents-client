@@ -32,8 +32,8 @@ import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
-import se.tink.org.apache.commons.logging.Log;
-import se.tink.org.apache.commons.logging.LogFactory;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import se.tink.org.apache.http.annotation.ThreadSafe;
 import se.tink.org.apache.http.conn.ClientConnectionManager;
 import se.tink.org.apache.http.conn.ClientConnectionOperator;

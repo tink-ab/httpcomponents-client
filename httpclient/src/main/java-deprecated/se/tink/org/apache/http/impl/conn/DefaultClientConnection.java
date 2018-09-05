@@ -36,8 +36,8 @@ import java.util.Map;
 import javax.net.ssl.SSLSession;
 import javax.net.ssl.SSLSocket;
 
-import se.tink.org.apache.commons.logging.Log;
-import se.tink.org.apache.commons.logging.LogFactory;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import se.tink.org.apache.http.Header;
 import se.tink.org.apache.http.HttpException;
 import se.tink.org.apache.http.HttpHost;

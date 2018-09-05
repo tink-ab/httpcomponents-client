@@ -28,10 +28,10 @@ package se.tink.org.apache.http.auth;
 
 import java.util.Locale;
 
-import se.tink.org.apache.http.HttpHost;
-import se.tink.org.apache.http.annotation.Immutable;
-import se.tink.org.apache.http.util.Args;
-import se.tink.org.apache.http.util.LangUtils;
+import org.apache.http.HttpHost;
+import org.apache.http.annotation.Immutable;
+import org.apache.http.util.Args;
+import org.apache.http.util.LangUtils;
 
 /**
  * The class represents an authentication scope consisting of a host name,

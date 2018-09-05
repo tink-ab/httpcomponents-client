@@ -30,7 +30,7 @@ import java.io.IOException;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
-import se.tink.org.apache.commons.logging.Log;
+import org.apache.commons.logging.Log;
 import se.tink.org.apache.http.conn.OperatedClientConnection;
 import se.tink.org.apache.http.conn.routing.HttpRoute;
 import se.tink.org.apache.http.conn.routing.RouteTracker;

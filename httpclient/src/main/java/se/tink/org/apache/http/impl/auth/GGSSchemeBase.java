@@ -26,9 +26,9 @@
  */
 package se.tink.org.apache.http.impl.auth;
 
-import se.tink.org.apache.commons.codec.binary.Base64;
-import se.tink.org.apache.commons.logging.Log;
-import se.tink.org.apache.commons.logging.LogFactory;
+import org.apache.commons.codec.binary.Base64;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import se.tink.org.apache.http.Header;
 import se.tink.org.apache.http.HttpHost;
 import se.tink.org.apache.http.HttpRequest;

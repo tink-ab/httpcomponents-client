@@ -35,8 +35,8 @@ import net.spy.memcached.MemcachedClient;
 import net.spy.memcached.MemcachedClientIF;
 import net.spy.memcached.OperationTimeoutException;
 
-import se.tink.org.apache.commons.logging.Log;
-import se.tink.org.apache.commons.logging.LogFactory;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import se.tink.org.apache.http.client.cache.HttpCacheEntry;
 import se.tink.org.apache.http.client.cache.HttpCacheEntrySerializer;
 import se.tink.org.apache.http.client.cache.HttpCacheStorage;

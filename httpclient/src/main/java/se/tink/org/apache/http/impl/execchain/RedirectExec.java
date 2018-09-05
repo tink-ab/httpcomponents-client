@@ -31,8 +31,8 @@ import java.io.IOException;
 import java.net.URI;
 import java.util.List;
 
-import se.tink.org.apache.commons.logging.Log;
-import se.tink.org.apache.commons.logging.LogFactory;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import se.tink.org.apache.http.HttpEntityEnclosingRequest;
 import se.tink.org.apache.http.HttpException;
 import se.tink.org.apache.http.HttpHost;

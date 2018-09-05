@@ -28,8 +28,8 @@ package org.apache.http.impl.client.cache;
 
 import java.io.ByteArrayInputStream;
 
-import se.tink.org.apache.http.client.cache.Resource;
-import se.tink.org.apache.http.util.EntityUtils;
+import org.apache.http.client.cache.Resource;
+import org.apache.http.util.EntityUtils;
 import org.easymock.classextension.EasyMock;
 import org.junit.Assert;
 import org.junit.Test;

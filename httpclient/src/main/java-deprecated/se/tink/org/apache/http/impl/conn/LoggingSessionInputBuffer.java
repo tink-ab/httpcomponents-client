@@ -28,12 +28,12 @@ package se.tink.org.apache.http.impl.conn;
 
 import java.io.IOException;
 
-import se.tink.org.apache.http.Consts;
-import se.tink.org.apache.http.annotation.Immutable;
-import se.tink.org.apache.http.io.EofSensor;
-import se.tink.org.apache.http.io.HttpTransportMetrics;
-import se.tink.org.apache.http.io.SessionInputBuffer;
-import se.tink.org.apache.http.util.CharArrayBuffer;
+import org.apache.http.Consts;
+import org.apache.http.annotation.Immutable;
+import org.apache.http.io.EofSensor;
+import org.apache.http.io.HttpTransportMetrics;
+import org.apache.http.io.SessionInputBuffer;
+import org.apache.http.util.CharArrayBuffer;
 
 /**
  * Logs all data read to the wire LOG.

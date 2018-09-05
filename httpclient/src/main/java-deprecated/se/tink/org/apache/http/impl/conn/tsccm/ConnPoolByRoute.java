@@ -38,17 +38,17 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 
-import se.tink.org.apache.commons.logging.Log;
-import se.tink.org.apache.commons.logging.LogFactory;
-import se.tink.org.apache.http.conn.ClientConnectionOperator;
-import se.tink.org.apache.http.conn.ConnectionPoolTimeoutException;
-import se.tink.org.apache.http.conn.OperatedClientConnection;
-import se.tink.org.apache.http.conn.params.ConnManagerParams;
-import se.tink.org.apache.http.conn.params.ConnPerRoute;
-import se.tink.org.apache.http.conn.routing.HttpRoute;
-import se.tink.org.apache.http.params.HttpParams;
-import se.tink.org.apache.http.util.Args;
-import se.tink.org.apache.http.util.Asserts;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.apache.http.conn.ClientConnectionOperator;
+import org.apache.http.conn.ConnectionPoolTimeoutException;
+import org.apache.http.conn.OperatedClientConnection;
+import org.apache.http.conn.params.ConnManagerParams;
+import org.apache.http.conn.params.ConnPerRoute;
+import org.apache.http.conn.routing.HttpRoute;
+import org.apache.http.params.HttpParams;
+import org.apache.http.util.Args;
+import org.apache.http.util.Asserts;
 
 /**
  * A connection pool that maintains connections by route.

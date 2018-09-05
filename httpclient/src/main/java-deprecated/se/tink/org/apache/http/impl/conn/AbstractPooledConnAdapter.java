@@ -28,12 +28,12 @@ package se.tink.org.apache.http.impl.conn;
 
 import java.io.IOException;
 
-import se.tink.org.apache.http.HttpHost;
-import se.tink.org.apache.http.conn.ClientConnectionManager;
-import se.tink.org.apache.http.conn.OperatedClientConnection;
-import se.tink.org.apache.http.conn.routing.HttpRoute;
-import se.tink.org.apache.http.params.HttpParams;
-import se.tink.org.apache.http.protocol.HttpContext;
+import org.apache.http.HttpHost;
+import org.apache.http.conn.ClientConnectionManager;
+import org.apache.http.conn.OperatedClientConnection;
+import org.apache.http.conn.routing.HttpRoute;
+import org.apache.http.params.HttpParams;
+import org.apache.http.protocol.HttpContext;
 import se.tink.org.apache.http.conn.ClientConnectionManager;
 import se.tink.org.apache.http.conn.ManagedClientConnection;
 import se.tink.org.apache.http.conn.OperatedClientConnection;

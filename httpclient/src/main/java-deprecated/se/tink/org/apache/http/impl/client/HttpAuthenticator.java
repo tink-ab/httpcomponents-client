@@ -27,7 +27,7 @@
 
 package se.tink.org.apache.http.impl.client;
 
-import se.tink.org.apache.commons.logging.Log;
+import org.apache.commons.logging.Log;
 import se.tink.org.apache.http.HttpHost;
 import se.tink.org.apache.http.HttpResponse;
 import se.tink.org.apache.http.auth.AuthState;

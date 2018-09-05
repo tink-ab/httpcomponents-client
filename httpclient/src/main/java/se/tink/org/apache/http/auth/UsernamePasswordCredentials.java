@@ -29,9 +29,9 @@ package se.tink.org.apache.http.auth;
 import java.io.Serializable;
 import java.security.Principal;
 
-import se.tink.org.apache.http.annotation.Immutable;
-import se.tink.org.apache.http.util.Args;
-import se.tink.org.apache.http.util.LangUtils;
+import org.apache.http.annotation.Immutable;
+import org.apache.http.util.Args;
+import org.apache.http.util.LangUtils;
 
 /**
  * Simple {@link Credentials} implementation based on a user name / password

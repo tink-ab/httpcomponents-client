@@ -27,10 +27,10 @@
 
 package se.tink.org.apache.http.impl.client;
 
-import se.tink.org.apache.http.annotation.Immutable;
-import se.tink.org.apache.http.client.methods.HttpGet;
-import se.tink.org.apache.http.client.methods.HttpHead;
-import se.tink.org.apache.http.client.methods.HttpPost;
+import org.apache.http.annotation.Immutable;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpHead;
+import org.apache.http.client.methods.HttpPost;
 import se.tink.org.apache.http.client.RedirectStrategy;
 import se.tink.org.apache.http.client.methods.HttpGet;
 import se.tink.org.apache.http.client.methods.HttpHead;

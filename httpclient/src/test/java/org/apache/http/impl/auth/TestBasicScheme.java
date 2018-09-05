@@ -26,7 +26,7 @@
  */
 package org.apache.http.impl.auth;
 
-import se.tink.org.apache.commons.codec.binary.Base64;
+import org.apache.commons.codec.binary.Base64;
 import se.tink.org.apache.http.Consts;
 import se.tink.org.apache.http.Header;
 import se.tink.org.apache.http.HttpRequest;

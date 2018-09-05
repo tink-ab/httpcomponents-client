@@ -30,8 +30,8 @@ package se.tink.org.apache.http.impl.conn;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-import se.tink.org.apache.commons.logging.Log;
-import se.tink.org.apache.commons.logging.LogFactory;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import se.tink.org.apache.http.annotation.GuardedBy;
 import se.tink.org.apache.http.annotation.ThreadSafe;
 import se.tink.org.apache.http.conn.ClientConnectionManager;

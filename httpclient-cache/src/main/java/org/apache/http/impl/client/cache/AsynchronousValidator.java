@@ -33,8 +33,8 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.RejectedExecutionException;
 
-import se.tink.org.apache.commons.logging.Log;
-import se.tink.org.apache.commons.logging.LogFactory;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import se.tink.org.apache.http.client.cache.HttpCacheEntry;
 import se.tink.org.apache.http.client.methods.HttpExecutionAware;
 import se.tink.org.apache.http.client.methods.HttpRequestWrapper;

@@ -26,8 +26,8 @@
  */
 package se.tink.org.apache.http.impl.client;
 
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.client.ConnectionBackoffStrategy;
+import org.apache.http.HttpResponse;
+import org.apache.http.client.ConnectionBackoffStrategy;
 import se.tink.org.apache.http.client.ConnectionBackoffStrategy;
 
 /**

@@ -32,8 +32,8 @@ import java.io.IOException;
 import java.lang.reflect.UndeclaredThrowableException;
 import java.net.URI;
 
-import se.tink.org.apache.commons.logging.Log;
-import se.tink.org.apache.commons.logging.LogFactory;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import se.tink.org.apache.http.HttpEntity;
 import se.tink.org.apache.http.HttpHost;
 import se.tink.org.apache.http.HttpRequest;

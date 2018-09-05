@@ -35,7 +35,7 @@ import java.util.Locale;
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
 
-import se.tink.org.apache.commons.codec.binary.Base64;
+import org.apache.commons.codec.binary.Base64;
 import se.tink.org.apache.http.annotation.NotThreadSafe;
 import se.tink.org.apache.http.util.EncodingUtils;
 

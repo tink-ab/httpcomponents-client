@@ -27,9 +27,9 @@
 
 package org.apache.http.localserver;
 
-import se.tink.org.apache.commons.codec.BinaryDecoder;
-import se.tink.org.apache.commons.codec.DecoderException;
-import se.tink.org.apache.commons.codec.binary.Base64;
+import org.apache.commons.codec.BinaryDecoder;
+import org.apache.commons.codec.DecoderException;
+import org.apache.commons.codec.binary.Base64;
 import se.tink.org.apache.http.Header;
 import se.tink.org.apache.http.HttpException;
 import se.tink.org.apache.http.HttpRequest;

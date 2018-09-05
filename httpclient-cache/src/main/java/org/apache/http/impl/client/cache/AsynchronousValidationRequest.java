@@ -28,8 +28,8 @@ package org.apache.http.impl.client.cache;
 
 import java.io.IOException;
 
-import se.tink.org.apache.commons.logging.Log;
-import se.tink.org.apache.commons.logging.LogFactory;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import se.tink.org.apache.http.Header;
 import se.tink.org.apache.http.HttpException;
 import se.tink.org.apache.http.HttpResponse;

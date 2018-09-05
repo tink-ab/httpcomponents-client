@@ -27,8 +27,8 @@
 
 package se.tink.org.apache.http.auth.params;
 
-import se.tink.org.apache.http.params.HttpAbstractParamBean;
-import se.tink.org.apache.http.params.HttpParams;
+import org.apache.http.params.HttpAbstractParamBean;
+import org.apache.http.params.HttpParams;
 import se.tink.org.apache.http.auth.AuthSchemeProvider;
 import se.tink.org.apache.http.client.config.RequestConfig;
 

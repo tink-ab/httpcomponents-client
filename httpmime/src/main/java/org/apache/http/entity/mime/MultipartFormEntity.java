@@ -27,10 +27,10 @@
 
 package org.apache.http.entity.mime;
 
-import se.tink.org.apache.http.Header;
-import se.tink.org.apache.http.HttpEntity;
-import se.tink.org.apache.http.message.BasicHeader;
-import se.tink.org.apache.http.protocol.HTTP;
+import org.apache.http.Header;
+import org.apache.http.HttpEntity;
+import org.apache.http.message.BasicHeader;
+import org.apache.http.protocol.HTTP;
 
 import java.io.IOException;
 import java.io.InputStream;

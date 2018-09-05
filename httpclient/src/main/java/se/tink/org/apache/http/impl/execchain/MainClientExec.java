@@ -32,8 +32,8 @@ import java.io.InterruptedIOException;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 
-import se.tink.org.apache.commons.logging.Log;
-import se.tink.org.apache.commons.logging.LogFactory;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import se.tink.org.apache.http.ConnectionReuseStrategy;
 import se.tink.org.apache.http.HttpClientConnection;
 import se.tink.org.apache.http.HttpEntity;

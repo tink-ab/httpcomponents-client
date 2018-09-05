@@ -31,12 +31,12 @@ import java.io.IOException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import se.tink.org.apache.http.annotation.ThreadSafe;
-import se.tink.org.apache.http.client.HttpClient;
-import se.tink.org.apache.http.client.ResponseHandler;
-import se.tink.org.apache.http.client.methods.HttpUriRequest;
-import se.tink.org.apache.http.concurrent.FutureCallback;
-import se.tink.org.apache.http.protocol.HttpContext;
+import org.apache.http.annotation.ThreadSafe;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.ResponseHandler;
+import org.apache.http.client.methods.HttpUriRequest;
+import org.apache.http.concurrent.FutureCallback;
+import org.apache.http.protocol.HttpContext;
 import se.tink.org.apache.http.client.HttpClient;
 import se.tink.org.apache.http.client.ResponseHandler;
 import se.tink.org.apache.http.client.methods.HttpUriRequest;

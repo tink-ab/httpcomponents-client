@@ -39,7 +39,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-import se.tink.org.apache.commons.codec.binary.Base64;
+import org.apache.commons.codec.binary.Base64;
 import se.tink.org.apache.http.Header;
 import se.tink.org.apache.http.ProtocolVersion;
 import se.tink.org.apache.http.StatusLine;

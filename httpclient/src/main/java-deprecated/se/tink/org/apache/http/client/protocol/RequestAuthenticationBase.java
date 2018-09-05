@@ -29,8 +29,8 @@ package se.tink.org.apache.http.client.protocol;
 
 import java.util.Queue;
 
-import se.tink.org.apache.commons.logging.Log;
-import se.tink.org.apache.commons.logging.LogFactory;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import se.tink.org.apache.http.Header;
 import se.tink.org.apache.http.HttpRequest;
 import se.tink.org.apache.http.HttpRequestInterceptor;

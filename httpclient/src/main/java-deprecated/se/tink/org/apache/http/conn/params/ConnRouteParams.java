@@ -28,11 +28,11 @@ package se.tink.org.apache.http.conn.params;
 
 import java.net.InetAddress;
 
-import se.tink.org.apache.http.HttpHost;
-import se.tink.org.apache.http.annotation.Immutable;
-import se.tink.org.apache.http.conn.routing.HttpRoute;
-import se.tink.org.apache.http.params.HttpParams;
-import se.tink.org.apache.http.util.Args;
+import org.apache.http.HttpHost;
+import org.apache.http.annotation.Immutable;
+import org.apache.http.conn.routing.HttpRoute;
+import org.apache.http.params.HttpParams;
+import org.apache.http.util.Args;
 import se.tink.org.apache.http.client.config.RequestConfig;
 import se.tink.org.apache.http.conn.routing.HttpRoute;
 

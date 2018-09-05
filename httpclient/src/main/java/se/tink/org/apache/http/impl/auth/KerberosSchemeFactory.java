@@ -26,12 +26,12 @@
  */
 package se.tink.org.apache.http.impl.auth;
 
-import se.tink.org.apache.http.annotation.Immutable;
-import se.tink.org.apache.http.auth.AuthScheme;
-import se.tink.org.apache.http.auth.AuthSchemeFactory;
-import se.tink.org.apache.http.auth.AuthSchemeProvider;
-import se.tink.org.apache.http.params.HttpParams;
-import se.tink.org.apache.http.protocol.HttpContext;
+import org.apache.http.annotation.Immutable;
+import org.apache.http.auth.AuthScheme;
+import org.apache.http.auth.AuthSchemeFactory;
+import org.apache.http.auth.AuthSchemeProvider;
+import org.apache.http.params.HttpParams;
+import org.apache.http.protocol.HttpContext;
 import se.tink.org.apache.http.auth.AuthScheme;
 import se.tink.org.apache.http.auth.AuthSchemeFactory;
 import se.tink.org.apache.http.auth.AuthSchemeProvider;

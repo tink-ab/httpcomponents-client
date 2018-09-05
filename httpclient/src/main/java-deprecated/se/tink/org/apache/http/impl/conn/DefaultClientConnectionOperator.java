@@ -34,8 +34,8 @@ import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
-import se.tink.org.apache.commons.logging.Log;
-import se.tink.org.apache.commons.logging.LogFactory;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import se.tink.org.apache.http.HttpHost;
 import se.tink.org.apache.http.annotation.ThreadSafe;
 import se.tink.org.apache.http.client.protocol.ClientContext;

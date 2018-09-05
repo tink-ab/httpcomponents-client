@@ -30,12 +30,12 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicLong;
 
-import se.tink.org.apache.commons.logging.Log;
-import se.tink.org.apache.http.conn.ClientConnectionOperator;
-import se.tink.org.apache.http.conn.OperatedClientConnection;
-import se.tink.org.apache.http.conn.routing.HttpRoute;
-import se.tink.org.apache.http.pool.AbstractConnPool;
-import se.tink.org.apache.http.pool.ConnFactory;
+import org.apache.commons.logging.Log;
+import org.apache.http.conn.ClientConnectionOperator;
+import org.apache.http.conn.OperatedClientConnection;
+import org.apache.http.conn.routing.HttpRoute;
+import org.apache.http.pool.AbstractConnPool;
+import org.apache.http.pool.ConnFactory;
 import se.tink.org.apache.http.conn.ClientConnectionOperator;
 import se.tink.org.apache.http.conn.OperatedClientConnection;
 import se.tink.org.apache.http.conn.routing.HttpRoute;

@@ -31,8 +31,8 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicLong;
 
-import se.tink.org.apache.commons.logging.Log;
-import se.tink.org.apache.commons.logging.LogFactory;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import se.tink.org.apache.http.HttpClientConnection;
 import se.tink.org.apache.http.annotation.GuardedBy;
 import se.tink.org.apache.http.annotation.ThreadSafe;

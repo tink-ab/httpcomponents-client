@@ -29,13 +29,13 @@ package se.tink.org.apache.http.client.protocol;
 
 import java.io.IOException;
 
-import se.tink.org.apache.http.HttpException;
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.annotation.Immutable;
-import se.tink.org.apache.http.auth.AUTH;
-import se.tink.org.apache.http.auth.AuthState;
-import se.tink.org.apache.http.protocol.HttpContext;
-import se.tink.org.apache.http.util.Args;
+import org.apache.http.HttpException;
+import org.apache.http.HttpRequest;
+import org.apache.http.annotation.Immutable;
+import org.apache.http.auth.AUTH;
+import org.apache.http.auth.AuthState;
+import org.apache.http.protocol.HttpContext;
+import org.apache.http.util.Args;
 
 /**
  * Generates authentication header for the target host, if required,

@@ -31,8 +31,8 @@ import java.util.LinkedList;
 import java.util.ListIterator;
 import java.util.Queue;
 
-import se.tink.org.apache.commons.logging.Log;
-import se.tink.org.apache.commons.logging.LogFactory;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import se.tink.org.apache.http.conn.OperatedClientConnection;
 import se.tink.org.apache.http.conn.params.ConnPerRoute;
 import se.tink.org.apache.http.conn.routing.HttpRoute;
