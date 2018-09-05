@@ -29,9 +29,9 @@ package se.tink.org.apache.http.cookie.params;
 
 import java.util.Collection;
 
-import org.apache.http.annotation.NotThreadSafe;
-import org.apache.http.params.HttpAbstractParamBean;
-import org.apache.http.params.HttpParams;
+import se.tink.org.apache.http.annotation.NotThreadSafe;
+import se.tink.org.apache.http.params.HttpAbstractParamBean;
+import se.tink.org.apache.http.params.HttpParams;
 
 /**
  * This is a Java Bean class that can be used to wrap an instance of

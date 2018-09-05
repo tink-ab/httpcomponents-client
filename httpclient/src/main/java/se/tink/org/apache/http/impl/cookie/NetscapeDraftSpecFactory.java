@@ -29,13 +29,13 @@ package se.tink.org.apache.http.impl.cookie;
 
 import java.util.Collection;
 
-import org.apache.http.annotation.Immutable;
-import org.apache.http.cookie.CookieSpec;
-import org.apache.http.cookie.CookieSpecFactory;
-import org.apache.http.cookie.CookieSpecProvider;
-import org.apache.http.cookie.params.CookieSpecPNames;
-import org.apache.http.params.HttpParams;
-import org.apache.http.protocol.HttpContext;
+import se.tink.org.apache.http.annotation.Immutable;
+import se.tink.org.apache.http.cookie.CookieSpec;
+import se.tink.org.apache.http.cookie.CookieSpecFactory;
+import se.tink.org.apache.http.cookie.CookieSpecProvider;
+import se.tink.org.apache.http.cookie.params.CookieSpecPNames;
+import se.tink.org.apache.http.params.HttpParams;
+import se.tink.org.apache.http.protocol.HttpContext;
 import se.tink.org.apache.http.cookie.CookieSpec;
 import se.tink.org.apache.http.cookie.CookieSpecFactory;
 import se.tink.org.apache.http.cookie.CookieSpecProvider;

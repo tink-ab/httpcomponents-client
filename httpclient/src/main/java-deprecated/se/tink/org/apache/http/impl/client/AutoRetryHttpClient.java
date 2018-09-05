@@ -33,19 +33,19 @@ import java.net.URI;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.http.HttpHost;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.annotation.ThreadSafe;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.ResponseHandler;
-import org.apache.http.client.ServiceUnavailableRetryStrategy;
-import org.apache.http.client.methods.HttpUriRequest;
-import org.apache.http.conn.ClientConnectionManager;
-import org.apache.http.params.HttpParams;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.util.Args;
-import org.apache.http.util.EntityUtils;
+import se.tink.org.apache.http.HttpHost;
+import se.tink.org.apache.http.HttpRequest;
+import se.tink.org.apache.http.HttpResponse;
+import se.tink.org.apache.http.annotation.ThreadSafe;
+import se.tink.org.apache.http.client.HttpClient;
+import se.tink.org.apache.http.client.ResponseHandler;
+import se.tink.org.apache.http.client.ServiceUnavailableRetryStrategy;
+import se.tink.org.apache.http.client.methods.HttpUriRequest;
+import se.tink.org.apache.http.conn.ClientConnectionManager;
+import se.tink.org.apache.http.params.HttpParams;
+import se.tink.org.apache.http.protocol.HttpContext;
+import se.tink.org.apache.http.util.Args;
+import se.tink.org.apache.http.util.EntityUtils;
 
 /**
  * {@link HttpClient} implementation that can automatically retry the request in case of

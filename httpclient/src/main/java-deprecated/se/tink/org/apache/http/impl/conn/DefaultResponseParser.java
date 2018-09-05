@@ -86,7 +86,7 @@ public class DefaultResponseParser extends AbstractMessageParser<HttpMessage> {
 
     protected int getMaxGarbageLines(final HttpParams params) {
         return params.getIntParameter(
-                org.apache.http.conn.params.ConnConnectionPNames.MAX_STATUS_LINE_GARBAGE,
+                ConnConnectionPNames.MAX_STATUS_LINE_GARBAGE,
                 Integer.MAX_VALUE);
     }
 

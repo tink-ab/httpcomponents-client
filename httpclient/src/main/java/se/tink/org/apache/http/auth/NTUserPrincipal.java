@@ -30,9 +30,9 @@ import java.io.Serializable;
 import java.security.Principal;
 import java.util.Locale;
 
-import org.apache.http.annotation.Immutable;
-import org.apache.http.util.Args;
-import org.apache.http.util.LangUtils;
+import se.tink.org.apache.http.annotation.Immutable;
+import se.tink.org.apache.http.util.Args;
+import se.tink.org.apache.http.util.LangUtils;
 
 /**
  * Microsoft Windows specific user principal implementation.

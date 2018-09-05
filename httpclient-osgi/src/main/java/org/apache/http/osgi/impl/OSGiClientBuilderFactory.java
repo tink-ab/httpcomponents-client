@@ -29,9 +29,9 @@ package org.apache.http.osgi.impl;
 import java.util.List;
 import java.util.Map;
 
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.http.osgi.services.HttpClientBuilderFactory;
+import se.tink.org.apache.http.impl.client.CloseableHttpClient;
+import se.tink.org.apache.http.impl.client.HttpClientBuilder;
+import se.tink.org.apache.http.osgi.services.HttpClientBuilderFactory;
 import org.osgi.framework.BundleContext;
 import org.osgi.framework.ServiceRegistration;
 

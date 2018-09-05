@@ -38,12 +38,12 @@ import java.util.concurrent.locks.ReentrantLock;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.http.annotation.GuardedBy;
-import org.apache.http.conn.ConnectionPoolTimeoutException;
-import org.apache.http.conn.OperatedClientConnection;
-import org.apache.http.conn.routing.HttpRoute;
-import org.apache.http.impl.conn.IdleConnectionHandler;
-import org.apache.http.util.Args;
+import se.tink.org.apache.http.annotation.GuardedBy;
+import se.tink.org.apache.http.conn.ConnectionPoolTimeoutException;
+import se.tink.org.apache.http.conn.OperatedClientConnection;
+import se.tink.org.apache.http.conn.routing.HttpRoute;
+import se.tink.org.apache.http.impl.conn.IdleConnectionHandler;
+import se.tink.org.apache.http.util.Args;
 
 /**
  * An abstract connection pool.

@@ -171,7 +171,7 @@ public class BasicHttpClientConnectionManager implements HttpClientConnectionMan
     }
 
     HttpRoute getRoute() {
-        return route;
+        return this.route;
     }
 
     Object getState() {

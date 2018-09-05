@@ -37,21 +37,21 @@ import java.util.Map;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.http.FormattedHeader;
-import org.apache.http.Header;
-import org.apache.http.HttpResponse;
-import org.apache.http.annotation.Immutable;
-import org.apache.http.auth.AuthScheme;
-import org.apache.http.auth.AuthSchemeRegistry;
-import org.apache.http.auth.AuthenticationException;
-import org.apache.http.auth.MalformedChallengeException;
-import org.apache.http.client.AuthenticationHandler;
-import org.apache.http.client.params.AuthPolicy;
-import org.apache.http.client.protocol.ClientContext;
-import org.apache.http.protocol.HTTP;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.util.Asserts;
-import org.apache.http.util.CharArrayBuffer;
+import se.tink.org.apache.http.FormattedHeader;
+import se.tink.org.apache.http.Header;
+import se.tink.org.apache.http.HttpResponse;
+import se.tink.org.apache.http.annotation.Immutable;
+import se.tink.org.apache.http.auth.AuthScheme;
+import se.tink.org.apache.http.auth.AuthSchemeRegistry;
+import se.tink.org.apache.http.auth.AuthenticationException;
+import se.tink.org.apache.http.auth.MalformedChallengeException;
+import se.tink.org.apache.http.client.AuthenticationHandler;
+import se.tink.org.apache.http.client.params.AuthPolicy;
+import se.tink.org.apache.http.client.protocol.ClientContext;
+import se.tink.org.apache.http.protocol.HTTP;
+import se.tink.org.apache.http.protocol.HttpContext;
+import se.tink.org.apache.http.util.Asserts;
+import se.tink.org.apache.http.util.CharArrayBuffer;
 
 /**
  * Base class for {@link AuthenticationHandler} implementations.

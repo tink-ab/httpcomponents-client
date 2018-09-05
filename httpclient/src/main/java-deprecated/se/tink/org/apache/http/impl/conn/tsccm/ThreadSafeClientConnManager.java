@@ -31,20 +31,20 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.http.annotation.ThreadSafe;
-import org.apache.http.conn.ClientConnectionManager;
-import org.apache.http.conn.ClientConnectionOperator;
-import org.apache.http.conn.ClientConnectionRequest;
-import org.apache.http.conn.ConnectionPoolTimeoutException;
-import org.apache.http.conn.ManagedClientConnection;
-import org.apache.http.conn.params.ConnPerRouteBean;
-import org.apache.http.conn.routing.HttpRoute;
-import org.apache.http.conn.scheme.SchemeRegistry;
-import org.apache.http.impl.conn.DefaultClientConnectionOperator;
-import org.apache.http.impl.conn.SchemeRegistryFactory;
-import org.apache.http.params.HttpParams;
-import org.apache.http.util.Args;
-import org.apache.http.util.Asserts;
+import se.tink.org.apache.http.annotation.ThreadSafe;
+import se.tink.org.apache.http.conn.ClientConnectionManager;
+import se.tink.org.apache.http.conn.ClientConnectionOperator;
+import se.tink.org.apache.http.conn.ClientConnectionRequest;
+import se.tink.org.apache.http.conn.ConnectionPoolTimeoutException;
+import se.tink.org.apache.http.conn.ManagedClientConnection;
+import se.tink.org.apache.http.conn.params.ConnPerRouteBean;
+import se.tink.org.apache.http.conn.routing.HttpRoute;
+import se.tink.org.apache.http.conn.scheme.SchemeRegistry;
+import se.tink.org.apache.http.impl.conn.DefaultClientConnectionOperator;
+import se.tink.org.apache.http.impl.conn.SchemeRegistryFactory;
+import se.tink.org.apache.http.params.HttpParams;
+import se.tink.org.apache.http.util.Args;
+import se.tink.org.apache.http.util.Asserts;
 
 /**
  * Manages a pool of {@link org.apache.http.conn.OperatedClientConnection }

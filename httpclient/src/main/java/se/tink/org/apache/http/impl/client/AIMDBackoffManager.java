@@ -29,10 +29,10 @@ package se.tink.org.apache.http.impl.client;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.apache.http.client.BackoffManager;
-import org.apache.http.conn.routing.HttpRoute;
-import org.apache.http.pool.ConnPoolControl;
-import org.apache.http.util.Args;
+import se.tink.org.apache.http.client.BackoffManager;
+import se.tink.org.apache.http.conn.routing.HttpRoute;
+import se.tink.org.apache.http.pool.ConnPoolControl;
+import se.tink.org.apache.http.util.Args;
 import se.tink.org.apache.http.client.BackoffManager;
 import se.tink.org.apache.http.conn.routing.HttpRoute;
 

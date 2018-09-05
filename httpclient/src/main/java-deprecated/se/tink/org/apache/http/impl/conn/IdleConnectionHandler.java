@@ -34,7 +34,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.http.HttpConnection;
+import se.tink.org.apache.http.HttpConnection;
 import se.tink.org.apache.http.conn.ClientConnectionManager;
 
 // Currently only used by AbstractConnPool

@@ -30,12 +30,12 @@ import java.io.IOException;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.http.Header;
-import org.apache.http.HttpRequest;
-import org.apache.http.auth.AuthenticationException;
-import org.apache.http.auth.Credentials;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.util.Args;
+import se.tink.org.apache.http.Header;
+import se.tink.org.apache.http.HttpRequest;
+import se.tink.org.apache.http.auth.AuthenticationException;
+import se.tink.org.apache.http.auth.Credentials;
+import se.tink.org.apache.http.protocol.HttpContext;
+import se.tink.org.apache.http.util.Args;
 import org.ietf.jgss.GSSException;
 import org.ietf.jgss.Oid;
 import se.tink.org.apache.http.auth.AuthenticationException;

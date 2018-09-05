@@ -26,9 +26,9 @@
  */
 package se.tink.org.apache.http.impl.conn.tsccm;
 
-import org.apache.http.conn.ClientConnectionManager;
-import org.apache.http.impl.conn.AbstractPoolEntry;
-import org.apache.http.impl.conn.AbstractPooledConnAdapter;
+import se.tink.org.apache.http.conn.ClientConnectionManager;
+import se.tink.org.apache.http.impl.conn.AbstractPoolEntry;
+import se.tink.org.apache.http.impl.conn.AbstractPooledConnAdapter;
 
 /**
  * A connection wrapper and callback handler.

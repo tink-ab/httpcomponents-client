@@ -49,18 +49,18 @@ public final class DateUtils {
     /**
      * Date format pattern used to parse HTTP date headers in RFC 1123 format.
      */
-    public static final String PATTERN_RFC1123 = org.apache.http.client.utils.DateUtils.PATTERN_RFC1123;
+    public static final String PATTERN_RFC1123 = se.tink.org.apache.http.client.utils.DateUtils.PATTERN_RFC1123;
 
     /**
      * Date format pattern used to parse HTTP date headers in RFC 1036 format.
      */
-    public static final String PATTERN_RFC1036 = org.apache.http.client.utils.DateUtils.PATTERN_RFC1036;
+    public static final String PATTERN_RFC1036 = se.tink.org.apache.http.client.utils.DateUtils.PATTERN_RFC1036;
 
     /**
      * Date format pattern used to parse HTTP date headers in ANSI C
      * <code>asctime()</code> format.
      */
-    public static final String PATTERN_ASCTIME = org.apache.http.client.utils.DateUtils.PATTERN_ASCTIME;
+    public static final String PATTERN_ASCTIME = se.tink.org.apache.http.client.utils.DateUtils.PATTERN_ASCTIME;
 
     public static final TimeZone GMT = TimeZone.getTimeZone("GMT");
 
@@ -113,7 +113,7 @@ public final class DateUtils {
         final String[] dateFormats,
         final Date startDate
     ) throws DateParseException {
-        final Date d = org.apache.http.client.utils.DateUtils.parseDate(dateValue, dateFormats, startDate);
+        final Date d = se.tink.org.apache.http.client.utils.DateUtils.parseDate(dateValue, dateFormats, startDate);
         if (d == null) {
             throw new DateParseException("Unable to parse the date " + dateValue);
         }
@@ -129,7 +129,7 @@ public final class DateUtils {
      * @see #PATTERN_RFC1123
      */
     public static String formatDate(final Date date) {
-        return org.apache.http.client.utils.DateUtils.formatDate(date);
+        return se.tink.org.apache.http.client.utils.DateUtils.formatDate(date);
     }
 
     /**
@@ -146,7 +146,7 @@ public final class DateUtils {
      * @see java.text.SimpleDateFormat
      */
     public static String formatDate(final Date date, final String pattern) {
-        return org.apache.http.client.utils.DateUtils.formatDate(date, pattern);
+        return se.tink.org.apache.http.client.utils.DateUtils.formatDate(date, pattern);
     }
 
     /** This class should not be instantiated. */

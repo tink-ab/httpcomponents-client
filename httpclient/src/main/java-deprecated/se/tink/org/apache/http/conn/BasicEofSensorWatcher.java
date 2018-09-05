@@ -29,8 +29,8 @@ package se.tink.org.apache.http.conn;
 import java.io.IOException;
 import java.io.InputStream;
 
-import org.apache.http.annotation.NotThreadSafe;
-import org.apache.http.util.Args;
+import se.tink.org.apache.http.annotation.NotThreadSafe;
+import se.tink.org.apache.http.util.Args;
 
 /**
  * Basic implementation of {@link EofSensorWatcher}. The underlying connection

@@ -31,13 +31,13 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-import org.apache.http.Header;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpEntityEnclosingRequest;
-import org.apache.http.ProtocolException;
-import org.apache.http.annotation.NotThreadSafe;
-import org.apache.http.entity.HttpEntityWrapper;
-import org.apache.http.protocol.HTTP;
+import se.tink.org.apache.http.Header;
+import se.tink.org.apache.http.HttpEntity;
+import se.tink.org.apache.http.HttpEntityEnclosingRequest;
+import se.tink.org.apache.http.ProtocolException;
+import se.tink.org.apache.http.annotation.NotThreadSafe;
+import se.tink.org.apache.http.entity.HttpEntityWrapper;
+import se.tink.org.apache.http.protocol.HTTP;
 
 /**
  * A wrapper class for {@link HttpEntityEnclosingRequest}s that can

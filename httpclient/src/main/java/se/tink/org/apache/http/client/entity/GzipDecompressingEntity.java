@@ -30,8 +30,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.zip.GZIPInputStream;
 
-import org.apache.http.Header;
-import org.apache.http.HttpEntity;
+import se.tink.org.apache.http.Header;
+import se.tink.org.apache.http.HttpEntity;
 
 /**
  * {@link org.apache.http.entity.HttpEntityWrapper} for handling gzip

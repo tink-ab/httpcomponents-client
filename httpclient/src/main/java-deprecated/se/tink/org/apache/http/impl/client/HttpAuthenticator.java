@@ -39,7 +39,7 @@ import se.tink.org.apache.http.protocol.HttpContext;
  *
  */
 @Deprecated
-public class HttpAuthenticator extends org.apache.http.impl.auth.HttpAuthenticator {
+public class HttpAuthenticator extends se.tink.org.apache.http.impl.auth.HttpAuthenticator {
 
     public HttpAuthenticator(final Log log) {
         super(log);
