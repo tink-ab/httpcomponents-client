@@ -28,16 +28,16 @@ package org.apache.http.examples.entity.mime;
 
 import java.io.File;
 
-import se.tink.org.apache.http.HttpEntity;
-import se.tink.org.apache.http.client.methods.CloseableHttpResponse;
-import se.tink.org.apache.http.client.methods.HttpPost;
-import se.tink.org.apache.http.entity.ContentType;
-import se.tink.org.apache.http.entity.mime.MultipartEntityBuilder;
-import se.tink.org.apache.http.entity.mime.content.FileBody;
-import se.tink.org.apache.http.entity.mime.content.StringBody;
-import se.tink.org.apache.http.impl.client.CloseableHttpClient;
-import se.tink.org.apache.http.impl.client.HttpClients;
-import se.tink.org.apache.http.util.EntityUtils;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.client.methods.CloseableHttpResponse;
+import tink.org.apache.http.client.methods.HttpPost;
+import tink.org.apache.http.entity.ContentType;
+import tink.org.apache.http.entity.mime.MultipartEntityBuilder;
+import tink.org.apache.http.entity.mime.content.FileBody;
+import tink.org.apache.http.entity.mime.content.StringBody;
+import tink.org.apache.http.impl.client.CloseableHttpClient;
+import tink.org.apache.http.impl.client.HttpClients;
+import tink.org.apache.http.util.EntityUtils;
 
 /**
  * Example how to use multipart/form encoded POST request.

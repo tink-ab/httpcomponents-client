@@ -32,7 +32,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-import se.tink.org.apache.http.client.cache.HttpCacheEntry;
+import tink.org.apache.http.client.cache.HttpCacheEntry;
 
 /**
  * Default implementation of {@link MemcachedCacheEntry}. This implementation

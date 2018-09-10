@@ -34,12 +34,12 @@ import junit.framework.TestCase;
 import net.sf.ehcache.Ehcache;
 import net.sf.ehcache.Element;
 
-import se.tink.org.apache.http.client.cache.HttpCacheEntry;
-import se.tink.org.apache.http.client.cache.HttpCacheEntrySerializer;
-import se.tink.org.apache.http.client.cache.HttpCacheUpdateCallback;
-import se.tink.org.apache.http.client.cache.HttpCacheUpdateException;
-import se.tink.org.apache.http.impl.client.cache.CacheConfig;
-import se.tink.org.apache.http.impl.client.cache.HttpTestUtils;
+import tink.org.apache.http.client.cache.HttpCacheEntry;
+import tink.org.apache.http.client.cache.HttpCacheEntrySerializer;
+import tink.org.apache.http.client.cache.HttpCacheUpdateCallback;
+import tink.org.apache.http.client.cache.HttpCacheUpdateException;
+import tink.org.apache.http.impl.client.cache.CacheConfig;
+import tink.org.apache.http.impl.client.cache.HttpTestUtils;
 import org.easymock.EasyMock;
 import org.junit.Test;
 

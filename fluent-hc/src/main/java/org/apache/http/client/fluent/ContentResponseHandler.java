@@ -28,14 +28,14 @@ package org.apache.http.client.fluent;
 
 import java.io.IOException;
 
-import se.tink.org.apache.http.HttpEntity;
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.StatusLine;
-import se.tink.org.apache.http.client.ClientProtocolException;
-import se.tink.org.apache.http.client.HttpResponseException;
-import se.tink.org.apache.http.client.ResponseHandler;
-import se.tink.org.apache.http.entity.ContentType;
-import se.tink.org.apache.http.util.EntityUtils;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.StatusLine;
+import tink.org.apache.http.client.ClientProtocolException;
+import tink.org.apache.http.client.HttpResponseException;
+import tink.org.apache.http.client.ResponseHandler;
+import tink.org.apache.http.entity.ContentType;
+import tink.org.apache.http.util.EntityUtils;
 
 class ContentResponseHandler implements ResponseHandler<Content> {
 

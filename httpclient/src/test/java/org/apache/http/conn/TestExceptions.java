@@ -27,7 +27,7 @@
 
 package org.apache.http.conn;
 
-import se.tink.org.apache.http.HttpHost;
+import tink.org.apache.http.HttpHost;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -29,11 +29,11 @@ package org.apache.http.client.methods;
 
 import java.io.ByteArrayInputStream;
 
-import se.tink.org.apache.http.Header;
-import se.tink.org.apache.http.HttpVersion;
-import se.tink.org.apache.http.entity.InputStreamEntity;
-import se.tink.org.apache.http.entity.StringEntity;
-import se.tink.org.apache.http.util.LangUtils;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.entity.InputStreamEntity;
+import tink.org.apache.http.entity.StringEntity;
+import tink.org.apache.http.util.LangUtils;
 import org.junit.Assert;
 import org.junit.Test;
 

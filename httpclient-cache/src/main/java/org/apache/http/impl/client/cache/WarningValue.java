@@ -32,8 +32,8 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import se.tink.org.apache.http.Header;
-import se.tink.org.apache.http.client.utils.DateUtils;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.client.utils.DateUtils;
 
 /** This class provides for parsing and understanding Warning headers. As
  * the Warning header can be multi-valued, but the values can contain

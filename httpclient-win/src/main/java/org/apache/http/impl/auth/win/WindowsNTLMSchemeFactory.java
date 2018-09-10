@@ -27,11 +27,11 @@
 
 package org.apache.http.impl.auth.win;
 
-import se.tink.org.apache.http.annotation.Immutable;
-import se.tink.org.apache.http.auth.AuthScheme;
-import se.tink.org.apache.http.auth.AuthSchemeProvider;
-import se.tink.org.apache.http.client.config.AuthSchemes;
-import se.tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.annotation.Immutable;
+import tink.org.apache.http.auth.AuthScheme;
+import tink.org.apache.http.auth.AuthSchemeProvider;
+import tink.org.apache.http.client.config.AuthSchemes;
+import tink.org.apache.http.protocol.HttpContext;
 
 /**
  * {@link AuthSchemeProvider} implementation that creates and initializes

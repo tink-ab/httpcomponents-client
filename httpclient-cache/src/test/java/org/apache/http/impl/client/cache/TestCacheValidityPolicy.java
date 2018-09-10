@@ -34,14 +34,14 @@ import static org.junit.Assert.assertTrue;
 
 import java.util.Date;
 
-import se.tink.org.apache.http.Header;
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.HttpVersion;
-import se.tink.org.apache.http.client.cache.HttpCacheEntry;
-import se.tink.org.apache.http.client.utils.DateUtils;
-import se.tink.org.apache.http.message.BasicHeader;
-import se.tink.org.apache.http.message.BasicHttpRequest;
-import se.tink.org.apache.http.protocol.HTTP;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.client.cache.HttpCacheEntry;
+import tink.org.apache.http.client.utils.DateUtils;
+import tink.org.apache.http.message.BasicHeader;
+import tink.org.apache.http.message.BasicHttpRequest;
+import tink.org.apache.http.protocol.HTTP;
 import org.junit.Before;
 import org.junit.Test;
 

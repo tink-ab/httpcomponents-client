@@ -29,8 +29,8 @@ package org.apache.http.client.fluent;
 import java.util.ArrayList;
 import java.util.List;
 
-import se.tink.org.apache.http.NameValuePair;
-import se.tink.org.apache.http.message.BasicNameValuePair;
+import tink.org.apache.http.NameValuePair;
+import tink.org.apache.http.message.BasicNameValuePair;
 
 public class Form {
 

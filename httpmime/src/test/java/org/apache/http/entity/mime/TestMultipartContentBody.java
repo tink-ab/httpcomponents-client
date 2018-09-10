@@ -29,9 +29,9 @@ package org.apache.http.entity.mime;
 
 import java.io.ByteArrayInputStream;
 
-import se.tink.org.apache.http.entity.ContentType;
-import se.tink.org.apache.http.entity.mime.content.InputStreamBody;
-import se.tink.org.apache.http.entity.mime.content.StringBody;
+import tink.org.apache.http.entity.ContentType;
+import tink.org.apache.http.entity.mime.content.InputStreamBody;
+import tink.org.apache.http.entity.mime.content.StringBody;
 import org.junit.Assert;
 import org.junit.Test;
 

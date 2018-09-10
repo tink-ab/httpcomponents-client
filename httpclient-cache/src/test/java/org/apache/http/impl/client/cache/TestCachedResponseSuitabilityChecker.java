@@ -28,14 +28,14 @@ package org.apache.http.impl.client.cache;
 
 import java.util.Date;
 
-import se.tink.org.apache.http.Header;
-import se.tink.org.apache.http.HttpHost;
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.HttpVersion;
-import se.tink.org.apache.http.client.cache.HttpCacheEntry;
-import se.tink.org.apache.http.client.utils.DateUtils;
-import se.tink.org.apache.http.message.BasicHeader;
-import se.tink.org.apache.http.message.BasicHttpRequest;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.client.cache.HttpCacheEntry;
+import tink.org.apache.http.client.utils.DateUtils;
+import tink.org.apache.http.message.BasicHeader;
+import tink.org.apache.http.message.BasicHttpRequest;
 import org.easymock.classextension.EasyMock;
 import org.junit.Assert;
 import org.junit.Before;

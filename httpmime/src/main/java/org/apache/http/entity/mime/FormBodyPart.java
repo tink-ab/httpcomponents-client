@@ -27,10 +27,10 @@
 
 package org.apache.http.entity.mime;
 
-import se.tink.org.apache.http.entity.ContentType;
-import se.tink.org.apache.http.entity.mime.content.AbstractContentBody;
-import se.tink.org.apache.http.entity.mime.content.ContentBody;
-import se.tink.org.apache.http.util.Args;
+import tink.org.apache.http.entity.ContentType;
+import tink.org.apache.http.entity.mime.content.AbstractContentBody;
+import tink.org.apache.http.entity.mime.content.ContentBody;
+import tink.org.apache.http.util.Args;
 
 /**
  * FormBodyPart class represents a content body that can be used as a part of multipart encoded

@@ -28,10 +28,10 @@ package org.apache.http.impl.client.cache;
 
 import java.lang.reflect.Proxy;
 
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.annotation.NotThreadSafe;
-import se.tink.org.apache.http.client.methods.CloseableHttpResponse;
-import se.tink.org.apache.http.util.Args;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.annotation.NotThreadSafe;
+import tink.org.apache.http.client.methods.CloseableHttpResponse;
+import tink.org.apache.http.util.Args;
 
 /**
  * Proxies for HTTP message objects.

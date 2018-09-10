@@ -33,10 +33,10 @@ import java.io.OutputStreamWriter;
 import java.io.Writer;
 import java.net.Socket;
 
-import se.tink.org.apache.http.HttpHost;
-import se.tink.org.apache.http.auth.UsernamePasswordCredentials;
-import se.tink.org.apache.http.impl.client.ProxyClient;
-import se.tink.org.apache.http.protocol.HTTP;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.auth.UsernamePasswordCredentials;
+import tink.org.apache.http.impl.client.ProxyClient;
+import tink.org.apache.http.protocol.HTTP;
 
 /**
  * Example code for using {@link ProxyClient} in order to establish a tunnel through an HTTP proxy.

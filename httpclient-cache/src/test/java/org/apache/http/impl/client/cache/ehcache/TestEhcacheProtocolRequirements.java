@@ -31,12 +31,12 @@ import net.sf.ehcache.config.CacheConfiguration;
 import net.sf.ehcache.config.Configuration;
 import net.sf.ehcache.store.MemoryStoreEvictionPolicy;
 
-import se.tink.org.apache.http.client.cache.HttpCacheStorage;
-import se.tink.org.apache.http.impl.client.cache.CacheConfig;
-import se.tink.org.apache.http.impl.client.cache.CachingExec;
-import se.tink.org.apache.http.impl.client.cache.HeapResourceFactory;
-import se.tink.org.apache.http.impl.client.cache.TestProtocolRequirements;
-import se.tink.org.apache.http.impl.execchain.ClientExecChain;
+import tink.org.apache.http.client.cache.HttpCacheStorage;
+import tink.org.apache.http.impl.client.cache.CacheConfig;
+import tink.org.apache.http.impl.client.cache.CachingExec;
+import tink.org.apache.http.impl.client.cache.HeapResourceFactory;
+import tink.org.apache.http.impl.client.cache.TestProtocolRequirements;
+import tink.org.apache.http.impl.execchain.ClientExecChain;
 import org.easymock.classextension.EasyMock;
 import org.junit.After;
 import org.junit.AfterClass;

@@ -32,32 +32,32 @@ import java.security.NoSuchAlgorithmException;
 
 import javax.net.ssl.SSLContext;
 
-import se.tink.org.apache.http.HttpHost;
-import se.tink.org.apache.http.auth.AUTH;
-import se.tink.org.apache.http.auth.AuthScope;
-import se.tink.org.apache.http.auth.Credentials;
-import se.tink.org.apache.http.auth.MalformedChallengeException;
-import se.tink.org.apache.http.auth.NTCredentials;
-import se.tink.org.apache.http.auth.UsernamePasswordCredentials;
-import se.tink.org.apache.http.client.AuthCache;
-import se.tink.org.apache.http.client.ClientProtocolException;
-import se.tink.org.apache.http.client.CookieStore;
-import se.tink.org.apache.http.client.CredentialsProvider;
-import se.tink.org.apache.http.client.HttpClient;
-import se.tink.org.apache.http.client.protocol.HttpClientContext;
-import se.tink.org.apache.http.config.Registry;
-import se.tink.org.apache.http.config.RegistryBuilder;
-import se.tink.org.apache.http.conn.socket.ConnectionSocketFactory;
-import se.tink.org.apache.http.conn.socket.LayeredConnectionSocketFactory;
-import se.tink.org.apache.http.conn.socket.PlainConnectionSocketFactory;
-import se.tink.org.apache.http.conn.ssl.SSLConnectionSocketFactory;
-import se.tink.org.apache.http.conn.ssl.SSLInitializationException;
-import se.tink.org.apache.http.impl.auth.BasicScheme;
-import se.tink.org.apache.http.impl.client.BasicAuthCache;
-import se.tink.org.apache.http.impl.client.BasicCredentialsProvider;
-import se.tink.org.apache.http.impl.client.HttpClientBuilder;
-import se.tink.org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
-import se.tink.org.apache.http.message.BasicHeader;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.auth.AUTH;
+import tink.org.apache.http.auth.AuthScope;
+import tink.org.apache.http.auth.Credentials;
+import tink.org.apache.http.auth.MalformedChallengeException;
+import tink.org.apache.http.auth.NTCredentials;
+import tink.org.apache.http.auth.UsernamePasswordCredentials;
+import tink.org.apache.http.client.AuthCache;
+import tink.org.apache.http.client.ClientProtocolException;
+import tink.org.apache.http.client.CookieStore;
+import tink.org.apache.http.client.CredentialsProvider;
+import tink.org.apache.http.client.HttpClient;
+import tink.org.apache.http.client.protocol.HttpClientContext;
+import tink.org.apache.http.config.Registry;
+import tink.org.apache.http.config.RegistryBuilder;
+import tink.org.apache.http.conn.socket.ConnectionSocketFactory;
+import tink.org.apache.http.conn.socket.LayeredConnectionSocketFactory;
+import tink.org.apache.http.conn.socket.PlainConnectionSocketFactory;
+import tink.org.apache.http.conn.ssl.SSLConnectionSocketFactory;
+import tink.org.apache.http.conn.ssl.SSLInitializationException;
+import tink.org.apache.http.impl.auth.BasicScheme;
+import tink.org.apache.http.impl.client.BasicAuthCache;
+import tink.org.apache.http.impl.client.BasicCredentialsProvider;
+import tink.org.apache.http.impl.client.HttpClientBuilder;
+import tink.org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
+import tink.org.apache.http.message.BasicHeader;
 
 /**
  * An Executor for fluent requests

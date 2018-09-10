@@ -34,9 +34,9 @@ import static org.junit.Assert.assertTrue;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 
-import se.tink.org.apache.http.client.cache.HttpCacheEntry;
-import se.tink.org.apache.http.impl.client.cache.DefaultHttpCacheEntrySerializer;
-import se.tink.org.apache.http.impl.client.cache.HttpTestUtils;
+import tink.org.apache.http.client.cache.HttpCacheEntry;
+import tink.org.apache.http.impl.client.cache.DefaultHttpCacheEntrySerializer;
+import tink.org.apache.http.impl.client.cache.HttpTestUtils;
 import org.junit.Before;
 import org.junit.Test;
 

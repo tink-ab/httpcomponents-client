@@ -40,14 +40,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.apache.commons.codec.binary.Base64;
-import se.tink.org.apache.http.Header;
-import se.tink.org.apache.http.ProtocolVersion;
-import se.tink.org.apache.http.StatusLine;
-import se.tink.org.apache.http.client.cache.HttpCacheEntry;
-import se.tink.org.apache.http.client.cache.HttpCacheEntrySerializer;
-import se.tink.org.apache.http.client.cache.Resource;
-import se.tink.org.apache.http.message.BasicHeader;
-import se.tink.org.apache.http.message.BasicStatusLine;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.ProtocolVersion;
+import tink.org.apache.http.StatusLine;
+import tink.org.apache.http.client.cache.HttpCacheEntry;
+import tink.org.apache.http.client.cache.HttpCacheEntrySerializer;
+import tink.org.apache.http.client.cache.Resource;
+import tink.org.apache.http.message.BasicHeader;
+import tink.org.apache.http.message.BasicStatusLine;
 import org.junit.Before;
 import org.junit.Test;
 

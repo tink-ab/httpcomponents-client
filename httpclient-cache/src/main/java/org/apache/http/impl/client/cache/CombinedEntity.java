@@ -32,10 +32,10 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.SequenceInputStream;
 
-import se.tink.org.apache.http.annotation.NotThreadSafe;
-import se.tink.org.apache.http.client.cache.Resource;
-import se.tink.org.apache.http.entity.AbstractHttpEntity;
-import se.tink.org.apache.http.util.Args;
+import tink.org.apache.http.annotation.NotThreadSafe;
+import tink.org.apache.http.client.cache.Resource;
+import tink.org.apache.http.entity.AbstractHttpEntity;
+import tink.org.apache.http.util.Args;
 
 @NotThreadSafe
 class CombinedEntity extends AbstractHttpEntity {

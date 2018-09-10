@@ -26,20 +26,20 @@
  */
 package org.apache.http.examples.client;
 
-import se.tink.org.apache.http.HttpHost;
-import se.tink.org.apache.http.auth.AuthScope;
-import se.tink.org.apache.http.auth.UsernamePasswordCredentials;
-import se.tink.org.apache.http.client.AuthCache;
-import se.tink.org.apache.http.client.CredentialsProvider;
-import se.tink.org.apache.http.client.methods.CloseableHttpResponse;
-import se.tink.org.apache.http.client.methods.HttpGet;
-import se.tink.org.apache.http.client.protocol.HttpClientContext;
-import se.tink.org.apache.http.impl.auth.BasicScheme;
-import se.tink.org.apache.http.impl.client.BasicAuthCache;
-import se.tink.org.apache.http.impl.client.BasicCredentialsProvider;
-import se.tink.org.apache.http.impl.client.CloseableHttpClient;
-import se.tink.org.apache.http.impl.client.HttpClients;
-import se.tink.org.apache.http.util.EntityUtils;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.auth.AuthScope;
+import tink.org.apache.http.auth.UsernamePasswordCredentials;
+import tink.org.apache.http.client.AuthCache;
+import tink.org.apache.http.client.CredentialsProvider;
+import tink.org.apache.http.client.methods.CloseableHttpResponse;
+import tink.org.apache.http.client.methods.HttpGet;
+import tink.org.apache.http.client.protocol.HttpClientContext;
+import tink.org.apache.http.impl.auth.BasicScheme;
+import tink.org.apache.http.impl.client.BasicAuthCache;
+import tink.org.apache.http.impl.client.BasicCredentialsProvider;
+import tink.org.apache.http.impl.client.CloseableHttpClient;
+import tink.org.apache.http.impl.client.HttpClients;
+import tink.org.apache.http.util.EntityUtils;
 
 /**
  * An example of HttpClient can be customized to authenticate

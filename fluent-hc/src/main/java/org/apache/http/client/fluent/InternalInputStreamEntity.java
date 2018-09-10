@@ -31,9 +31,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-import se.tink.org.apache.http.entity.AbstractHttpEntity;
-import se.tink.org.apache.http.entity.ContentType;
-import se.tink.org.apache.http.util.Args;
+import tink.org.apache.http.entity.AbstractHttpEntity;
+import tink.org.apache.http.entity.ContentType;
+import tink.org.apache.http.util.Args;
 
 class InternalInputStreamEntity extends AbstractHttpEntity {
 

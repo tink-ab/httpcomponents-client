@@ -33,17 +33,17 @@ import java.util.Date;
 import java.util.List;
 import java.util.ListIterator;
 
-import se.tink.org.apache.http.Header;
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.HttpStatus;
-import se.tink.org.apache.http.annotation.Immutable;
-import se.tink.org.apache.http.client.cache.HeaderConstants;
-import se.tink.org.apache.http.client.cache.HttpCacheEntry;
-import se.tink.org.apache.http.client.cache.Resource;
-import se.tink.org.apache.http.client.cache.ResourceFactory;
-import se.tink.org.apache.http.client.utils.DateUtils;
-import se.tink.org.apache.http.protocol.HTTP;
-import se.tink.org.apache.http.util.Args;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.annotation.Immutable;
+import tink.org.apache.http.client.cache.HeaderConstants;
+import tink.org.apache.http.client.cache.HttpCacheEntry;
+import tink.org.apache.http.client.cache.Resource;
+import tink.org.apache.http.client.cache.ResourceFactory;
+import tink.org.apache.http.client.utils.DateUtils;
+import tink.org.apache.http.protocol.HTTP;
+import tink.org.apache.http.util.Args;
 
 /**
  * Update a {@link HttpCacheEntry} with new or updated information based on the latest

@@ -29,16 +29,16 @@ package org.apache.http.examples.client;
 import java.util.ArrayList;
 import java.util.List;
 
-import se.tink.org.apache.http.HttpEntity;
-import se.tink.org.apache.http.NameValuePair;
-import se.tink.org.apache.http.client.entity.UrlEncodedFormEntity;
-import se.tink.org.apache.http.client.methods.CloseableHttpResponse;
-import se.tink.org.apache.http.client.methods.HttpGet;
-import se.tink.org.apache.http.client.methods.HttpPost;
-import se.tink.org.apache.http.impl.client.CloseableHttpClient;
-import se.tink.org.apache.http.impl.client.HttpClients;
-import se.tink.org.apache.http.message.BasicNameValuePair;
-import se.tink.org.apache.http.util.EntityUtils;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.NameValuePair;
+import tink.org.apache.http.client.entity.UrlEncodedFormEntity;
+import tink.org.apache.http.client.methods.CloseableHttpResponse;
+import tink.org.apache.http.client.methods.HttpGet;
+import tink.org.apache.http.client.methods.HttpPost;
+import tink.org.apache.http.impl.client.CloseableHttpClient;
+import tink.org.apache.http.impl.client.HttpClients;
+import tink.org.apache.http.message.BasicNameValuePair;
+import tink.org.apache.http.util.EntityUtils;
 
 public class QuickStart {
 

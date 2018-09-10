@@ -35,11 +35,11 @@ import java.util.concurrent.RejectedExecutionException;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import se.tink.org.apache.http.client.cache.HttpCacheEntry;
-import se.tink.org.apache.http.client.methods.HttpExecutionAware;
-import se.tink.org.apache.http.client.methods.HttpRequestWrapper;
-import se.tink.org.apache.http.client.protocol.HttpClientContext;
-import se.tink.org.apache.http.conn.routing.HttpRoute;
+import tink.org.apache.http.client.cache.HttpCacheEntry;
+import tink.org.apache.http.client.methods.HttpExecutionAware;
+import tink.org.apache.http.client.methods.HttpRequestWrapper;
+import tink.org.apache.http.client.protocol.HttpClientContext;
+import tink.org.apache.http.conn.routing.HttpRoute;
 
 /**
  * Class used for asynchronous revalidations to be used when the "stale-

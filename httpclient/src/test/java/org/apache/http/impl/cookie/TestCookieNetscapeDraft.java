@@ -32,13 +32,13 @@ import java.util.Calendar;
 import java.util.List;
 import java.util.TimeZone;
 
-import se.tink.org.apache.http.Header;
-import se.tink.org.apache.http.cookie.ClientCookie;
-import se.tink.org.apache.http.cookie.Cookie;
-import se.tink.org.apache.http.cookie.CookieOrigin;
-import se.tink.org.apache.http.cookie.CookieSpec;
-import se.tink.org.apache.http.cookie.MalformedCookieException;
-import se.tink.org.apache.http.message.BasicHeader;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.cookie.ClientCookie;
+import tink.org.apache.http.cookie.Cookie;
+import tink.org.apache.http.cookie.CookieOrigin;
+import tink.org.apache.http.cookie.CookieSpec;
+import tink.org.apache.http.cookie.MalformedCookieException;
+import tink.org.apache.http.message.BasicHeader;
 import org.junit.Assert;
 import org.junit.Test;
 

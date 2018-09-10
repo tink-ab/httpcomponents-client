@@ -30,8 +30,8 @@ package org.apache.http.impl.auth.win;
 import java.io.Serializable;
 import java.security.Principal;
 
-import se.tink.org.apache.http.annotation.Immutable;
-import se.tink.org.apache.http.auth.Credentials;
+import tink.org.apache.http.annotation.Immutable;
+import tink.org.apache.http.auth.Credentials;
 
 import com.sun.jna.platform.win32.Secur32Util;
 import com.sun.jna.platform.win32.Secur32.EXTENDED_NAME_FORMAT;

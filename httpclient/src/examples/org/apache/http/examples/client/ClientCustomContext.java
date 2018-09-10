@@ -29,15 +29,15 @@ package org.apache.http.examples.client;
 
 import java.util.List;
 
-import se.tink.org.apache.http.client.CookieStore;
-import se.tink.org.apache.http.client.methods.CloseableHttpResponse;
-import se.tink.org.apache.http.client.methods.HttpGet;
-import se.tink.org.apache.http.client.protocol.HttpClientContext;
-import se.tink.org.apache.http.cookie.Cookie;
-import se.tink.org.apache.http.impl.client.BasicCookieStore;
-import se.tink.org.apache.http.impl.client.CloseableHttpClient;
-import se.tink.org.apache.http.impl.client.HttpClients;
-import se.tink.org.apache.http.util.EntityUtils;
+import tink.org.apache.http.client.CookieStore;
+import tink.org.apache.http.client.methods.CloseableHttpResponse;
+import tink.org.apache.http.client.methods.HttpGet;
+import tink.org.apache.http.client.protocol.HttpClientContext;
+import tink.org.apache.http.cookie.Cookie;
+import tink.org.apache.http.impl.client.BasicCookieStore;
+import tink.org.apache.http.impl.client.CloseableHttpClient;
+import tink.org.apache.http.impl.client.HttpClients;
+import tink.org.apache.http.util.EntityUtils;
 
 /**
  * This example demonstrates the use of a local HTTP context populated with

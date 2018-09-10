@@ -30,7 +30,7 @@ package org.apache.http.client.utils;
 import java.util.Calendar;
 import java.util.Date;
 
-import se.tink.org.apache.http.impl.cookie.DateParseException;
+import tink.org.apache.http.impl.cookie.DateParseException;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -26,8 +26,8 @@
  */
 package org.apache.http.impl.client;
 
-import se.tink.org.apache.http.cookie.CookieIdentityComparator;
-import se.tink.org.apache.http.impl.cookie.BasicClientCookie;
+import tink.org.apache.http.cookie.CookieIdentityComparator;
+import tink.org.apache.http.impl.cookie.BasicClientCookie;
 import org.junit.Assert;
 import org.junit.Test;
 

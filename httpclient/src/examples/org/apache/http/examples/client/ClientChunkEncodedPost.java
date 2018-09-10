@@ -29,13 +29,13 @@ package org.apache.http.examples.client;
 import java.io.File;
 import java.io.FileInputStream;
 
-import se.tink.org.apache.http.client.methods.CloseableHttpResponse;
-import se.tink.org.apache.http.client.methods.HttpPost;
-import se.tink.org.apache.http.entity.ContentType;
-import se.tink.org.apache.http.entity.InputStreamEntity;
-import se.tink.org.apache.http.impl.client.CloseableHttpClient;
-import se.tink.org.apache.http.impl.client.HttpClients;
-import se.tink.org.apache.http.util.EntityUtils;
+import tink.org.apache.http.client.methods.CloseableHttpResponse;
+import tink.org.apache.http.client.methods.HttpPost;
+import tink.org.apache.http.entity.ContentType;
+import tink.org.apache.http.entity.InputStreamEntity;
+import tink.org.apache.http.impl.client.CloseableHttpClient;
+import tink.org.apache.http.impl.client.HttpClients;
+import tink.org.apache.http.util.EntityUtils;
 
 /**
  * Example how to use unbuffered chunk-encoded POST request.

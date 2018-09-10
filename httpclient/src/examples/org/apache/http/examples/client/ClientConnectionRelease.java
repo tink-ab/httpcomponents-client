@@ -30,11 +30,11 @@ package org.apache.http.examples.client;
 import java.io.IOException;
 import java.io.InputStream;
 
-import se.tink.org.apache.http.HttpEntity;
-import se.tink.org.apache.http.client.methods.CloseableHttpResponse;
-import se.tink.org.apache.http.client.methods.HttpGet;
-import se.tink.org.apache.http.impl.client.CloseableHttpClient;
-import se.tink.org.apache.http.impl.client.HttpClients;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.client.methods.CloseableHttpResponse;
+import tink.org.apache.http.client.methods.HttpGet;
+import tink.org.apache.http.impl.client.CloseableHttpClient;
+import tink.org.apache.http.impl.client.HttpClients;
 
 /**
  * This example demonstrates the recommended way of using API to make sure

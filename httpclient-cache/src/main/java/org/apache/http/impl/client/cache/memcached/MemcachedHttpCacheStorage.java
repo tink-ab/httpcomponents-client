@@ -37,12 +37,12 @@ import net.spy.memcached.OperationTimeoutException;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import se.tink.org.apache.http.client.cache.HttpCacheEntry;
-import se.tink.org.apache.http.client.cache.HttpCacheEntrySerializer;
-import se.tink.org.apache.http.client.cache.HttpCacheStorage;
-import se.tink.org.apache.http.client.cache.HttpCacheUpdateCallback;
-import se.tink.org.apache.http.client.cache.HttpCacheUpdateException;
-import se.tink.org.apache.http.impl.client.cache.CacheConfig;
+import tink.org.apache.http.client.cache.HttpCacheEntry;
+import tink.org.apache.http.client.cache.HttpCacheEntrySerializer;
+import tink.org.apache.http.client.cache.HttpCacheStorage;
+import tink.org.apache.http.client.cache.HttpCacheUpdateCallback;
+import tink.org.apache.http.client.cache.HttpCacheUpdateException;
+import tink.org.apache.http.impl.client.cache.CacheConfig;
 
 /**
  * <p>This class is a storage backend that uses an external <i>memcached</i>

@@ -26,10 +26,10 @@
  */
 package org.apache.http.client.cache;
 
-import se.tink.org.apache.http.annotation.NotThreadSafe;
-import se.tink.org.apache.http.client.protocol.HttpClientContext;
-import se.tink.org.apache.http.protocol.BasicHttpContext;
-import se.tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.annotation.NotThreadSafe;
+import tink.org.apache.http.client.protocol.HttpClientContext;
+import tink.org.apache.http.protocol.BasicHttpContext;
+import tink.org.apache.http.protocol.HttpContext;
 
 /**
  * @since 4.3

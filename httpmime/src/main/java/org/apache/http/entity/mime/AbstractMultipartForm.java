@@ -35,9 +35,9 @@ import java.nio.CharBuffer;
 import java.nio.charset.Charset;
 import java.util.List;
 
-import se.tink.org.apache.http.entity.mime.content.ContentBody;
-import se.tink.org.apache.http.util.Args;
-import se.tink.org.apache.http.util.ByteArrayBuffer;
+import tink.org.apache.http.entity.mime.content.ContentBody;
+import tink.org.apache.http.util.Args;
+import tink.org.apache.http.util.ByteArrayBuffer;
 
 /**
  * HttpMultipart represents a collection of MIME multipart encoded content bodies. This class is

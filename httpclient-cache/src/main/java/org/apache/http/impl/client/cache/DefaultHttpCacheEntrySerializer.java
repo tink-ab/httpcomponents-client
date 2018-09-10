@@ -32,10 +32,10 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.OutputStream;
 
-import se.tink.org.apache.http.annotation.Immutable;
-import se.tink.org.apache.http.client.cache.HttpCacheEntry;
-import se.tink.org.apache.http.client.cache.HttpCacheEntrySerializationException;
-import se.tink.org.apache.http.client.cache.HttpCacheEntrySerializer;
+import tink.org.apache.http.annotation.Immutable;
+import tink.org.apache.http.client.cache.HttpCacheEntry;
+import tink.org.apache.http.client.cache.HttpCacheEntrySerializationException;
+import tink.org.apache.http.client.cache.HttpCacheEntrySerializer;
 
 /**
  * {@link HttpCacheEntrySerializer} implementation that uses the default (native)

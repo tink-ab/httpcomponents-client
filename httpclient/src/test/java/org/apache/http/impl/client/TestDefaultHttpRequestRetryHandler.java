@@ -32,10 +32,10 @@ import static org.mockito.Mockito.when;
 import java.io.IOException;
 import java.net.UnknownHostException;
 
-import se.tink.org.apache.http.client.methods.HttpUriRequest;
-import se.tink.org.apache.http.conn.ConnectTimeoutException;
-import se.tink.org.apache.http.protocol.HttpContext;
-import se.tink.org.apache.http.protocol.HttpCoreContext;
+import tink.org.apache.http.client.methods.HttpUriRequest;
+import tink.org.apache.http.conn.ConnectTimeoutException;
+import tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.protocol.HttpCoreContext;
 import org.junit.Assert;
 import org.junit.Test;
 

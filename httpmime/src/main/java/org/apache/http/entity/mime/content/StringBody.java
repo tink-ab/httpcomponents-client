@@ -37,10 +37,10 @@ import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;
 import java.nio.charset.UnsupportedCharsetException;
 
-import se.tink.org.apache.http.Consts;
-import se.tink.org.apache.http.entity.ContentType;
-import se.tink.org.apache.http.entity.mime.MIME;
-import se.tink.org.apache.http.util.Args;
+import tink.org.apache.http.Consts;
+import tink.org.apache.http.entity.ContentType;
+import tink.org.apache.http.entity.mime.MIME;
+import tink.org.apache.http.util.Args;
 
 /**
  * Text body part backed by a byte array.

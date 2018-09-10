@@ -26,16 +26,16 @@
  */
 package org.apache.http.impl.execchain;
 
-import se.tink.org.apache.http.HttpHost;
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.client.ServiceUnavailableRetryStrategy;
-import se.tink.org.apache.http.client.methods.CloseableHttpResponse;
-import se.tink.org.apache.http.client.methods.HttpExecutionAware;
-import se.tink.org.apache.http.client.methods.HttpGet;
-import se.tink.org.apache.http.client.methods.HttpRequestWrapper;
-import se.tink.org.apache.http.client.protocol.HttpClientContext;
-import se.tink.org.apache.http.conn.routing.HttpRoute;
-import se.tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.client.ServiceUnavailableRetryStrategy;
+import tink.org.apache.http.client.methods.CloseableHttpResponse;
+import tink.org.apache.http.client.methods.HttpExecutionAware;
+import tink.org.apache.http.client.methods.HttpGet;
+import tink.org.apache.http.client.methods.HttpRequestWrapper;
+import tink.org.apache.http.client.protocol.HttpClientContext;
+import tink.org.apache.http.conn.routing.HttpRoute;
+import tink.org.apache.http.protocol.HttpContext;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;

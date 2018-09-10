@@ -26,7 +26,7 @@
  */
 package org.apache.http.client.cache;
 
-import se.tink.org.apache.http.annotation.NotThreadSafe;
+import tink.org.apache.http.annotation.NotThreadSafe;
 
 /**
  * Used to limiting the size of an incoming response body of

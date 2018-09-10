@@ -36,24 +36,24 @@ import java.util.Set;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import se.tink.org.apache.http.Header;
-import se.tink.org.apache.http.HttpHost;
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.HttpStatus;
-import se.tink.org.apache.http.HttpVersion;
-import se.tink.org.apache.http.client.cache.HeaderConstants;
-import se.tink.org.apache.http.client.cache.HttpCacheEntry;
-import se.tink.org.apache.http.client.cache.HttpCacheInvalidator;
-import se.tink.org.apache.http.client.cache.HttpCacheStorage;
-import se.tink.org.apache.http.client.cache.HttpCacheUpdateCallback;
-import se.tink.org.apache.http.client.cache.HttpCacheUpdateException;
-import se.tink.org.apache.http.client.cache.Resource;
-import se.tink.org.apache.http.client.cache.ResourceFactory;
-import se.tink.org.apache.http.client.methods.CloseableHttpResponse;
-import se.tink.org.apache.http.entity.ByteArrayEntity;
-import se.tink.org.apache.http.message.BasicHttpResponse;
-import se.tink.org.apache.http.protocol.HTTP;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.client.cache.HeaderConstants;
+import tink.org.apache.http.client.cache.HttpCacheEntry;
+import tink.org.apache.http.client.cache.HttpCacheInvalidator;
+import tink.org.apache.http.client.cache.HttpCacheStorage;
+import tink.org.apache.http.client.cache.HttpCacheUpdateCallback;
+import tink.org.apache.http.client.cache.HttpCacheUpdateException;
+import tink.org.apache.http.client.cache.Resource;
+import tink.org.apache.http.client.cache.ResourceFactory;
+import tink.org.apache.http.client.methods.CloseableHttpResponse;
+import tink.org.apache.http.entity.ByteArrayEntity;
+import tink.org.apache.http.message.BasicHttpResponse;
+import tink.org.apache.http.protocol.HTTP;
 
 class BasicHttpCache implements HttpCache {
     private static final Set<String> safeRequestMethods = new HashSet<String>(

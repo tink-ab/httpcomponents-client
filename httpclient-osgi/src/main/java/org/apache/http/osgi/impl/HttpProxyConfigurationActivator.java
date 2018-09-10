@@ -35,9 +35,9 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-import se.tink.org.apache.http.impl.client.CloseableHttpClient;
-import se.tink.org.apache.http.osgi.services.HttpClientBuilderFactory;
-import se.tink.org.apache.http.osgi.services.ProxyConfiguration;
+import tink.org.apache.http.impl.client.CloseableHttpClient;
+import tink.org.apache.http.osgi.services.HttpClientBuilderFactory;
+import tink.org.apache.http.osgi.services.ProxyConfiguration;
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 import org.osgi.framework.Constants;

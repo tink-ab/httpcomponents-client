@@ -32,14 +32,14 @@ import static org.junit.Assert.assertTrue;
 
 import java.util.Arrays;
 
-import se.tink.org.apache.http.HttpEntityEnclosingRequest;
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.HttpVersion;
-import se.tink.org.apache.http.ProtocolVersion;
-import se.tink.org.apache.http.client.methods.HttpPut;
-import se.tink.org.apache.http.client.methods.HttpRequestWrapper;
-import se.tink.org.apache.http.message.BasicHttpEntityEnclosingRequest;
-import se.tink.org.apache.http.message.BasicHttpRequest;
+import tink.org.apache.http.HttpEntityEnclosingRequest;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.ProtocolVersion;
+import tink.org.apache.http.client.methods.HttpPut;
+import tink.org.apache.http.client.methods.HttpRequestWrapper;
+import tink.org.apache.http.message.BasicHttpEntityEnclosingRequest;
+import tink.org.apache.http.message.BasicHttpRequest;
 import org.junit.Before;
 import org.junit.Test;
 

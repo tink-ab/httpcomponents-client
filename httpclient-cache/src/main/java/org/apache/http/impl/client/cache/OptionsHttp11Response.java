@@ -28,19 +28,19 @@ package org.apache.http.impl.client.cache;
 
 import java.util.Locale;
 
-import se.tink.org.apache.http.Header;
-import se.tink.org.apache.http.HeaderIterator;
-import se.tink.org.apache.http.HttpEntity;
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.HttpStatus;
-import se.tink.org.apache.http.HttpVersion;
-import se.tink.org.apache.http.ProtocolVersion;
-import se.tink.org.apache.http.StatusLine;
-import se.tink.org.apache.http.annotation.Immutable;
-import se.tink.org.apache.http.message.AbstractHttpMessage;
-import se.tink.org.apache.http.message.BasicStatusLine;
-import se.tink.org.apache.http.params.BasicHttpParams;
-import se.tink.org.apache.http.params.HttpParams;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HeaderIterator;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.ProtocolVersion;
+import tink.org.apache.http.StatusLine;
+import tink.org.apache.http.annotation.Immutable;
+import tink.org.apache.http.message.AbstractHttpMessage;
+import tink.org.apache.http.message.BasicStatusLine;
+import tink.org.apache.http.params.BasicHttpParams;
+import tink.org.apache.http.params.HttpParams;
 
 /**
  * @since 4.1

@@ -34,8 +34,8 @@ import java.io.ObjectOutputStream;
 import java.util.Calendar;
 import java.util.List;
 
-import se.tink.org.apache.http.cookie.Cookie;
-import se.tink.org.apache.http.impl.cookie.BasicClientCookie;
+import tink.org.apache.http.cookie.Cookie;
+import tink.org.apache.http.impl.cookie.BasicClientCookie;
 import org.junit.Assert;
 import org.junit.Test;
 

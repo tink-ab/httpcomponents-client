@@ -28,17 +28,17 @@ package org.apache.http.client.protocol;
 
 import java.util.List;
 
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.HttpResponseInterceptor;
-import se.tink.org.apache.http.HttpVersion;
-import se.tink.org.apache.http.client.CookieStore;
-import se.tink.org.apache.http.cookie.Cookie;
-import se.tink.org.apache.http.cookie.CookieOrigin;
-import se.tink.org.apache.http.cookie.CookieSpec;
-import se.tink.org.apache.http.cookie.SM;
-import se.tink.org.apache.http.impl.client.BasicCookieStore;
-import se.tink.org.apache.http.impl.cookie.BestMatchSpec;
-import se.tink.org.apache.http.message.BasicHttpResponse;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpResponseInterceptor;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.client.CookieStore;
+import tink.org.apache.http.cookie.Cookie;
+import tink.org.apache.http.cookie.CookieOrigin;
+import tink.org.apache.http.cookie.CookieSpec;
+import tink.org.apache.http.cookie.SM;
+import tink.org.apache.http.impl.client.BasicCookieStore;
+import tink.org.apache.http.impl.cookie.BestMatchSpec;
+import tink.org.apache.http.message.BasicHttpResponse;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

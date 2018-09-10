@@ -29,13 +29,13 @@ package org.apache.http.impl.client;
 
 import java.io.InputStream;
 
-import se.tink.org.apache.http.HttpEntity;
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.HttpVersion;
-import se.tink.org.apache.http.StatusLine;
-import se.tink.org.apache.http.client.HttpResponseException;
-import se.tink.org.apache.http.entity.StringEntity;
-import se.tink.org.apache.http.message.BasicStatusLine;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.StatusLine;
+import tink.org.apache.http.client.HttpResponseException;
+import tink.org.apache.http.entity.StringEntity;
+import tink.org.apache.http.message.BasicStatusLine;
 import org.junit.Assert;
 import org.junit.Test;
 import org.mockito.Mockito;

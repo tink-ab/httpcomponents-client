@@ -29,7 +29,7 @@ package org.apache.http.client.utils;
 import java.net.URI;
 import java.util.Arrays;
 
-import se.tink.org.apache.http.HttpHost;
+import tink.org.apache.http.HttpHost;
 import org.junit.Assert;
 import org.junit.Test;
 

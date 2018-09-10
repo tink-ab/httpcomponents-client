@@ -26,12 +26,12 @@
  */
 package org.apache.http.impl.client.cache;
 
-import se.tink.org.apache.http.HttpHost;
-import se.tink.org.apache.http.client.methods.HttpRequestWrapper;
-import se.tink.org.apache.http.client.protocol.HttpClientContext;
-import se.tink.org.apache.http.conn.routing.HttpRoute;
-import se.tink.org.apache.http.impl.execchain.ClientExecChain;
-import se.tink.org.apache.http.message.BasicHttpRequest;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.client.methods.HttpRequestWrapper;
+import tink.org.apache.http.client.protocol.HttpClientContext;
+import tink.org.apache.http.conn.routing.HttpRoute;
+import tink.org.apache.http.impl.execchain.ClientExecChain;
+import tink.org.apache.http.message.BasicHttpRequest;
 import org.easymock.EasyMock;
 import org.junit.Before;
 import org.junit.Test;

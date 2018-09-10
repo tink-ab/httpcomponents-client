@@ -26,15 +26,15 @@
  */
 package org.apache.http.client.protocol;
 
-import se.tink.org.apache.http.Header;
-import se.tink.org.apache.http.HttpHost;
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.HttpRequestInterceptor;
-import se.tink.org.apache.http.conn.routing.HttpRoute;
-import se.tink.org.apache.http.conn.routing.RouteInfo.LayerType;
-import se.tink.org.apache.http.conn.routing.RouteInfo.TunnelType;
-import se.tink.org.apache.http.message.BasicHttpRequest;
-import se.tink.org.apache.http.protocol.HTTP;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpRequestInterceptor;
+import tink.org.apache.http.conn.routing.HttpRoute;
+import tink.org.apache.http.conn.routing.RouteInfo.LayerType;
+import tink.org.apache.http.conn.routing.RouteInfo.TunnelType;
+import tink.org.apache.http.message.BasicHttpRequest;
+import tink.org.apache.http.protocol.HTTP;
 import org.junit.Assert;
 import org.junit.Test;
 

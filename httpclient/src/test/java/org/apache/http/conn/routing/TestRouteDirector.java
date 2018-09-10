@@ -29,9 +29,9 @@ package org.apache.http.conn.routing;
 
 import java.net.InetAddress;
 
-import se.tink.org.apache.http.HttpHost;
-import se.tink.org.apache.http.conn.routing.RouteInfo.LayerType;
-import se.tink.org.apache.http.conn.routing.RouteInfo.TunnelType;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.conn.routing.RouteInfo.LayerType;
+import tink.org.apache.http.conn.routing.RouteInfo.TunnelType;
 import org.junit.Assert;
 import org.junit.Test;
 

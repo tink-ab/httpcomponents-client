@@ -26,7 +26,7 @@
  */
 package org.apache.http.impl.client.cache;
 
-import se.tink.org.apache.http.message.BasicHttpRequest;
+import tink.org.apache.http.message.BasicHttpRequest;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

@@ -30,9 +30,9 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-import se.tink.org.apache.http.client.cache.HttpCacheEntry;
-import se.tink.org.apache.http.client.cache.HttpCacheStorage;
-import se.tink.org.apache.http.client.cache.HttpCacheUpdateCallback;
+import tink.org.apache.http.client.cache.HttpCacheEntry;
+import tink.org.apache.http.client.cache.HttpCacheStorage;
+import tink.org.apache.http.client.cache.HttpCacheUpdateCallback;
 
 class SimpleHttpCacheStorage implements HttpCacheStorage {
 

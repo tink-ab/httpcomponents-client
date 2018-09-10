@@ -30,16 +30,16 @@ import java.io.IOException;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import se.tink.org.apache.http.Header;
-import se.tink.org.apache.http.HttpException;
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.client.cache.HeaderConstants;
-import se.tink.org.apache.http.client.cache.HttpCacheEntry;
-import se.tink.org.apache.http.client.methods.HttpExecutionAware;
-import se.tink.org.apache.http.client.methods.HttpRequestWrapper;
-import se.tink.org.apache.http.client.methods.CloseableHttpResponse;
-import se.tink.org.apache.http.client.protocol.HttpClientContext;
-import se.tink.org.apache.http.conn.routing.HttpRoute;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.client.cache.HeaderConstants;
+import tink.org.apache.http.client.cache.HttpCacheEntry;
+import tink.org.apache.http.client.methods.HttpExecutionAware;
+import tink.org.apache.http.client.methods.HttpRequestWrapper;
+import tink.org.apache.http.client.methods.CloseableHttpResponse;
+import tink.org.apache.http.client.protocol.HttpClientContext;
+import tink.org.apache.http.conn.routing.HttpRoute;
 
 /**
  * Class used to represent an asynchronous revalidation event, such as with

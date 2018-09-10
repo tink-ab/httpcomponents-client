@@ -29,8 +29,8 @@ package org.apache.http.impl.client.cache;
 
 import java.io.File;
 
-import se.tink.org.apache.http.annotation.Immutable;
-import se.tink.org.apache.http.impl.client.CloseableHttpClient;
+import tink.org.apache.http.annotation.Immutable;
+import tink.org.apache.http.impl.client.CloseableHttpClient;
 
 /**
  * Factory methods for {@link CloseableHttpClient} instances

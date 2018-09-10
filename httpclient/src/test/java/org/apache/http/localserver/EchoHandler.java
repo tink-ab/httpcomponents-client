@@ -30,17 +30,17 @@ package org.apache.http.localserver;
 import java.io.IOException;
 import java.util.Locale;
 
-import se.tink.org.apache.http.HttpEntity;
-import se.tink.org.apache.http.HttpEntityEnclosingRequest;
-import se.tink.org.apache.http.HttpException;
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.HttpStatus;
-import se.tink.org.apache.http.MethodNotSupportedException;
-import se.tink.org.apache.http.entity.ByteArrayEntity;
-import se.tink.org.apache.http.protocol.HttpContext;
-import se.tink.org.apache.http.protocol.HttpRequestHandler;
-import se.tink.org.apache.http.util.EntityUtils;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpEntityEnclosingRequest;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.MethodNotSupportedException;
+import tink.org.apache.http.entity.ByteArrayEntity;
+import tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.protocol.HttpRequestHandler;
+import tink.org.apache.http.util.EntityUtils;
 
 
 

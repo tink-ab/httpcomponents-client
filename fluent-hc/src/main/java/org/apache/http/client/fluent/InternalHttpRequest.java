@@ -31,18 +31,18 @@ import java.net.URI;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicReference;
 
-import se.tink.org.apache.http.HttpVersion;
-import se.tink.org.apache.http.ProtocolVersion;
-import se.tink.org.apache.http.RequestLine;
-import se.tink.org.apache.http.annotation.NotThreadSafe;
-import se.tink.org.apache.http.client.config.RequestConfig;
-import se.tink.org.apache.http.client.methods.Configurable;
-import se.tink.org.apache.http.client.methods.HttpExecutionAware;
-import se.tink.org.apache.http.client.methods.HttpUriRequest;
-import se.tink.org.apache.http.concurrent.Cancellable;
-import se.tink.org.apache.http.message.AbstractHttpMessage;
-import se.tink.org.apache.http.message.BasicRequestLine;
-import se.tink.org.apache.http.util.Args;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.ProtocolVersion;
+import tink.org.apache.http.RequestLine;
+import tink.org.apache.http.annotation.NotThreadSafe;
+import tink.org.apache.http.client.config.RequestConfig;
+import tink.org.apache.http.client.methods.Configurable;
+import tink.org.apache.http.client.methods.HttpExecutionAware;
+import tink.org.apache.http.client.methods.HttpUriRequest;
+import tink.org.apache.http.concurrent.Cancellable;
+import tink.org.apache.http.message.AbstractHttpMessage;
+import tink.org.apache.http.message.BasicRequestLine;
+import tink.org.apache.http.util.Args;
 
 @NotThreadSafe
 class InternalHttpRequest extends AbstractHttpMessage

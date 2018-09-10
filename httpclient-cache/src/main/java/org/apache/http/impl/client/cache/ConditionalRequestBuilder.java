@@ -28,13 +28,13 @@ package org.apache.http.impl.client.cache;
 
 import java.util.Map;
 
-import se.tink.org.apache.http.Header;
-import se.tink.org.apache.http.HeaderElement;
-import se.tink.org.apache.http.ProtocolException;
-import se.tink.org.apache.http.annotation.Immutable;
-import se.tink.org.apache.http.client.cache.HeaderConstants;
-import se.tink.org.apache.http.client.cache.HttpCacheEntry;
-import se.tink.org.apache.http.client.methods.HttpRequestWrapper;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HeaderElement;
+import tink.org.apache.http.ProtocolException;
+import tink.org.apache.http.annotation.Immutable;
+import tink.org.apache.http.client.cache.HeaderConstants;
+import tink.org.apache.http.client.cache.HttpCacheEntry;
+import tink.org.apache.http.client.methods.HttpRequestWrapper;
 
 /**
  * @since 4.1

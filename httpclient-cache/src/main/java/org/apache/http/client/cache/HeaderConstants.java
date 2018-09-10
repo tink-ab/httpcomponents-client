@@ -26,7 +26,7 @@
  */
 package org.apache.http.client.cache;
 
-import se.tink.org.apache.http.annotation.Immutable;
+import tink.org.apache.http.annotation.Immutable;
 
 /**
  * Records static constants for various HTTP header names.

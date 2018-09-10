@@ -29,10 +29,10 @@ package org.apache.http.client.utils;
 import java.io.IOException;
 import java.io.InputStream;
 
-import se.tink.org.apache.http.HttpEntity;
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.client.methods.CloseableHttpResponse;
-import se.tink.org.apache.http.impl.client.CloseableHttpClient;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.client.methods.CloseableHttpResponse;
+import tink.org.apache.http.impl.client.CloseableHttpClient;
 import org.junit.Test;
 import org.mockito.Mockito;
 

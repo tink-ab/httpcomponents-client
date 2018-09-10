@@ -30,24 +30,24 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import se.tink.org.apache.http.Header;
-import se.tink.org.apache.http.HeaderElement;
-import se.tink.org.apache.http.HttpEntityEnclosingRequest;
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.HttpStatus;
-import se.tink.org.apache.http.HttpVersion;
-import se.tink.org.apache.http.ProtocolVersion;
-import se.tink.org.apache.http.annotation.Immutable;
-import se.tink.org.apache.http.client.ClientProtocolException;
-import se.tink.org.apache.http.client.cache.HeaderConstants;
-import se.tink.org.apache.http.client.methods.HttpRequestWrapper;
-import se.tink.org.apache.http.entity.AbstractHttpEntity;
-import se.tink.org.apache.http.entity.ContentType;
-import se.tink.org.apache.http.message.BasicHeader;
-import se.tink.org.apache.http.message.BasicHttpResponse;
-import se.tink.org.apache.http.message.BasicStatusLine;
-import se.tink.org.apache.http.protocol.HTTP;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HeaderElement;
+import tink.org.apache.http.HttpEntityEnclosingRequest;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.ProtocolVersion;
+import tink.org.apache.http.annotation.Immutable;
+import tink.org.apache.http.client.ClientProtocolException;
+import tink.org.apache.http.client.cache.HeaderConstants;
+import tink.org.apache.http.client.methods.HttpRequestWrapper;
+import tink.org.apache.http.entity.AbstractHttpEntity;
+import tink.org.apache.http.entity.ContentType;
+import tink.org.apache.http.message.BasicHeader;
+import tink.org.apache.http.message.BasicHttpResponse;
+import tink.org.apache.http.message.BasicStatusLine;
+import tink.org.apache.http.protocol.HTTP;
 
 /**
  * @since 4.1

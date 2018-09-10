@@ -26,15 +26,15 @@
  */
 package org.apache.http.examples.client;
 
-import se.tink.org.apache.http.auth.AuthScope;
-import se.tink.org.apache.http.auth.UsernamePasswordCredentials;
-import se.tink.org.apache.http.client.CredentialsProvider;
-import se.tink.org.apache.http.client.methods.CloseableHttpResponse;
-import se.tink.org.apache.http.client.methods.HttpGet;
-import se.tink.org.apache.http.impl.client.BasicCredentialsProvider;
-import se.tink.org.apache.http.impl.client.CloseableHttpClient;
-import se.tink.org.apache.http.impl.client.HttpClients;
-import se.tink.org.apache.http.util.EntityUtils;
+import tink.org.apache.http.auth.AuthScope;
+import tink.org.apache.http.auth.UsernamePasswordCredentials;
+import tink.org.apache.http.client.CredentialsProvider;
+import tink.org.apache.http.client.methods.CloseableHttpResponse;
+import tink.org.apache.http.client.methods.HttpGet;
+import tink.org.apache.http.impl.client.BasicCredentialsProvider;
+import tink.org.apache.http.impl.client.CloseableHttpClient;
+import tink.org.apache.http.impl.client.HttpClients;
+import tink.org.apache.http.util.EntityUtils;
 
 /**
  * A simple example that uses HttpClient to execute an HTTP request against

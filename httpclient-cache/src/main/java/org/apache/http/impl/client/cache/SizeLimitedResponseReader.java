@@ -30,15 +30,15 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.Proxy;
 
-import se.tink.org.apache.http.HttpEntity;
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.annotation.NotThreadSafe;
-import se.tink.org.apache.http.client.cache.InputLimit;
-import se.tink.org.apache.http.client.cache.Resource;
-import se.tink.org.apache.http.client.cache.ResourceFactory;
-import se.tink.org.apache.http.client.methods.CloseableHttpResponse;
-import se.tink.org.apache.http.message.BasicHttpResponse;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.annotation.NotThreadSafe;
+import tink.org.apache.http.client.cache.InputLimit;
+import tink.org.apache.http.client.cache.Resource;
+import tink.org.apache.http.client.cache.ResourceFactory;
+import tink.org.apache.http.client.methods.CloseableHttpResponse;
+import tink.org.apache.http.message.BasicHttpResponse;
 
 /**
  * @since 4.1

@@ -26,21 +26,21 @@
  */
 package org.apache.http.client.protocol;
 
-import se.tink.org.apache.http.HttpHost;
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.HttpRequestInterceptor;
-import se.tink.org.apache.http.auth.AuthProtocolState;
-import se.tink.org.apache.http.auth.AuthScope;
-import se.tink.org.apache.http.auth.AuthState;
-import se.tink.org.apache.http.auth.Credentials;
-import se.tink.org.apache.http.auth.UsernamePasswordCredentials;
-import se.tink.org.apache.http.client.AuthCache;
-import se.tink.org.apache.http.conn.routing.HttpRoute;
-import se.tink.org.apache.http.impl.auth.BasicScheme;
-import se.tink.org.apache.http.impl.client.BasicAuthCache;
-import se.tink.org.apache.http.impl.client.BasicCredentialsProvider;
-import se.tink.org.apache.http.message.BasicHttpRequest;
-import se.tink.org.apache.http.protocol.HttpCoreContext;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpRequestInterceptor;
+import tink.org.apache.http.auth.AuthProtocolState;
+import tink.org.apache.http.auth.AuthScope;
+import tink.org.apache.http.auth.AuthState;
+import tink.org.apache.http.auth.Credentials;
+import tink.org.apache.http.auth.UsernamePasswordCredentials;
+import tink.org.apache.http.client.AuthCache;
+import tink.org.apache.http.conn.routing.HttpRoute;
+import tink.org.apache.http.impl.auth.BasicScheme;
+import tink.org.apache.http.impl.client.BasicAuthCache;
+import tink.org.apache.http.impl.client.BasicCredentialsProvider;
+import tink.org.apache.http.message.BasicHttpRequest;
+import tink.org.apache.http.protocol.HttpCoreContext;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

@@ -32,15 +32,15 @@ import java.security.KeyStore;
 
 import javax.net.ssl.SSLContext;
 
-import se.tink.org.apache.http.HttpEntity;
-import se.tink.org.apache.http.client.methods.CloseableHttpResponse;
-import se.tink.org.apache.http.client.methods.HttpGet;
-import se.tink.org.apache.http.conn.ssl.SSLContexts;
-import se.tink.org.apache.http.conn.ssl.SSLConnectionSocketFactory;
-import se.tink.org.apache.http.conn.ssl.TrustSelfSignedStrategy;
-import se.tink.org.apache.http.impl.client.CloseableHttpClient;
-import se.tink.org.apache.http.impl.client.HttpClients;
-import se.tink.org.apache.http.util.EntityUtils;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.client.methods.CloseableHttpResponse;
+import tink.org.apache.http.client.methods.HttpGet;
+import tink.org.apache.http.conn.ssl.SSLContexts;
+import tink.org.apache.http.conn.ssl.SSLConnectionSocketFactory;
+import tink.org.apache.http.conn.ssl.TrustSelfSignedStrategy;
+import tink.org.apache.http.impl.client.CloseableHttpClient;
+import tink.org.apache.http.impl.client.HttpClients;
+import tink.org.apache.http.util.EntityUtils;
 
 /**
  * This example demonstrates how to create secure connections with a custom SSL

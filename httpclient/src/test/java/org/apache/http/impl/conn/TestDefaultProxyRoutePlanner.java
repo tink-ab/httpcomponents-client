@@ -27,16 +27,16 @@
 
 package org.apache.http.impl.conn;
 
-import se.tink.org.apache.http.HttpHost;
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.HttpVersion;
-import se.tink.org.apache.http.client.config.RequestConfig;
-import se.tink.org.apache.http.client.protocol.HttpClientContext;
-import se.tink.org.apache.http.conn.SchemePortResolver;
-import se.tink.org.apache.http.conn.routing.HttpRoute;
-import se.tink.org.apache.http.message.BasicHttpRequest;
-import se.tink.org.apache.http.protocol.BasicHttpContext;
-import se.tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.client.config.RequestConfig;
+import tink.org.apache.http.client.protocol.HttpClientContext;
+import tink.org.apache.http.conn.SchemePortResolver;
+import tink.org.apache.http.conn.routing.HttpRoute;
+import tink.org.apache.http.message.BasicHttpRequest;
+import tink.org.apache.http.protocol.BasicHttpContext;
+import tink.org.apache.http.protocol.HttpContext;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

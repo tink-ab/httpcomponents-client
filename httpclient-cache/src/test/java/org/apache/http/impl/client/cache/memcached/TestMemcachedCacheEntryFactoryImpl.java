@@ -29,8 +29,8 @@ package org.apache.http.impl.client.cache.memcached;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertSame;
 
-import se.tink.org.apache.http.client.cache.HttpCacheEntry;
-import se.tink.org.apache.http.impl.client.cache.HttpTestUtils;
+import tink.org.apache.http.client.cache.HttpCacheEntry;
+import tink.org.apache.http.impl.client.cache.HttpTestUtils;
 import org.junit.Test;
 
 

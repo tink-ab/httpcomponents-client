@@ -29,11 +29,11 @@ package org.apache.http.client.fluent;
 
 import java.net.URI;
 
-import se.tink.org.apache.http.Header;
-import se.tink.org.apache.http.HttpEntity;
-import se.tink.org.apache.http.HttpEntityEnclosingRequest;
-import se.tink.org.apache.http.annotation.NotThreadSafe;
-import se.tink.org.apache.http.protocol.HTTP;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpEntityEnclosingRequest;
+import tink.org.apache.http.annotation.NotThreadSafe;
+import tink.org.apache.http.protocol.HTTP;
 
 @NotThreadSafe
 class InternalEntityEnclosingHttpRequest extends InternalHttpRequest implements HttpEntityEnclosingRequest {

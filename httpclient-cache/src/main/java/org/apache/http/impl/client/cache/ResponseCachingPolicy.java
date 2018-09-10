@@ -33,17 +33,17 @@ import java.util.Set;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import se.tink.org.apache.http.Header;
-import se.tink.org.apache.http.HeaderElement;
-import se.tink.org.apache.http.HttpMessage;
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.HttpStatus;
-import se.tink.org.apache.http.HttpVersion;
-import se.tink.org.apache.http.annotation.Immutable;
-import se.tink.org.apache.http.client.cache.HeaderConstants;
-import se.tink.org.apache.http.client.utils.DateUtils;
-import se.tink.org.apache.http.protocol.HTTP;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HeaderElement;
+import tink.org.apache.http.HttpMessage;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.annotation.Immutable;
+import tink.org.apache.http.client.cache.HeaderConstants;
+import tink.org.apache.http.client.utils.DateUtils;
+import tink.org.apache.http.protocol.HTTP;
 
 /**
  * Determines if an HttpResponse can be cached.

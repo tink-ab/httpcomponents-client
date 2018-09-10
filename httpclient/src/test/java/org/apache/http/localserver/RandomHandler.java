@@ -33,14 +33,14 @@ import java.io.OutputStream;
 import java.io.UnsupportedEncodingException;
 import java.util.Locale;
 
-import se.tink.org.apache.http.HttpException;
-import se.tink.org.apache.http.HttpRequest;
-import se.tink.org.apache.http.HttpResponse;
-import se.tink.org.apache.http.HttpStatus;
-import se.tink.org.apache.http.MethodNotSupportedException;
-import se.tink.org.apache.http.entity.AbstractHttpEntity;
-import se.tink.org.apache.http.protocol.HttpContext;
-import se.tink.org.apache.http.protocol.HttpRequestHandler;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.MethodNotSupportedException;
+import tink.org.apache.http.entity.AbstractHttpEntity;
+import tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.protocol.HttpRequestHandler;
 
 
 
