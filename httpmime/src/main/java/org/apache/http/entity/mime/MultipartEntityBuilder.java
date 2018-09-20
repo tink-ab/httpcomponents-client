@@ -35,16 +35,16 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-import org.apache.http.HttpEntity;
-import org.apache.http.NameValuePair;
-import org.apache.http.entity.ContentType;
-import org.apache.http.entity.mime.content.ByteArrayBody;
-import org.apache.http.entity.mime.content.ContentBody;
-import org.apache.http.entity.mime.content.FileBody;
-import org.apache.http.entity.mime.content.InputStreamBody;
-import org.apache.http.entity.mime.content.StringBody;
-import org.apache.http.message.BasicNameValuePair;
-import org.apache.http.util.Args;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.NameValuePair;
+import tink.org.apache.http.entity.ContentType;
+import tink.org.apache.http.entity.mime.content.ByteArrayBody;
+import tink.org.apache.http.entity.mime.content.ContentBody;
+import tink.org.apache.http.entity.mime.content.FileBody;
+import tink.org.apache.http.entity.mime.content.InputStreamBody;
+import tink.org.apache.http.entity.mime.content.StringBody;
+import tink.org.apache.http.message.BasicNameValuePair;
+import tink.org.apache.http.util.Args;
 
 /**
  * Builder for multipart {@link HttpEntity}s.

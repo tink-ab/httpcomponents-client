@@ -32,16 +32,16 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.ResponseHandler;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.protocol.HttpClientContext;
-import org.apache.http.concurrent.FutureCallback;
-import org.apache.http.impl.client.FutureRequestExecutionService;
-import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.http.impl.client.HttpRequestFutureTask;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.client.ClientProtocolException;
+import tink.org.apache.http.client.HttpClient;
+import tink.org.apache.http.client.ResponseHandler;
+import tink.org.apache.http.client.methods.HttpGet;
+import tink.org.apache.http.client.protocol.HttpClientContext;
+import tink.org.apache.http.concurrent.FutureCallback;
+import tink.org.apache.http.impl.client.FutureRequestExecutionService;
+import tink.org.apache.http.impl.client.HttpClientBuilder;
+import tink.org.apache.http.impl.client.HttpRequestFutureTask;
 
 public class ClientWithRequestFuture {
 

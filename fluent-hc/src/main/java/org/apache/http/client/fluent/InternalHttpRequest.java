@@ -31,17 +31,17 @@ import java.net.URI;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicReference;
 
-import org.apache.http.HttpVersion;
-import org.apache.http.ProtocolVersion;
-import org.apache.http.RequestLine;
-import org.apache.http.client.config.RequestConfig;
-import org.apache.http.client.methods.Configurable;
-import org.apache.http.client.methods.HttpExecutionAware;
-import org.apache.http.client.methods.HttpUriRequest;
-import org.apache.http.concurrent.Cancellable;
-import org.apache.http.message.AbstractHttpMessage;
-import org.apache.http.message.BasicRequestLine;
-import org.apache.http.util.Args;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.ProtocolVersion;
+import tink.org.apache.http.RequestLine;
+import tink.org.apache.http.client.config.RequestConfig;
+import tink.org.apache.http.client.methods.Configurable;
+import tink.org.apache.http.client.methods.HttpExecutionAware;
+import tink.org.apache.http.client.methods.HttpUriRequest;
+import tink.org.apache.http.concurrent.Cancellable;
+import tink.org.apache.http.message.AbstractHttpMessage;
+import tink.org.apache.http.message.BasicRequestLine;
+import tink.org.apache.http.util.Args;
 
 class InternalHttpRequest extends AbstractHttpMessage
         implements HttpUriRequest, HttpExecutionAware, Configurable {

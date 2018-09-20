@@ -35,10 +35,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.osgi.services.CachingHttpClientBuilderFactory;
-import org.apache.http.osgi.services.HttpClientBuilderFactory;
-import org.apache.http.osgi.services.ProxyConfiguration;
+import tink.org.apache.http.impl.client.CloseableHttpClient;
+import tink.org.apache.http.osgi.services.CachingHttpClientBuilderFactory;
+import tink.org.apache.http.osgi.services.HttpClientBuilderFactory;
+import tink.org.apache.http.osgi.services.ProxyConfiguration;
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 import org.osgi.framework.Constants;

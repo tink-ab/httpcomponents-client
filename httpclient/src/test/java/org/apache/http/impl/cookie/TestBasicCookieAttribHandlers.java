@@ -33,13 +33,13 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.Locale;
 
-import org.apache.http.client.utils.DateUtils;
-import org.apache.http.conn.util.DomainType;
-import org.apache.http.conn.util.PublicSuffixMatcher;
-import org.apache.http.cookie.ClientCookie;
-import org.apache.http.cookie.CookieAttributeHandler;
-import org.apache.http.cookie.CookieOrigin;
-import org.apache.http.cookie.MalformedCookieException;
+import tink.org.apache.http.client.utils.DateUtils;
+import tink.org.apache.http.conn.util.DomainType;
+import tink.org.apache.http.conn.util.PublicSuffixMatcher;
+import tink.org.apache.http.cookie.ClientCookie;
+import tink.org.apache.http.cookie.CookieAttributeHandler;
+import tink.org.apache.http.cookie.CookieOrigin;
+import tink.org.apache.http.cookie.MalformedCookieException;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -26,10 +26,10 @@
  */
 package org.apache.http.impl.client;
 
-import org.apache.http.HttpHost;
-import org.apache.http.auth.AuthScope;
-import org.apache.http.auth.Credentials;
-import org.apache.http.auth.UsernamePasswordCredentials;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.auth.AuthScope;
+import tink.org.apache.http.auth.Credentials;
+import tink.org.apache.http.auth.UsernamePasswordCredentials;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -34,7 +34,7 @@ import java.io.OutputStream;
 import java.io.RandomAccessFile;
 import java.nio.channels.FileChannel;
 
-import org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpEntity;
 
 class IOUtils {
 

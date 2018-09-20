@@ -33,7 +33,7 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-import org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpResponse;
 
 /**
  * A proxy class that can enhance an arbitrary {@link HttpResponse} with

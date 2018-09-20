@@ -30,7 +30,7 @@ package org.apache.http.cookie;
 import java.util.Comparator;
 import java.util.Date;
 
-import org.apache.http.impl.cookie.BasicClientCookie;
+import tink.org.apache.http.impl.cookie.BasicClientCookie;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

@@ -32,17 +32,17 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
 import org.apache.commons.codec.binary.Base64;
-import org.apache.http.Consts;
-import org.apache.http.Header;
-import org.apache.http.HttpRequest;
-import org.apache.http.auth.AUTH;
-import org.apache.http.auth.AuthScheme;
-import org.apache.http.auth.UsernamePasswordCredentials;
-import org.apache.http.message.BasicHeader;
-import org.apache.http.message.BasicHttpRequest;
-import org.apache.http.protocol.BasicHttpContext;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.util.EncodingUtils;
+import tink.org.apache.http.Consts;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.auth.AUTH;
+import tink.org.apache.http.auth.AuthScheme;
+import tink.org.apache.http.auth.UsernamePasswordCredentials;
+import tink.org.apache.http.message.BasicHeader;
+import tink.org.apache.http.message.BasicHttpRequest;
+import tink.org.apache.http.protocol.BasicHttpContext;
+import tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.util.EncodingUtils;
 import org.junit.Assert;
 import org.junit.Test;
 

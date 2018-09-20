@@ -26,12 +26,12 @@
  */
 package org.apache.http.impl.client.integration;
 
-import org.apache.http.HttpHost;
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.conn.BasicHttpClientConnectionManager;
-import org.apache.http.localserver.LocalServerTestBase;
-import org.apache.http.util.EntityUtils;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.client.methods.CloseableHttpResponse;
+import tink.org.apache.http.client.methods.HttpGet;
+import tink.org.apache.http.impl.conn.BasicHttpClientConnectionManager;
+import tink.org.apache.http.localserver.LocalServerTestBase;
+import tink.org.apache.http.util.EntityUtils;
 import org.junit.Assert;
 import org.junit.Test;
 

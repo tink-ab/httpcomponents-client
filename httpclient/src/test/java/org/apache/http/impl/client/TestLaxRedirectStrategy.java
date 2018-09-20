@@ -26,11 +26,11 @@
  */
 package org.apache.http.impl.client;
 
-import org.apache.http.client.methods.HttpDelete;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.methods.HttpHead;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.client.methods.HttpPut;
+import tink.org.apache.http.client.methods.HttpDelete;
+import tink.org.apache.http.client.methods.HttpGet;
+import tink.org.apache.http.client.methods.HttpHead;
+import tink.org.apache.http.client.methods.HttpPost;
+import tink.org.apache.http.client.methods.HttpPut;
 import org.junit.Assert;
 import org.junit.Test;
 

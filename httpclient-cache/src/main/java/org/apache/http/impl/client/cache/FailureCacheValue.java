@@ -26,8 +26,8 @@
  */
 package org.apache.http.impl.client.cache;
 
-import org.apache.http.annotation.Contract;
-import org.apache.http.annotation.ThreadingBehavior;
+import tink.org.apache.http.annotation.Contract;
+import tink.org.apache.http.annotation.ThreadingBehavior;
 
 /**
  * The error count with a creation timestamp and its associated key.

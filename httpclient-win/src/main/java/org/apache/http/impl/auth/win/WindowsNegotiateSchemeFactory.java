@@ -27,12 +27,12 @@
 
 package org.apache.http.impl.auth.win;
 
-import org.apache.http.annotation.Contract;
-import org.apache.http.annotation.ThreadingBehavior;
-import org.apache.http.auth.AuthScheme;
-import org.apache.http.auth.AuthSchemeProvider;
-import org.apache.http.client.config.AuthSchemes;
-import org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.annotation.Contract;
+import tink.org.apache.http.annotation.ThreadingBehavior;
+import tink.org.apache.http.auth.AuthScheme;
+import tink.org.apache.http.auth.AuthSchemeProvider;
+import tink.org.apache.http.client.config.AuthSchemes;
+import tink.org.apache.http.protocol.HttpContext;
 
 /**
  * {@link AuthSchemeProvider} implementation that creates and initializes

@@ -28,20 +28,20 @@ package org.apache.http.examples.client;
 
 import java.net.URL;
 
-import org.apache.http.HttpEntity;
-import org.apache.http.client.config.CookieSpecs;
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.config.Lookup;
-import org.apache.http.config.RegistryBuilder;
-import org.apache.http.conn.ssl.DefaultHostnameVerifier;
-import org.apache.http.conn.util.PublicSuffixMatcher;
-import org.apache.http.conn.util.PublicSuffixMatcherLoader;
-import org.apache.http.cookie.CookieSpecProvider;
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.HttpClients;
-import org.apache.http.impl.cookie.RFC6265CookieSpecProvider;
-import org.apache.http.util.EntityUtils;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.client.config.CookieSpecs;
+import tink.org.apache.http.client.methods.CloseableHttpResponse;
+import tink.org.apache.http.client.methods.HttpGet;
+import tink.org.apache.http.config.Lookup;
+import tink.org.apache.http.config.RegistryBuilder;
+import tink.org.apache.http.conn.ssl.DefaultHostnameVerifier;
+import tink.org.apache.http.conn.util.PublicSuffixMatcher;
+import tink.org.apache.http.conn.util.PublicSuffixMatcherLoader;
+import tink.org.apache.http.cookie.CookieSpecProvider;
+import tink.org.apache.http.impl.client.CloseableHttpClient;
+import tink.org.apache.http.impl.client.HttpClients;
+import tink.org.apache.http.impl.cookie.RFC6265CookieSpecProvider;
+import tink.org.apache.http.util.EntityUtils;
 
 /**
  * This example demonstrates how to use a custom public suffix list.

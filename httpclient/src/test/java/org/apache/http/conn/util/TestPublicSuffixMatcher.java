@@ -30,7 +30,7 @@ package org.apache.http.conn.util;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
-import org.apache.http.Consts;
+import tink.org.apache.http.Consts;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

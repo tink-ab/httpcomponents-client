@@ -32,8 +32,8 @@ import static org.mockito.Mockito.when;
 
 import java.io.ByteArrayInputStream;
 
-import org.apache.http.client.cache.Resource;
-import org.apache.http.util.EntityUtils;
+import tink.org.apache.http.client.cache.Resource;
+import tink.org.apache.http.util.EntityUtils;
 import org.junit.Assert;
 import org.junit.Test;
 

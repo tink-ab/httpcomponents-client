@@ -31,12 +31,12 @@ import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.http.Consts;
-import org.apache.http.NameValuePair;
-import org.apache.http.entity.ContentType;
-import org.apache.http.entity.StringEntity;
-import org.apache.http.message.BasicNameValuePair;
-import org.apache.http.protocol.HTTP;
+import tink.org.apache.http.Consts;
+import tink.org.apache.http.NameValuePair;
+import tink.org.apache.http.entity.ContentType;
+import tink.org.apache.http.entity.StringEntity;
+import tink.org.apache.http.message.BasicNameValuePair;
+import tink.org.apache.http.protocol.HTTP;
 import org.junit.Assert;
 import org.junit.Test;
 

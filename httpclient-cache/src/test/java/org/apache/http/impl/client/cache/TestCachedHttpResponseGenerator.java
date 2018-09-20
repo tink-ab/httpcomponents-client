@@ -35,11 +35,11 @@ import static org.mockito.Mockito.when;
 import java.util.Date;
 import java.util.HashMap;
 
-import org.apache.http.Header;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.cache.HttpCacheEntry;
-import org.apache.http.client.methods.HttpRequestWrapper;
-import org.apache.http.message.BasicHeader;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.client.cache.HttpCacheEntry;
+import tink.org.apache.http.client.methods.HttpRequestWrapper;
+import tink.org.apache.http.message.BasicHeader;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

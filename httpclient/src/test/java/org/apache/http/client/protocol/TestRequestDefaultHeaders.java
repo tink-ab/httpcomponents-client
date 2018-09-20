@@ -29,13 +29,13 @@ package org.apache.http.client.protocol;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.http.Header;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpRequestInterceptor;
-import org.apache.http.message.BasicHeader;
-import org.apache.http.message.BasicHttpRequest;
-import org.apache.http.protocol.BasicHttpContext;
-import org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpRequestInterceptor;
+import tink.org.apache.http.message.BasicHeader;
+import tink.org.apache.http.message.BasicHttpRequest;
+import tink.org.apache.http.protocol.BasicHttpContext;
+import tink.org.apache.http.protocol.HttpContext;
 import org.junit.Assert;
 import org.junit.Test;
 

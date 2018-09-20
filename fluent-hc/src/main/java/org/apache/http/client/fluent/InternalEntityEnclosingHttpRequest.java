@@ -29,10 +29,10 @@ package org.apache.http.client.fluent;
 
 import java.net.URI;
 
-import org.apache.http.Header;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpEntityEnclosingRequest;
-import org.apache.http.protocol.HTTP;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpEntityEnclosingRequest;
+import tink.org.apache.http.protocol.HTTP;
 
 class InternalEntityEnclosingHttpRequest extends InternalHttpRequest implements HttpEntityEnclosingRequest {
 

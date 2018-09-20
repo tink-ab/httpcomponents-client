@@ -26,7 +26,7 @@
  */
 package org.apache.http.impl.client.cache;
 
-import org.apache.http.util.Args;
+import tink.org.apache.http.util.Args;
 
 /**
  * <p>Java Beans-style configuration for a {@link CachingHttpClient}. Any class

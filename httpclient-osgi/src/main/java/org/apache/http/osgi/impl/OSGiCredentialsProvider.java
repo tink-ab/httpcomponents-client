@@ -30,12 +30,12 @@ import java.util.List;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.http.auth.AuthScope;
-import org.apache.http.auth.Credentials;
-import org.apache.http.auth.NTCredentials;
-import org.apache.http.auth.UsernamePasswordCredentials;
-import org.apache.http.client.CredentialsProvider;
-import org.apache.http.osgi.services.ProxyConfiguration;
+import tink.org.apache.http.auth.AuthScope;
+import tink.org.apache.http.auth.Credentials;
+import tink.org.apache.http.auth.NTCredentials;
+import tink.org.apache.http.auth.UsernamePasswordCredentials;
+import tink.org.apache.http.client.CredentialsProvider;
+import tink.org.apache.http.osgi.services.ProxyConfiguration;
 
 /**
  * @since 4.3

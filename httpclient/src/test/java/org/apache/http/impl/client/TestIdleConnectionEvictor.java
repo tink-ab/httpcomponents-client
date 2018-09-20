@@ -29,7 +29,7 @@ package org.apache.http.impl.client;
 
 import java.util.concurrent.TimeUnit;
 
-import org.apache.http.conn.HttpClientConnectionManager;
+import tink.org.apache.http.conn.HttpClientConnectionManager;
 import org.junit.Assert;
 import org.junit.Test;
 import org.mockito.Mockito;

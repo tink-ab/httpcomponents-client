@@ -28,10 +28,10 @@ package org.apache.http.client.fluent;
 
 import java.io.IOException;
 
-import org.apache.http.HttpEntity;
-import org.apache.http.entity.ContentType;
-import org.apache.http.impl.client.AbstractResponseHandler;
-import org.apache.http.util.EntityUtils;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.entity.ContentType;
+import tink.org.apache.http.impl.client.AbstractResponseHandler;
+import tink.org.apache.http.util.EntityUtils;
 
 /**
  * {@link org.apache.http.client.ResponseHandler} implementation that converts

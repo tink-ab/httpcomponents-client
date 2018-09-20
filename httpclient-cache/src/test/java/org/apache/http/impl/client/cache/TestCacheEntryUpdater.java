@@ -33,14 +33,14 @@ import static org.junit.Assert.fail;
 import java.io.IOException;
 import java.util.Date;
 
-import org.apache.http.Header;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.HttpVersion;
-import org.apache.http.client.cache.HttpCacheEntry;
-import org.apache.http.client.utils.DateUtils;
-import org.apache.http.message.BasicHeader;
-import org.apache.http.message.BasicHttpResponse;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.client.cache.HttpCacheEntry;
+import tink.org.apache.http.client.utils.DateUtils;
+import tink.org.apache.http.message.BasicHeader;
+import tink.org.apache.http.message.BasicHttpResponse;
 import org.junit.Before;
 import org.junit.Test;
 

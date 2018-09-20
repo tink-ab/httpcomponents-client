@@ -35,8 +35,8 @@ import static org.junit.Assert.assertTrue;
 import java.net.InetAddress;
 import java.util.Hashtable;
 
-import org.apache.http.HttpHost;
-import org.apache.http.osgi.services.ProxyConfiguration;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.osgi.services.ProxyConfiguration;
 import org.junit.Test;
 
 

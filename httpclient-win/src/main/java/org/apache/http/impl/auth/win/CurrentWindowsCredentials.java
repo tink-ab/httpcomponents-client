@@ -30,9 +30,9 @@ package org.apache.http.impl.auth.win;
 import java.io.Serializable;
 import java.security.Principal;
 
-import org.apache.http.annotation.Contract;
-import org.apache.http.annotation.ThreadingBehavior;
-import org.apache.http.auth.Credentials;
+import tink.org.apache.http.annotation.Contract;
+import tink.org.apache.http.annotation.ThreadingBehavior;
+import tink.org.apache.http.auth.Credentials;
 
 import com.sun.jna.platform.win32.Secur32.EXTENDED_NAME_FORMAT;
 import com.sun.jna.platform.win32.Secur32Util;

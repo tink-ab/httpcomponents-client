@@ -32,15 +32,15 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.Locale;
 
-import org.apache.http.Consts;
-import org.apache.http.HttpException;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.MethodNotSupportedException;
-import org.apache.http.entity.AbstractHttpEntity;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.protocol.HttpRequestHandler;
+import tink.org.apache.http.Consts;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.MethodNotSupportedException;
+import tink.org.apache.http.entity.AbstractHttpEntity;
+import tink.org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.protocol.HttpRequestHandler;
 
 /**
  * A handler that generates random data.

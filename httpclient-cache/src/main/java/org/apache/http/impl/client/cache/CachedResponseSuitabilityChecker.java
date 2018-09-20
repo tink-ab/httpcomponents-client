@@ -30,16 +30,16 @@ import java.util.Date;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.http.Header;
-import org.apache.http.HeaderElement;
-import org.apache.http.HttpHost;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpStatus;
-import org.apache.http.annotation.Contract;
-import org.apache.http.annotation.ThreadingBehavior;
-import org.apache.http.client.cache.HeaderConstants;
-import org.apache.http.client.cache.HttpCacheEntry;
-import org.apache.http.client.utils.DateUtils;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HeaderElement;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.annotation.Contract;
+import tink.org.apache.http.annotation.ThreadingBehavior;
+import tink.org.apache.http.client.cache.HeaderConstants;
+import tink.org.apache.http.client.cache.HttpCacheEntry;
+import tink.org.apache.http.client.utils.DateUtils;
 
 /**
  * Determines whether a given {@link HttpCacheEntry} is suitable to be

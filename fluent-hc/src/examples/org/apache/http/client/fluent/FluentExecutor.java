@@ -28,9 +28,9 @@ package org.apache.http.client.fluent;
 
 import java.io.File;
 
-import org.apache.http.HttpHost;
-import org.apache.http.HttpVersion;
-import org.apache.http.entity.ContentType;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.entity.ContentType;
 
 /**
  * This example demonstrates how the he HttpClient fluent API can be used to execute multiple

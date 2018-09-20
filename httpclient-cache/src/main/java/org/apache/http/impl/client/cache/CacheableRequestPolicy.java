@@ -28,14 +28,14 @@ package org.apache.http.impl.client.cache;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.http.Header;
-import org.apache.http.HeaderElement;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpVersion;
-import org.apache.http.ProtocolVersion;
-import org.apache.http.annotation.Contract;
-import org.apache.http.annotation.ThreadingBehavior;
-import org.apache.http.client.cache.HeaderConstants;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HeaderElement;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.ProtocolVersion;
+import tink.org.apache.http.annotation.Contract;
+import tink.org.apache.http.annotation.ThreadingBehavior;
+import tink.org.apache.http.client.cache.HeaderConstants;
 
 /**
  * Determines if an HttpRequest is allowed to be served from the cache.

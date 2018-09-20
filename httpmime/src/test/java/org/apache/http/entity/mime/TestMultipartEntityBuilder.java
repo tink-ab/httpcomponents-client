@@ -31,10 +31,10 @@ import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.util.List;
 
-import org.apache.http.Consts;
-import org.apache.http.Header;
-import org.apache.http.entity.ContentType;
-import org.apache.http.message.BasicNameValuePair;
+import tink.org.apache.http.Consts;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.entity.ContentType;
+import tink.org.apache.http.message.BasicNameValuePair;
 import org.junit.Assert;
 import org.junit.Test;
 

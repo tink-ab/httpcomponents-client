@@ -33,7 +33,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import org.apache.http.Consts;
+import tink.org.apache.http.Consts;
 import org.junit.Assert;
 import org.junit.Test;
 

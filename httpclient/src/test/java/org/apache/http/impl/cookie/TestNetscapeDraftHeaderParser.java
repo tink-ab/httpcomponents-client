@@ -27,10 +27,10 @@
 
 package org.apache.http.impl.cookie;
 
-import org.apache.http.HeaderElement;
-import org.apache.http.NameValuePair;
-import org.apache.http.message.ParserCursor;
-import org.apache.http.util.CharArrayBuffer;
+import tink.org.apache.http.HeaderElement;
+import tink.org.apache.http.NameValuePair;
+import tink.org.apache.http.message.ParserCursor;
+import tink.org.apache.http.util.CharArrayBuffer;
 import org.junit.Assert;
 import org.junit.Test;
 

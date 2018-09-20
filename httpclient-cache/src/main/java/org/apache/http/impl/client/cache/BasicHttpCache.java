@@ -36,25 +36,25 @@ import java.util.Set;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.http.Header;
-import org.apache.http.HttpHost;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.HttpVersion;
-import org.apache.http.client.cache.HeaderConstants;
-import org.apache.http.client.cache.HttpCacheEntry;
-import org.apache.http.client.cache.HttpCacheInvalidator;
-import org.apache.http.client.cache.HttpCacheStorage;
-import org.apache.http.client.cache.HttpCacheUpdateCallback;
-import org.apache.http.client.cache.HttpCacheUpdateException;
-import org.apache.http.client.cache.Resource;
-import org.apache.http.client.cache.ResourceFactory;
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.methods.HttpRequestWrapper;
-import org.apache.http.entity.ByteArrayEntity;
-import org.apache.http.message.BasicHttpResponse;
-import org.apache.http.protocol.HTTP;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.client.cache.HeaderConstants;
+import tink.org.apache.http.client.cache.HttpCacheEntry;
+import tink.org.apache.http.client.cache.HttpCacheInvalidator;
+import tink.org.apache.http.client.cache.HttpCacheStorage;
+import tink.org.apache.http.client.cache.HttpCacheUpdateCallback;
+import tink.org.apache.http.client.cache.HttpCacheUpdateException;
+import tink.org.apache.http.client.cache.Resource;
+import tink.org.apache.http.client.cache.ResourceFactory;
+import tink.org.apache.http.client.methods.CloseableHttpResponse;
+import tink.org.apache.http.client.methods.HttpRequestWrapper;
+import tink.org.apache.http.entity.ByteArrayEntity;
+import tink.org.apache.http.message.BasicHttpResponse;
+import tink.org.apache.http.protocol.HTTP;
 
 class BasicHttpCache implements HttpCache {
     private static final Set<String> safeRequestMethods = new HashSet<String>(

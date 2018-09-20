@@ -35,11 +35,11 @@ import java.io.Writer;
 import java.nio.charset.Charset;
 import java.util.Arrays;
 
-import org.apache.http.Consts;
-import org.apache.http.entity.ContentType;
-import org.apache.http.entity.mime.content.FileBody;
-import org.apache.http.entity.mime.content.InputStreamBody;
-import org.apache.http.entity.mime.content.StringBody;
+import tink.org.apache.http.Consts;
+import tink.org.apache.http.entity.ContentType;
+import tink.org.apache.http.entity.mime.content.FileBody;
+import tink.org.apache.http.entity.mime.content.InputStreamBody;
+import tink.org.apache.http.entity.mime.content.StringBody;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;

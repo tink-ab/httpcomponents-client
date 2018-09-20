@@ -29,11 +29,11 @@ package org.apache.http.entity.mime;
 
 import java.util.List;
 
-import org.apache.http.entity.ContentType;
-import org.apache.http.entity.mime.content.AbstractContentBody;
-import org.apache.http.entity.mime.content.ContentBody;
-import org.apache.http.util.Args;
-import org.apache.http.util.Asserts;
+import tink.org.apache.http.entity.ContentType;
+import tink.org.apache.http.entity.mime.content.AbstractContentBody;
+import tink.org.apache.http.entity.mime.content.ContentBody;
+import tink.org.apache.http.util.Args;
+import tink.org.apache.http.util.Asserts;
 
 /**
  * Builder for individual {@link org.apache.http.entity.mime.FormBodyPart}s.
