@@ -33,16 +33,16 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.nio.charset.Charset;
 
-import org.apache.http.Consts;
-import org.apache.http.Header;
-import org.apache.http.HttpRequest;
-import org.apache.http.auth.AUTH;
-import org.apache.http.auth.AuthenticationException;
-import org.apache.http.auth.Credentials;
-import org.apache.http.auth.MalformedChallengeException;
-import org.apache.http.message.BasicHeader;
-import org.apache.http.message.BufferedHeader;
-import org.apache.http.util.CharArrayBuffer;
+import tink.org.apache.http.Consts;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.auth.AUTH;
+import tink.org.apache.http.auth.AuthenticationException;
+import tink.org.apache.http.auth.Credentials;
+import tink.org.apache.http.auth.MalformedChallengeException;
+import tink.org.apache.http.message.BasicHeader;
+import tink.org.apache.http.message.BufferedHeader;
+import tink.org.apache.http.util.CharArrayBuffer;
 import org.junit.Assert;
 import org.junit.Test;
 

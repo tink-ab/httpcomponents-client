@@ -26,20 +26,20 @@
  */
 package org.apache.http.examples.client;
 
-import org.apache.http.HttpHost;
-import org.apache.http.auth.AuthScope;
-import org.apache.http.auth.UsernamePasswordCredentials;
-import org.apache.http.client.AuthCache;
-import org.apache.http.client.CredentialsProvider;
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.protocol.HttpClientContext;
-import org.apache.http.impl.auth.DigestScheme;
-import org.apache.http.impl.client.BasicAuthCache;
-import org.apache.http.impl.client.BasicCredentialsProvider;
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.HttpClients;
-import org.apache.http.util.EntityUtils;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.auth.AuthScope;
+import tink.org.apache.http.auth.UsernamePasswordCredentials;
+import tink.org.apache.http.client.AuthCache;
+import tink.org.apache.http.client.CredentialsProvider;
+import tink.org.apache.http.client.methods.CloseableHttpResponse;
+import tink.org.apache.http.client.methods.HttpGet;
+import tink.org.apache.http.client.protocol.HttpClientContext;
+import tink.org.apache.http.impl.auth.DigestScheme;
+import tink.org.apache.http.impl.client.BasicAuthCache;
+import tink.org.apache.http.impl.client.BasicCredentialsProvider;
+import tink.org.apache.http.impl.client.CloseableHttpClient;
+import tink.org.apache.http.impl.client.HttpClients;
+import tink.org.apache.http.util.EntityUtils;
 
 /**
  * An example of HttpClient can be customized to authenticate

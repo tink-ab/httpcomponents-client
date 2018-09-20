@@ -30,27 +30,27 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import org.apache.http.Header;
-import org.apache.http.HeaderElement;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpEntityEnclosingRequest;
-import org.apache.http.HttpHeaders;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.HttpVersion;
-import org.apache.http.ProtocolVersion;
-import org.apache.http.annotation.Contract;
-import org.apache.http.annotation.ThreadingBehavior;
-import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.cache.HeaderConstants;
-import org.apache.http.client.methods.HttpRequestWrapper;
-import org.apache.http.entity.ContentType;
-import org.apache.http.entity.HttpEntityWrapper;
-import org.apache.http.message.BasicHeader;
-import org.apache.http.message.BasicHttpResponse;
-import org.apache.http.message.BasicStatusLine;
-import org.apache.http.protocol.HTTP;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HeaderElement;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpEntityEnclosingRequest;
+import tink.org.apache.http.HttpHeaders;
+import tink.org.apache.http.HttpRequest;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.ProtocolVersion;
+import tink.org.apache.http.annotation.Contract;
+import tink.org.apache.http.annotation.ThreadingBehavior;
+import tink.org.apache.http.client.ClientProtocolException;
+import tink.org.apache.http.client.cache.HeaderConstants;
+import tink.org.apache.http.client.methods.HttpRequestWrapper;
+import tink.org.apache.http.entity.ContentType;
+import tink.org.apache.http.entity.HttpEntityWrapper;
+import tink.org.apache.http.message.BasicHeader;
+import tink.org.apache.http.message.BasicHttpResponse;
+import tink.org.apache.http.message.BasicStatusLine;
+import tink.org.apache.http.protocol.HTTP;
 
 /**
  * @since 4.1

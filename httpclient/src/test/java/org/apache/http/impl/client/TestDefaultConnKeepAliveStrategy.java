@@ -26,14 +26,14 @@
  */
 package org.apache.http.impl.client;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.HttpVersion;
-import org.apache.http.conn.ConnectionKeepAliveStrategy;
-import org.apache.http.message.BasicHttpResponse;
-import org.apache.http.message.BasicStatusLine;
-import org.apache.http.protocol.BasicHttpContext;
-import org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.conn.ConnectionKeepAliveStrategy;
+import tink.org.apache.http.message.BasicHttpResponse;
+import tink.org.apache.http.message.BasicStatusLine;
+import tink.org.apache.http.protocol.BasicHttpContext;
+import tink.org.apache.http.protocol.HttpContext;
 import org.junit.Assert;
 import org.junit.Test;
 

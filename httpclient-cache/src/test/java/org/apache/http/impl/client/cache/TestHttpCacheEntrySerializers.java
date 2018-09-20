@@ -39,15 +39,15 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.apache.commons.codec.binary.Base64;
-import org.apache.http.Header;
-import org.apache.http.ProtocolVersion;
-import org.apache.http.StatusLine;
-import org.apache.http.client.cache.HeaderConstants;
-import org.apache.http.client.cache.HttpCacheEntry;
-import org.apache.http.client.cache.HttpCacheEntrySerializer;
-import org.apache.http.client.cache.Resource;
-import org.apache.http.message.BasicHeader;
-import org.apache.http.message.BasicStatusLine;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.ProtocolVersion;
+import tink.org.apache.http.StatusLine;
+import tink.org.apache.http.client.cache.HeaderConstants;
+import tink.org.apache.http.client.cache.HttpCacheEntry;
+import tink.org.apache.http.client.cache.HttpCacheEntrySerializer;
+import tink.org.apache.http.client.cache.Resource;
+import tink.org.apache.http.message.BasicHeader;
+import tink.org.apache.http.message.BasicStatusLine;
 import org.junit.Before;
 import org.junit.Test;
 

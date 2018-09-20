@@ -26,19 +26,19 @@
  */
 package org.apache.http.impl.execchain;
 
-import org.apache.http.Header;
-import org.apache.http.HttpEntityEnclosingRequest;
-import org.apache.http.HttpHost;
-import org.apache.http.client.HttpRequestRetryHandler;
-import org.apache.http.client.NonRepeatableRequestException;
-import org.apache.http.client.entity.EntityBuilder;
-import org.apache.http.client.methods.HttpExecutionAware;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.client.methods.HttpRequestWrapper;
-import org.apache.http.client.protocol.HttpClientContext;
-import org.apache.http.conn.routing.HttpRoute;
-import org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpEntityEnclosingRequest;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.client.HttpRequestRetryHandler;
+import tink.org.apache.http.client.NonRepeatableRequestException;
+import tink.org.apache.http.client.entity.EntityBuilder;
+import tink.org.apache.http.client.methods.HttpExecutionAware;
+import tink.org.apache.http.client.methods.HttpGet;
+import tink.org.apache.http.client.methods.HttpPost;
+import tink.org.apache.http.client.methods.HttpRequestWrapper;
+import tink.org.apache.http.client.protocol.HttpClientContext;
+import tink.org.apache.http.conn.routing.HttpRoute;
+import tink.org.apache.http.protocol.HttpContext;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

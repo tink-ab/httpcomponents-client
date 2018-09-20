@@ -27,11 +27,11 @@
 
 package org.apache.http.examples.client.win;
 
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.WinHttpClients;
-import org.apache.http.util.EntityUtils;
+import tink.org.apache.http.client.methods.CloseableHttpResponse;
+import tink.org.apache.http.client.methods.HttpGet;
+import tink.org.apache.http.impl.client.CloseableHttpClient;
+import tink.org.apache.http.impl.client.WinHttpClients;
+import tink.org.apache.http.util.EntityUtils;
 
 /**
  * This example demonstrates how to create HttpClient pre-configured

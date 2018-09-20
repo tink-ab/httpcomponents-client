@@ -30,11 +30,11 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-import org.apache.http.annotation.Contract;
-import org.apache.http.annotation.ThreadingBehavior;
-import org.apache.http.client.cache.InputLimit;
-import org.apache.http.client.cache.Resource;
-import org.apache.http.client.cache.ResourceFactory;
+import tink.org.apache.http.annotation.Contract;
+import tink.org.apache.http.annotation.ThreadingBehavior;
+import tink.org.apache.http.client.cache.InputLimit;
+import tink.org.apache.http.client.cache.Resource;
+import tink.org.apache.http.client.cache.ResourceFactory;
 
 /**
  * Generates {@link Resource} instances stored entirely in heap.

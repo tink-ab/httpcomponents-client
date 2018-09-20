@@ -30,10 +30,10 @@ package org.apache.http.impl.cookie;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
-import org.apache.http.Consts;
-import org.apache.http.conn.util.PublicSuffixList;
-import org.apache.http.conn.util.PublicSuffixMatcher;
-import org.apache.http.cookie.CookieOrigin;
+import tink.org.apache.http.Consts;
+import tink.org.apache.http.conn.util.PublicSuffixList;
+import tink.org.apache.http.conn.util.PublicSuffixMatcher;
+import tink.org.apache.http.cookie.CookieOrigin;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

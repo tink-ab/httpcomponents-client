@@ -29,10 +29,10 @@ package org.apache.http.client.entity;
 
 import java.util.zip.Deflater;
 
-import org.apache.http.Consts;
-import org.apache.http.HttpEntity;
-import org.apache.http.entity.ByteArrayEntity;
-import org.apache.http.util.EntityUtils;
+import tink.org.apache.http.Consts;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.entity.ByteArrayEntity;
+import tink.org.apache.http.util.EntityUtils;
 import org.junit.Assert;
 import org.junit.Test;
 

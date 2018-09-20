@@ -27,11 +27,11 @@
 package org.apache.http.client.utils;
 
 
-import org.apache.http.Consts;
-import org.apache.http.NameValuePair;
-import org.apache.http.client.methods.HttpUriRequest;
-import org.apache.http.client.methods.RequestBuilder;
-import org.apache.http.message.BasicNameValuePair;
+import tink.org.apache.http.Consts;
+import tink.org.apache.http.NameValuePair;
+import tink.org.apache.http.client.methods.HttpUriRequest;
+import tink.org.apache.http.client.methods.RequestBuilder;
+import tink.org.apache.http.message.BasicNameValuePair;
 import org.junit.Assert;
 import org.junit.Test;
 

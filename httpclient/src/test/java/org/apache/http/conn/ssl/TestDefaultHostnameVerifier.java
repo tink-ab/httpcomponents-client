@@ -35,8 +35,8 @@ import java.util.Arrays;
 
 import javax.net.ssl.SSLException;
 
-import org.apache.http.conn.util.DomainType;
-import org.apache.http.conn.util.PublicSuffixMatcher;
+import tink.org.apache.http.conn.util.DomainType;
+import tink.org.apache.http.conn.util.PublicSuffixMatcher;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

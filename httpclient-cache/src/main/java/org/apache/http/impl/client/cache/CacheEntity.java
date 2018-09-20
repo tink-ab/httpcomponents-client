@@ -31,13 +31,13 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.Serializable;
 
-import org.apache.http.Header;
-import org.apache.http.HttpEntity;
-import org.apache.http.annotation.Contract;
-import org.apache.http.annotation.ThreadingBehavior;
-import org.apache.http.client.cache.HttpCacheEntry;
-import org.apache.http.protocol.HTTP;
-import org.apache.http.util.Args;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.annotation.Contract;
+import tink.org.apache.http.annotation.ThreadingBehavior;
+import tink.org.apache.http.client.cache.HttpCacheEntry;
+import tink.org.apache.http.protocol.HTTP;
+import tink.org.apache.http.util.Args;
 
 @Contract(threading = ThreadingBehavior.IMMUTABLE)
 class CacheEntity implements HttpEntity, Serializable {

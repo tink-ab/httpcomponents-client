@@ -37,12 +37,12 @@ import net.spy.memcached.OperationTimeoutException;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.http.client.cache.HttpCacheEntry;
-import org.apache.http.client.cache.HttpCacheEntrySerializer;
-import org.apache.http.client.cache.HttpCacheStorage;
-import org.apache.http.client.cache.HttpCacheUpdateCallback;
-import org.apache.http.client.cache.HttpCacheUpdateException;
-import org.apache.http.impl.client.cache.CacheConfig;
+import tink.org.apache.http.client.cache.HttpCacheEntry;
+import tink.org.apache.http.client.cache.HttpCacheEntrySerializer;
+import tink.org.apache.http.client.cache.HttpCacheStorage;
+import tink.org.apache.http.client.cache.HttpCacheUpdateCallback;
+import tink.org.apache.http.client.cache.HttpCacheUpdateException;
+import tink.org.apache.http.impl.client.cache.CacheConfig;
 
 /**
  * <p>

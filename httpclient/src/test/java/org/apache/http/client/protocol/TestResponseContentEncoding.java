@@ -26,18 +26,18 @@
  */
 package org.apache.http.client.protocol;
 
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpException;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpResponseInterceptor;
-import org.apache.http.HttpVersion;
-import org.apache.http.client.config.RequestConfig;
-import org.apache.http.client.entity.DecompressingEntity;
-import org.apache.http.client.entity.GzipDecompressingEntity;
-import org.apache.http.entity.StringEntity;
-import org.apache.http.message.BasicHttpResponse;
-import org.apache.http.protocol.BasicHttpContext;
-import org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpException;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpResponseInterceptor;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.client.config.RequestConfig;
+import tink.org.apache.http.client.entity.DecompressingEntity;
+import tink.org.apache.http.client.entity.GzipDecompressingEntity;
+import tink.org.apache.http.entity.StringEntity;
+import tink.org.apache.http.message.BasicHttpResponse;
+import tink.org.apache.http.protocol.BasicHttpContext;
+import tink.org.apache.http.protocol.HttpContext;
 import org.junit.Assert;
 import org.junit.Test;
 

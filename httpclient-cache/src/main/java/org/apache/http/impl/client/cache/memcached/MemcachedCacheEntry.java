@@ -26,7 +26,7 @@
  */
 package org.apache.http.impl.client.cache.memcached;
 
-import org.apache.http.client.cache.HttpCacheEntry;
+import tink.org.apache.http.client.cache.HttpCacheEntry;
 
 /**
  * Provides for serialization and deserialization of higher-level

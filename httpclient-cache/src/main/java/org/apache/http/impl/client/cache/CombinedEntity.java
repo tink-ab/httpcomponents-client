@@ -32,9 +32,9 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.SequenceInputStream;
 
-import org.apache.http.client.cache.Resource;
-import org.apache.http.entity.AbstractHttpEntity;
-import org.apache.http.util.Args;
+import tink.org.apache.http.client.cache.Resource;
+import tink.org.apache.http.entity.AbstractHttpEntity;
+import tink.org.apache.http.util.Args;
 
 class CombinedEntity extends AbstractHttpEntity {
 

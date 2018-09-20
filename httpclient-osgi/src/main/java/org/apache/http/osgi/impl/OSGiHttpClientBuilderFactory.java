@@ -26,9 +26,9 @@
  */
 package org.apache.http.osgi.impl;
 
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.http.osgi.services.HttpClientBuilderFactory;
+import tink.org.apache.http.impl.client.CloseableHttpClient;
+import tink.org.apache.http.impl.client.HttpClientBuilder;
+import tink.org.apache.http.osgi.services.HttpClientBuilderFactory;
 
 final class OSGiHttpClientBuilderFactory implements HttpClientBuilderFactory {
 

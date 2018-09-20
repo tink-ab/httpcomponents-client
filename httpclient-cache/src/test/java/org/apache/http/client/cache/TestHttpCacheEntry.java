@@ -39,13 +39,13 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.apache.http.Header;
-import org.apache.http.HttpStatus;
-import org.apache.http.HttpVersion;
-import org.apache.http.StatusLine;
-import org.apache.http.client.utils.DateUtils;
-import org.apache.http.message.BasicHeader;
-import org.apache.http.message.BasicStatusLine;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.StatusLine;
+import tink.org.apache.http.client.utils.DateUtils;
+import tink.org.apache.http.message.BasicHeader;
+import tink.org.apache.http.message.BasicStatusLine;
 import org.junit.Before;
 import org.junit.Test;
 

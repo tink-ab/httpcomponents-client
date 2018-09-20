@@ -33,9 +33,9 @@ import java.io.OutputStream;
 import java.nio.charset.Charset;
 import java.util.Random;
 
-import org.apache.http.Header;
-import org.apache.http.HttpEntity;
-import org.apache.http.entity.mime.content.ContentBody;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.entity.mime.content.ContentBody;
 
 /**
  * Multipart/form coded HTTP entity consisting of multiple body parts.

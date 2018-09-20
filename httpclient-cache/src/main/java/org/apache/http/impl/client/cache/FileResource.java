@@ -31,9 +31,9 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-import org.apache.http.annotation.Contract;
-import org.apache.http.annotation.ThreadingBehavior;
-import org.apache.http.client.cache.Resource;
+import tink.org.apache.http.annotation.Contract;
+import tink.org.apache.http.annotation.ThreadingBehavior;
+import tink.org.apache.http.client.cache.Resource;
 
 /**
  * Cache resource backed by a file.

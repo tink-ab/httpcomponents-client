@@ -28,11 +28,11 @@ package org.apache.http.impl.client.cache;
 
 import java.io.IOException;
 
-import org.apache.http.annotation.Contract;
-import org.apache.http.annotation.ThreadingBehavior;
-import org.apache.http.client.cache.HttpCacheEntry;
-import org.apache.http.client.cache.HttpCacheStorage;
-import org.apache.http.client.cache.HttpCacheUpdateCallback;
+import tink.org.apache.http.annotation.Contract;
+import tink.org.apache.http.annotation.ThreadingBehavior;
+import tink.org.apache.http.client.cache.HttpCacheEntry;
+import tink.org.apache.http.client.cache.HttpCacheStorage;
+import tink.org.apache.http.client.cache.HttpCacheUpdateCallback;
 
 /**
  * Basic {@link HttpCacheStorage} implementation backed by an instance of

@@ -26,7 +26,7 @@
  */
 package org.apache.http.impl.auth;
 
-import org.apache.http.Consts;
+import tink.org.apache.http.Consts;
 import org.junit.Assert;
 import org.junit.Test;
 import java.util.Random;

@@ -29,8 +29,8 @@ package org.apache.http.entity.mime.content;
 
 import java.nio.charset.Charset;
 
-import org.apache.http.entity.ContentType;
-import org.apache.http.util.Args;
+import tink.org.apache.http.entity.ContentType;
+import tink.org.apache.http.util.Args;
 
 /**
  *

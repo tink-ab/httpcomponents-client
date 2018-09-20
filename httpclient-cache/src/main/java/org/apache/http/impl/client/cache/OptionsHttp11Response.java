@@ -28,20 +28,20 @@ package org.apache.http.impl.client.cache;
 
 import java.util.Locale;
 
-import org.apache.http.Header;
-import org.apache.http.HeaderIterator;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.HttpVersion;
-import org.apache.http.ProtocolVersion;
-import org.apache.http.StatusLine;
-import org.apache.http.annotation.Contract;
-import org.apache.http.annotation.ThreadingBehavior;
-import org.apache.http.message.AbstractHttpMessage;
-import org.apache.http.message.BasicStatusLine;
-import org.apache.http.params.BasicHttpParams;
-import org.apache.http.params.HttpParams;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HeaderIterator;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.ProtocolVersion;
+import tink.org.apache.http.StatusLine;
+import tink.org.apache.http.annotation.Contract;
+import tink.org.apache.http.annotation.ThreadingBehavior;
+import tink.org.apache.http.message.AbstractHttpMessage;
+import tink.org.apache.http.message.BasicStatusLine;
+import tink.org.apache.http.params.BasicHttpParams;
+import tink.org.apache.http.params.HttpParams;
 
 /**
  * @since 4.1

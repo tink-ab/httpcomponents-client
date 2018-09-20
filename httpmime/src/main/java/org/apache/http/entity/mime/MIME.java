@@ -27,7 +27,7 @@
 
 package org.apache.http.entity.mime;
 
-import org.apache.http.Consts;
+import tink.org.apache.http.Consts;
 
 import java.nio.charset.Charset;
 

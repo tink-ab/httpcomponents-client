@@ -33,9 +33,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import org.apache.http.Consts;
-import org.apache.http.NameValuePair;
-import org.apache.http.message.BasicNameValuePair;
+import tink.org.apache.http.Consts;
+import tink.org.apache.http.NameValuePair;
+import tink.org.apache.http.message.BasicNameValuePair;
 import org.junit.Assert;
 import org.junit.Test;
 

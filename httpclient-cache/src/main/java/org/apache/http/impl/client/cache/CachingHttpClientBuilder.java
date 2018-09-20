@@ -30,11 +30,11 @@ import java.io.Closeable;
 import java.io.File;
 import java.io.IOException;
 
-import org.apache.http.client.cache.HttpCacheInvalidator;
-import org.apache.http.client.cache.HttpCacheStorage;
-import org.apache.http.client.cache.ResourceFactory;
-import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.http.impl.execchain.ClientExecChain;
+import tink.org.apache.http.client.cache.HttpCacheInvalidator;
+import tink.org.apache.http.client.cache.HttpCacheStorage;
+import tink.org.apache.http.client.cache.ResourceFactory;
+import tink.org.apache.http.impl.client.HttpClientBuilder;
+import tink.org.apache.http.impl.execchain.ClientExecChain;
 
 /**
  * Builder for {@link org.apache.http.impl.client.CloseableHttpClient}

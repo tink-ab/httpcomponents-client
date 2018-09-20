@@ -30,12 +30,12 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-import org.apache.http.HttpHost;
-import org.apache.http.client.methods.HttpRequestWrapper;
-import org.apache.http.client.protocol.HttpClientContext;
-import org.apache.http.conn.routing.HttpRoute;
-import org.apache.http.impl.execchain.ClientExecChain;
-import org.apache.http.message.BasicHttpRequest;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.client.methods.HttpRequestWrapper;
+import tink.org.apache.http.client.protocol.HttpClientContext;
+import tink.org.apache.http.conn.routing.HttpRoute;
+import tink.org.apache.http.impl.execchain.ClientExecChain;
+import tink.org.apache.http.message.BasicHttpRequest;
 import org.junit.Before;
 import org.junit.Test;
 

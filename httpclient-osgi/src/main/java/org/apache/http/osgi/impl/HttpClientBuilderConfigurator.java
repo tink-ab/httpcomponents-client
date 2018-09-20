@@ -26,8 +26,8 @@
  */
 package org.apache.http.osgi.impl;
 
-import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.http.osgi.services.ProxyConfiguration;
+import tink.org.apache.http.impl.client.HttpClientBuilder;
+import tink.org.apache.http.osgi.services.ProxyConfiguration;
 
 import java.util.List;
 

@@ -27,9 +27,9 @@
 
 package org.apache.http.impl.cookie;
 
-import org.apache.http.cookie.CookieAttributeHandler;
-import org.apache.http.cookie.CookieOrigin;
-import org.apache.http.cookie.MalformedCookieException;
+import tink.org.apache.http.cookie.CookieAttributeHandler;
+import tink.org.apache.http.cookie.CookieOrigin;
+import tink.org.apache.http.cookie.MalformedCookieException;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -33,12 +33,12 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-import org.apache.http.ContentTooLongException;
-import org.apache.http.Header;
-import org.apache.http.HttpEntity;
-import org.apache.http.entity.ContentType;
-import org.apache.http.message.BasicHeader;
-import org.apache.http.protocol.HTTP;
+import tink.org.apache.http.ContentTooLongException;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.entity.ContentType;
+import tink.org.apache.http.message.BasicHeader;
+import tink.org.apache.http.protocol.HTTP;
 
 @SuppressWarnings("deprecation")
 class MultipartFormEntity implements HttpEntity {

@@ -29,13 +29,13 @@ package org.apache.http.localserver;
 
 import java.util.concurrent.TimeUnit;
 
-import org.apache.http.HttpHost;
-import org.apache.http.config.SocketConfig;
-import org.apache.http.impl.bootstrap.HttpServer;
-import org.apache.http.impl.bootstrap.ServerBootstrap;
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.config.SocketConfig;
+import tink.org.apache.http.impl.bootstrap.HttpServer;
+import tink.org.apache.http.impl.bootstrap.ServerBootstrap;
+import tink.org.apache.http.impl.client.CloseableHttpClient;
+import tink.org.apache.http.impl.client.HttpClientBuilder;
+import tink.org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
 import org.junit.After;
 import org.junit.Before;
 

@@ -29,20 +29,20 @@ package org.apache.http.impl.client.cache;
 import java.io.IOException;
 import java.util.Date;
 
-import org.apache.http.Header;
-import org.apache.http.HeaderIterator;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.annotation.Contract;
-import org.apache.http.annotation.ThreadingBehavior;
-import org.apache.http.client.cache.HeaderConstants;
-import org.apache.http.client.cache.HttpCacheEntry;
-import org.apache.http.client.cache.Resource;
-import org.apache.http.client.cache.ResourceFactory;
-import org.apache.http.client.utils.DateUtils;
-import org.apache.http.message.HeaderGroup;
-import org.apache.http.protocol.HTTP;
-import org.apache.http.util.Args;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HeaderIterator;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.annotation.Contract;
+import tink.org.apache.http.annotation.ThreadingBehavior;
+import tink.org.apache.http.client.cache.HeaderConstants;
+import tink.org.apache.http.client.cache.HttpCacheEntry;
+import tink.org.apache.http.client.cache.Resource;
+import tink.org.apache.http.client.cache.ResourceFactory;
+import tink.org.apache.http.client.utils.DateUtils;
+import tink.org.apache.http.message.HeaderGroup;
+import tink.org.apache.http.protocol.HTTP;
+import tink.org.apache.http.util.Args;
 
 /**
  * Update a {@link HttpCacheEntry} with new or updated information based on the latest

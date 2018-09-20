@@ -28,10 +28,10 @@ package org.apache.http.impl.client;
 
 import static org.junit.Assert.assertFalse;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.HttpVersion;
-import org.apache.http.message.BasicHttpResponse;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.message.BasicHttpResponse;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -30,8 +30,8 @@ import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 import java.nio.charset.Charset;
 
-import org.apache.http.Consts;
-import org.apache.http.entity.ContentType;
+import tink.org.apache.http.Consts;
+import tink.org.apache.http.entity.ContentType;
 
 /**
  * This class represents arbitrary content of a specific type that can be consumed

@@ -33,32 +33,32 @@ import java.util.concurrent.TimeUnit;
 
 import javax.net.ssl.SSLContext;
 
-import org.apache.http.HttpHost;
-import org.apache.http.auth.AUTH;
-import org.apache.http.auth.AuthScope;
-import org.apache.http.auth.Credentials;
-import org.apache.http.auth.MalformedChallengeException;
-import org.apache.http.auth.NTCredentials;
-import org.apache.http.auth.UsernamePasswordCredentials;
-import org.apache.http.client.AuthCache;
-import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.CookieStore;
-import org.apache.http.client.CredentialsProvider;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.protocol.HttpClientContext;
-import org.apache.http.config.Registry;
-import org.apache.http.config.RegistryBuilder;
-import org.apache.http.conn.socket.ConnectionSocketFactory;
-import org.apache.http.conn.socket.LayeredConnectionSocketFactory;
-import org.apache.http.conn.socket.PlainConnectionSocketFactory;
-import org.apache.http.conn.ssl.SSLConnectionSocketFactory;
-import org.apache.http.conn.ssl.SSLInitializationException;
-import org.apache.http.impl.auth.BasicScheme;
-import org.apache.http.impl.client.BasicAuthCache;
-import org.apache.http.impl.client.BasicCredentialsProvider;
-import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
-import org.apache.http.message.BasicHeader;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.auth.AUTH;
+import tink.org.apache.http.auth.AuthScope;
+import tink.org.apache.http.auth.Credentials;
+import tink.org.apache.http.auth.MalformedChallengeException;
+import tink.org.apache.http.auth.NTCredentials;
+import tink.org.apache.http.auth.UsernamePasswordCredentials;
+import tink.org.apache.http.client.AuthCache;
+import tink.org.apache.http.client.ClientProtocolException;
+import tink.org.apache.http.client.CookieStore;
+import tink.org.apache.http.client.CredentialsProvider;
+import tink.org.apache.http.client.HttpClient;
+import tink.org.apache.http.client.protocol.HttpClientContext;
+import tink.org.apache.http.config.Registry;
+import tink.org.apache.http.config.RegistryBuilder;
+import tink.org.apache.http.conn.socket.ConnectionSocketFactory;
+import tink.org.apache.http.conn.socket.LayeredConnectionSocketFactory;
+import tink.org.apache.http.conn.socket.PlainConnectionSocketFactory;
+import tink.org.apache.http.conn.ssl.SSLConnectionSocketFactory;
+import tink.org.apache.http.conn.ssl.SSLInitializationException;
+import tink.org.apache.http.impl.auth.BasicScheme;
+import tink.org.apache.http.impl.client.BasicAuthCache;
+import tink.org.apache.http.impl.client.BasicCredentialsProvider;
+import tink.org.apache.http.impl.client.HttpClientBuilder;
+import tink.org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
+import tink.org.apache.http.message.BasicHeader;
 
 /**
  * An Executor for fluent requests.

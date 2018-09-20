@@ -27,15 +27,15 @@
 
 package org.apache.http.impl.conn;
 
-import org.apache.http.Consts;
-import org.apache.http.Header;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpVersion;
-import org.apache.http.NoHttpResponseException;
-import org.apache.http.ProtocolException;
-import org.apache.http.io.HttpMessageParser;
-import org.apache.http.io.SessionInputBuffer;
-import org.apache.http.util.CharArrayBuffer;
+import tink.org.apache.http.Consts;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.NoHttpResponseException;
+import tink.org.apache.http.ProtocolException;
+import tink.org.apache.http.io.HttpMessageParser;
+import tink.org.apache.http.io.SessionInputBuffer;
+import tink.org.apache.http.util.CharArrayBuffer;
 import org.junit.Assert;
 import org.junit.Test;
 

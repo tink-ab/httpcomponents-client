@@ -32,19 +32,19 @@ import static org.mockito.Mockito.when;
 
 import java.io.IOException;
 
-import org.apache.http.Header;
-import org.apache.http.HttpHost;
-import org.apache.http.ProtocolException;
-import org.apache.http.StatusLine;
-import org.apache.http.client.cache.HeaderConstants;
-import org.apache.http.client.cache.HttpCacheEntry;
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.methods.HttpExecutionAware;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.methods.HttpRequestWrapper;
-import org.apache.http.client.protocol.HttpClientContext;
-import org.apache.http.conn.routing.HttpRoute;
-import org.apache.http.message.BasicHeader;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.ProtocolException;
+import tink.org.apache.http.StatusLine;
+import tink.org.apache.http.client.cache.HeaderConstants;
+import tink.org.apache.http.client.cache.HttpCacheEntry;
+import tink.org.apache.http.client.methods.CloseableHttpResponse;
+import tink.org.apache.http.client.methods.HttpExecutionAware;
+import tink.org.apache.http.client.methods.HttpGet;
+import tink.org.apache.http.client.methods.HttpRequestWrapper;
+import tink.org.apache.http.client.protocol.HttpClientContext;
+import tink.org.apache.http.conn.routing.HttpRoute;
+import tink.org.apache.http.message.BasicHeader;
 import org.junit.Before;
 import org.junit.Test;
 

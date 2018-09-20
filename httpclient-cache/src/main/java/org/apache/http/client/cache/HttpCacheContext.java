@@ -26,9 +26,9 @@
  */
 package org.apache.http.client.cache;
 
-import org.apache.http.client.protocol.HttpClientContext;
-import org.apache.http.protocol.BasicHttpContext;
-import org.apache.http.protocol.HttpContext;
+import tink.org.apache.http.client.protocol.HttpClientContext;
+import tink.org.apache.http.protocol.BasicHttpContext;
+import tink.org.apache.http.protocol.HttpContext;
 
 /**
  * @since 4.3

@@ -27,11 +27,11 @@
 
 package org.apache.http.impl.client;
 
-import org.apache.http.HttpHost;
-import org.apache.http.auth.AuthScheme;
-import org.apache.http.conn.SchemePortResolver;
-import org.apache.http.impl.auth.BasicScheme;
-import org.apache.http.impl.auth.NTLMScheme;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.auth.AuthScheme;
+import tink.org.apache.http.conn.SchemePortResolver;
+import tink.org.apache.http.impl.auth.BasicScheme;
+import tink.org.apache.http.impl.auth.NTLMScheme;
 import org.junit.Assert;
 import org.junit.Test;
 import org.mockito.Mockito;

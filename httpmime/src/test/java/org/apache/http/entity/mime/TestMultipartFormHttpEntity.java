@@ -30,12 +30,12 @@ package org.apache.http.entity.mime;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 
-import org.apache.http.Header;
-import org.apache.http.HeaderElement;
-import org.apache.http.HttpEntity;
-import org.apache.http.NameValuePair;
-import org.apache.http.entity.ContentType;
-import org.apache.http.entity.mime.content.InputStreamBody;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HeaderElement;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.NameValuePair;
+import tink.org.apache.http.entity.ContentType;
+import tink.org.apache.http.entity.mime.content.InputStreamBody;
 import org.junit.Assert;
 import org.junit.Test;
 

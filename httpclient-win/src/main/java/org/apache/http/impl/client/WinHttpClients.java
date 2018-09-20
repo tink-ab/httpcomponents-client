@@ -28,16 +28,16 @@ package org.apache.http.impl.client;
 
 import java.util.Locale;
 
-import org.apache.http.auth.AuthSchemeProvider;
-import org.apache.http.client.CredentialsProvider;
-import org.apache.http.client.config.AuthSchemes;
-import org.apache.http.config.Registry;
-import org.apache.http.config.RegistryBuilder;
-import org.apache.http.impl.auth.BasicSchemeFactory;
-import org.apache.http.impl.auth.DigestSchemeFactory;
-import org.apache.http.impl.auth.win.WindowsCredentialsProvider;
-import org.apache.http.impl.auth.win.WindowsNTLMSchemeFactory;
-import org.apache.http.impl.auth.win.WindowsNegotiateSchemeFactory;
+import tink.org.apache.http.auth.AuthSchemeProvider;
+import tink.org.apache.http.client.CredentialsProvider;
+import tink.org.apache.http.client.config.AuthSchemes;
+import tink.org.apache.http.config.Registry;
+import tink.org.apache.http.config.RegistryBuilder;
+import tink.org.apache.http.impl.auth.BasicSchemeFactory;
+import tink.org.apache.http.impl.auth.DigestSchemeFactory;
+import tink.org.apache.http.impl.auth.win.WindowsCredentialsProvider;
+import tink.org.apache.http.impl.auth.win.WindowsNTLMSchemeFactory;
+import tink.org.apache.http.impl.auth.win.WindowsNegotiateSchemeFactory;
 
 import com.sun.jna.platform.win32.Sspi;
 

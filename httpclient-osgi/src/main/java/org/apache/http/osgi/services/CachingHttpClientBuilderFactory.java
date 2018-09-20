@@ -26,7 +26,7 @@
  */
 package org.apache.http.osgi.services;
 
-import org.apache.http.impl.client.cache.CachingHttpClientBuilder;
+import tink.org.apache.http.impl.client.cache.CachingHttpClientBuilder;
 
 public interface CachingHttpClientBuilderFactory {
 

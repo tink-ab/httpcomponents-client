@@ -26,9 +26,9 @@
  */
 package org.apache.http.osgi.impl;
 
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.cache.CachingHttpClientBuilder;
-import org.apache.http.osgi.services.CachingHttpClientBuilderFactory;
+import tink.org.apache.http.impl.client.CloseableHttpClient;
+import tink.org.apache.http.impl.client.cache.CachingHttpClientBuilder;
+import tink.org.apache.http.osgi.services.CachingHttpClientBuilderFactory;
 
 final class OSGiCachingHttpClientBuilderFactory implements CachingHttpClientBuilderFactory {
 

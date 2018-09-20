@@ -27,13 +27,13 @@
 
 package org.apache.http.examples.client;
 
-import org.apache.http.HttpHost;
-import org.apache.http.client.config.RequestConfig;
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.HttpClients;
-import org.apache.http.util.EntityUtils;
+import tink.org.apache.http.HttpHost;
+import tink.org.apache.http.client.config.RequestConfig;
+import tink.org.apache.http.client.methods.CloseableHttpResponse;
+import tink.org.apache.http.client.methods.HttpGet;
+import tink.org.apache.http.impl.client.CloseableHttpClient;
+import tink.org.apache.http.impl.client.HttpClients;
+import tink.org.apache.http.util.EntityUtils;
 
 /**
  * How to send a request via proxy.

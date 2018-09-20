@@ -27,7 +27,7 @@
 
 package org.apache.http.entity.mime;
 
-import org.apache.http.entity.mime.content.FileBody;
+import tink.org.apache.http.entity.mime.content.FileBody;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -28,21 +28,21 @@ package org.apache.http.impl.client.cache;
 
 import java.util.Date;
 
-import org.apache.http.Header;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.HttpVersion;
-import org.apache.http.annotation.Contract;
-import org.apache.http.annotation.ThreadingBehavior;
-import org.apache.http.client.cache.HeaderConstants;
-import org.apache.http.client.cache.HttpCacheEntry;
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.methods.HttpRequestWrapper;
-import org.apache.http.client.utils.DateUtils;
-import org.apache.http.message.BasicHeader;
-import org.apache.http.message.BasicHttpResponse;
-import org.apache.http.protocol.HTTP;
+import tink.org.apache.http.Header;
+import tink.org.apache.http.HttpEntity;
+import tink.org.apache.http.HttpResponse;
+import tink.org.apache.http.HttpStatus;
+import tink.org.apache.http.HttpVersion;
+import tink.org.apache.http.annotation.Contract;
+import tink.org.apache.http.annotation.ThreadingBehavior;
+import tink.org.apache.http.client.cache.HeaderConstants;
+import tink.org.apache.http.client.cache.HttpCacheEntry;
+import tink.org.apache.http.client.methods.CloseableHttpResponse;
+import tink.org.apache.http.client.methods.HttpRequestWrapper;
+import tink.org.apache.http.client.utils.DateUtils;
+import tink.org.apache.http.message.BasicHeader;
+import tink.org.apache.http.message.BasicHttpResponse;
+import tink.org.apache.http.protocol.HTTP;
 
 /**
  * Rebuilds an {@link HttpResponse} from a {@link net.sf.ehcache.CacheEntry}
