@@ -1,6 +1,6 @@
 java_library(
     name = "tink_httpclient",
-    srcs = glob(["httpclient5/src/main/**/*.java"]),
+    srcs = glob(["httpclient/src/main/**/*.java"]),
     visibility = ["//visibility:public"],
     javacopts = ['-XepDisableAllChecks'],
     deps = [
