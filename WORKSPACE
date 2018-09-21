@@ -1,9 +1,9 @@
 load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 
 git_repository(
-    name = "se_tink_httpcore",
+    name = "tink_httpcore_4_4_9",
     remote = "git@github.com:tink-ab/httpcomponents-core.git",
-    commit = "8b01ab33a06f4367dcd79cbbc262fe9fd40ba295"
+    commit = "0f72fa2c392fee8388d327cb3462cd10d675c2e2"
 )
 
 maven_jar(
